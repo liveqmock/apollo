@@ -18,6 +18,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/cocoon-2.1.4.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/common-controls-1.2.061.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils-1.6.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-codec-1.1.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-collections.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-dbcp.jar"/>
@@ -27,6 +28,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-functor.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-httpclient.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-lang-2.0.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-lang.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-1.0.3.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-logging-api.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-net-1.1.0.jar"/>
@@ -40,6 +42,8 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ehcache-0.6.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/excalibur-pool-1.2.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/excalibur-xmlutil-1.0-dev.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ezmorph-1.0.5.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/fastjson-1.1.33.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/hibernate2.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/iTextAsian.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/itext-1.01.jar"/>
@@ -63,6 +67,7 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jgroups-2.2.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jmi.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jpivot.jar"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/json-lib-2.2-jdk15.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jspsmartupload.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jstl.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jta.jar"/>
@@ -97,10 +102,5 @@
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xercesImpl-2.6.1.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xml-apis.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/xmlParserAPIs.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-beanutils.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/commons-lang.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/ezmorph-1.0.5.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/json-lib-2.2-jdk15.jar"/>
-	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/fastjson-1.1.33.jar"/>
 	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
 </classpath>
