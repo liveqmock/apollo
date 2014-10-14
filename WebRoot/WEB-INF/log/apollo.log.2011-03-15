@@ -1,0 +1,339 @@
+2011-03-15 15:23:33 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 15:23:33 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 15:23:33 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 15:23:33 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 15:23:35 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 15:23:35 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 15:23:35 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 15:23:35 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 15:23:35 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 15:23:35 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 15:23:35 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 16:58:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 16:58:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 16:58:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 16:58:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 16:58:27 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 16:58:27 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 16:58:27 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 16:58:27 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 16:58:27 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 16:58:27 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 16:58:27 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:06:35 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:06:35 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:06:35 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:06:35 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:06:36 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:06:36 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:06:36 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:06:36 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:06:36 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:06:36 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:06:36 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:30:38 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:30:38 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:30:38 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:30:38 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:30:38 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:30:38 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:30:38 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:30:38 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:30:38 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:30:38 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:30:38 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:32:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:32:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:32:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:32:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:32:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:32:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:32:18 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:32:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:32:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:32:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:32:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:34:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:34:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:34:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:34:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:34:57 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:34:57 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:34:57 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:34:57 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:34:57 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:34:57 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:34:57 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:37:18 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:37:18 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:37:18 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:37:18 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:37:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:37:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:37:18 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:37:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:37:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:37:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:37:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:39:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:39:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:39:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:39:25 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:39:25 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:39:25 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:39:26 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:39:26 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:39:26 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:39:26 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:39:26 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:40:29 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:40:29 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:40:29 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:40:29 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:40:30 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:40:30 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:40:30 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:40:30 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:40:30 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:40:30 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:40:30 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:47:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:47:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:47:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:47:56 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:47:57 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:47:57 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:47:58 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:47:58 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:47:58 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:47:58 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:47:58 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 17:50:05 ERROR StandardWrapper[/apollo_gzw:debugjsp] - Servlet.service() for servlet debugjsp threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp._jspService(org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp:85)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.showSelectSumModePage(HeBeiGZWServlet.java:55)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.perform(HeBeiGZWServlet.java:37)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-15 17:50:05 ERROR StandardWrapper[/apollo_gzw:hebeigzwServlet] - Servlet.service() for servlet hebeigzwServlet threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp._jspService(org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp:85)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.showSelectSumModePage(HeBeiGZWServlet.java:55)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.perform(HeBeiGZWServlet.java:37)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-15 17:50:09 ERROR StandardWrapper[/apollo_gzw:debugjsp] - Servlet.service() for servlet debugjsp threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp._jspService(org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp:85)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.showSelectSumModePage(HeBeiGZWServlet.java:55)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.perform(HeBeiGZWServlet.java:37)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-15 17:50:09 ERROR StandardWrapper[/apollo_gzw:hebeigzwServlet] - Servlet.service() for servlet hebeigzwServlet threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp._jspService(org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp:85)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.showSelectSumModePage(HeBeiGZWServlet.java:55)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.perform(HeBeiGZWServlet.java:37)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-15 17:50:12 ERROR StandardWrapper[/apollo_gzw:debugjsp] - Servlet.service() for servlet debugjsp threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp._jspService(org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp:85)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.showSelectSumModePage(HeBeiGZWServlet.java:55)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.perform(HeBeiGZWServlet.java:37)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-15 17:50:12 ERROR StandardWrapper[/apollo_gzw:hebeigzwServlet] - Servlet.service() for servlet hebeigzwServlet threw exception
+java.lang.NullPointerException
+	at org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp._jspService(org.apache.jsp.jsp.hebeigzw.selectSumSchemaManage_jsp:85)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.showSelectSumModePage(HeBeiGZWServlet.java:55)
+	at cn.com.youtong.apollo.hebeigzw.servlet.HeBeiGZWServlet.perform(HeBeiGZWServlet.java:37)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-15 17:55:43 INFO  StandardWrapper                - Waiting for 1 instance(s) to be deallocated
+2011-03-15 17:55:44 INFO  StandardWrapper                - Waiting for 1 instance(s) to be deallocated
+2011-03-15 17:55:45 INFO  StandardWrapper                - Waiting for 1 instance(s) to be deallocated
+2011-03-15 17:55:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 17:55:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 17:55:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 17:55:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 17:55:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 17:55:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 17:55:46 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 17:55:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 17:55:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 17:55:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 17:55:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-15 20:53:06 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-15 20:53:06 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-15 20:53:06 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-15 20:53:06 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-15 20:53:06 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-15 20:53:06 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-15 20:53:07 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-15 20:53:07 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-15 20:53:07 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-15 20:53:07 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-15 20:53:07 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.

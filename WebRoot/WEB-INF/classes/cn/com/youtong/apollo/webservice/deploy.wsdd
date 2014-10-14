@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<deployment
+    xmlns="http://xml.apache.org/axis/wsdd/"
+    xmlns:ns="http://webservice.apollo.youtong.com.cn"
+    xmlns:java="http://xml.apache.org/axis/wsdd/providers/java">
+  <service name="FrontService" provider="java:RPC">
+      <parameter name="className" value="cn.com.youtong.apollo.webservice.FrontServiceImpl"/>
+      <parameter name="allowedMethods" value="*"/>
+      <parameter name="scope" value="Request"/>
+
+  <typeMapping
+    xmlns:ns="http://webservice.apollo.youtong.com.cn"
+    qname="ns:ServiceResult"
+    type="java:cn.com.youtong.apollo.webservice.ServiceResult"
+    serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+    deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  />
+  <typeMapping
+    xmlns:ns="http://util.java"
+    qname="ns:Date"
+    type="java:java.util.Date"
+    serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+    deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  />
+  <typeMapping
+    xmlns:ns="http://ref.lang.java"
+    qname="ns:SoftReference"
+    type="java:java.lang.ref.SoftReference"
+    serializer="org.apache.axis.encoding.ser.BeanSerializerFactory"
+    deserializer="org.apache.axis.encoding.ser.BeanDeserializerFactory"
+    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  />
+
+  <typeMapping
+    xmlns:ns="null"
+    qname="ns:ArrayOffString"
+    type="java:java.lang.String[]"
+    serializer="org.apache.axis.encoding.ser.ArraySerializerFactory"
+    deserializer="org.apache.axis.encoding.ser.ArrayDeserializerFactory"
+    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  />
+  <typeMapping
+    xmlns:ns="null"
+    qname="ns:ArrayOffint"
+    type="java:int[]"
+    serializer="org.apache.axis.encoding.ser.ArraySerializerFactory"
+    deserializer="org.apache.axis.encoding.ser.ArrayDeserializerFactory"
+    encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"
+  />
+  </service>
+</deployment>

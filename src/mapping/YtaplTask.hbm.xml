@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.TaskForm" 
+    table="YTAPL_Tasks"
+>
+    <id
+        name="taskID"
+        type="int"
+        column="taskID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="name"
+        type="java.lang.String"
+        column="name"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="dateCreated"
+        type="java.sql.Timestamp"
+        column="dateCreated"
+        length="23"
+    />
+    <property
+        name="dateModified"
+        type="java.sql.Timestamp"
+        column="dateModified"
+        length="23"
+    />
+    <property
+        name="version"
+        type="int"
+        column="version"
+        not-null="true"
+        length="10"
+    />
+    <property
+        name="memo"
+        type="java.lang.String"
+        column="memo"
+        length="255"
+    />
+    <property
+        name="activeScriptSuitName"
+        type="java.lang.String"
+        column="activeScriptSuitName"
+        length="100"
+    />
+    <property
+        name="ID"
+        type="java.lang.String"
+        column="strid"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional one-to-one association to YtaplUnitMeta -->
+    <one-to-one
+        name="unitMeta"
+        class="cn.com.youtong.apollo.task.db.form.UnitMetaForm"
+        outer-join="auto"
+    />
+    <!-- bi-directional one-to-many association to YtaplTaskTim -->
+    <set
+        name="taskTimes"
+        inverse="true"
+    >
+        <key>
+            <column name="taskID" />
+        </key>
+        <one-to-many 
+            class="cn.com.youtong.apollo.task.db.form.TaskTimeForm"
+        />
+    </set>
+    <!-- bi-directional one-to-many association to YtaplTabl -->
+    <set
+        name="tables"
+        inverse="true"
+    >
+        <key>
+            <column name="taskID" />
+        </key>
+        <one-to-many 
+            class="cn.com.youtong.apollo.task.db.form.TableForm"
+        />
+    </set>
+    <!-- bi-directional one-to-many association to YtaplScriptsuit -->
+    <set name="scriptSuits" inverse="true">
+       <key>
+            <column name="taskID" />
+        </key>
+        <one-to-many class="cn.com.youtong.apollo.task.db.form.ScriptSuitForm" />
+    </set>
+ </class>
+</hibernate-mapping>

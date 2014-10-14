@@ -1,0 +1,10 @@
+2012-08-28 19:49:11 INFO  MailReceiver                   - 开始接收邮件...
+2012-08-28 19:49:11 INFO  MailReceiver                   - 在服务器：mail.hbsa.gov.cn上接收邮件..
+2012-08-28 19:49:25 INFO  MailReceiver                   - 共收到0封邮件
+2012-08-28 19:49:25 INFO  MailReceiver                   - 在服务器：mail.hbsa.gov.cn上接收邮件接收完毕，其中有0份数据邮件
+2012-08-28 19:49:25 INFO  MailReceiver                   - 在服务器：pop.21cn.com上接收邮件..
+2012-08-28 19:49:26 INFO  MailReceiver                   - 共收到0封邮件
+2012-08-28 19:49:26 INFO  MailReceiver                   - 在服务器：pop.21cn.com上接收邮件接收完毕，其中有0份数据邮件
+2012-08-28 19:49:26 INFO  MailReceiver                   - 数据处理完毕，结果请看日志
+
+

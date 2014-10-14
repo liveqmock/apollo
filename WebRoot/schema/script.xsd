@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by rth77 (rth77) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="scriptSuit">
+		<xs:annotation>
+			<xs:documentation>脚本组</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="common" type="xs:string" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>公共脚本，定义其他脚本都可以使用的函数</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="calculateInTable" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>表内运算脚本</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="name" type="xs:string" use="required">
+									<xs:annotation>
+										<xs:documentation>脚本名称，用于区分不同脚本，值为与该脚本相关联的表的ID</xs:documentation>
+									</xs:annotation>
+								</xs:attribute>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="auditInTable" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>表内审核脚本</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="name" type="xs:string" use="required">
+									<xs:annotation>
+										<xs:documentation>脚本名称，用于区分不同脚本，值为与该脚本相关联的表的ID</xs:documentation>
+									</xs:annotation>
+								</xs:attribute>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="calculateCrossTable" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>表间运算脚本</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="name" type="xs:string" use="required">
+									<xs:annotation>
+										<xs:documentation>脚本名称，用于区分不同脚本</xs:documentation>
+									</xs:annotation>
+								</xs:attribute>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="auditCrossTable" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>表间审核脚本</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="name" type="xs:string" use="required"/>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="sequence">
+					<xs:annotation>
+						<xs:documentation>脚本的执行顺序</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="scriptEntry" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>脚本条目</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required">
+										<xs:annotation>
+											<xs:documentation>脚本名称，值为scriptSuit中脚本的名称，这里的脚本只包括表间和表内运算脚本，因为审核脚本没有执行顺序</xs:documentation>
+										</xs:annotation>
+									</xs:attribute>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>脚本组名称，区分同一任务的不同脚本组</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="memo" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>备注</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="dateModified" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>该套脚本最后修改日期</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

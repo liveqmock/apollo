@@ -1,0 +1,12 @@
+2011-05-02 00:22:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-05-02 00:22:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-05-02 00:22:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-05-02 00:22:18 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-05-02 00:22:20 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-05-02 00:22:20 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-05-02 00:22:20 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-05-02 00:22:20 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-05-02 00:22:20 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-05-02 00:22:20 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-05-02 00:22:20 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-05-02 00:22:51 INFO  FileProvider                   - Configuration file read-only so engine configuration changes will not be saved.

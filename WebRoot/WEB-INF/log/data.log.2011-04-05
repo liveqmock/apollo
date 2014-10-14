@@ -1,0 +1,234 @@
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:06:58 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-30 19:10:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:23:58 INFO  DBDataImporter                 - 开始向数据库保存数据
+2011-04-05 23:23:58 INFO  DBDataStorer                   - 开始初始化
+2011-04-05 23:23:59 INFO  DBDataStorer                   - 初始化完成
+2011-04-05 23:24:00 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0002189310] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:24:00 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2011-04-05 23:24:00 INFO  DBDataStorer                   - 开始释放资源
+2011-04-05 23:24:00 INFO  DBDataStorer                   - 资源释放完毕
+2011-04-05 23:24:01 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:24:01 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:24:01 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:24:01 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: admin
+	企业名称: 系统管理员
+	装入开始时间: 2011-04-05 23:23:58
+	装入结束时间: 2011-04-05 23:24:00
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-14 13:56:50
+	修改时间: 2011-03-14 13:56:50
+装入的任务时间: 
+	起始时间: 2011-03-01 00:00:00
+	结束时间: 2011-03-31 00:00:00
+数据成功装入的单位:
+0002189310
+共 1 个
+
+*********************************************************
+2011-04-05 23:24:01 INFO  DBDataImporter                 - 电子邮件通知用户: admin 邮件地址: 装入结果
+2011-04-05 23:24:01 INFO  DBDataImporter                 - 开始脚本计算
+2011-04-05 23:24:01 INFO  DBDataImporter                 - 计算脚本完成！
+
+2011-04-05 23:24:01 INFO  DBDataImporter                 - 开始更新填报情况
+2011-04-05 23:24:01 INFO  DBDataImporter                 - 更新填报记录完成！
+
+2011-04-05 23:46:10 INFO  DBDataImporter                 - 开始向数据库保存数据
+2011-04-05 23:46:10 INFO  DBDataStorer                   - 开始初始化
+2011-04-05 23:46:10 INFO  DBDataStorer                   - 初始化完成
+2011-04-05 23:46:10 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0002189310] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:46:11 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0002189311] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:46:11 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0002189319] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:46:11 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2011-04-05 23:46:11 INFO  DBDataStorer                   - 开始释放资源
+2011-04-05 23:46:11 INFO  DBDataStorer                   - 资源释放完毕
+2011-04-05 23:46:12 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:46:12 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:46:13 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:46:13 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: admin
+	企业名称: 系统管理员
+	装入开始时间: 2011-04-05 23:46:10
+	装入结束时间: 2011-04-05 23:46:11
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-14 13:56:50
+	修改时间: 2011-03-14 13:56:50
+装入的任务时间: 
+	起始时间: 2011-03-01 00:00:00
+	结束时间: 2011-03-31 00:00:00
+数据成功装入的单位:
+0002189310,0002189311,0002189319
+共 3 个
+
+*********************************************************
+2011-04-05 23:46:13 INFO  DBDataImporter                 - 电子邮件通知用户: admin 邮件地址: 装入结果
+2011-04-05 23:46:13 INFO  DBDataImporter                 - 开始脚本计算
+2011-04-05 23:46:13 INFO  DBDataImporter                 - 计算脚本完成！
+
+2011-04-05 23:46:13 INFO  DBDataImporter                 - 开始更新填报情况
+2011-04-05 23:46:13 INFO  DBDataImporter                 - 更新填报记录完成！
+
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:48:11 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 开始向数据库保存数据
+2011-04-05 23:50:31 INFO  DBDataStorer                   - 开始初始化
+2011-04-05 23:50:31 INFO  DBDataStorer                   - 初始化完成
+2011-04-05 23:50:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0002189310] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:50:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0002189311] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:50:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0002189319] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:50:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1043218530] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2011-04-05 23:50:31 INFO  DBDataStorer                   - 开始释放资源
+2011-04-05 23:50:31 INFO  DBDataStorer                   - 资源释放完毕
+2011-04-05 23:50:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: admin
+	企业名称: 系统管理员
+	装入开始时间: 2011-04-05 23:50:31
+	装入结束时间: 2011-04-05 23:50:31
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-14 13:56:50
+	修改时间: 2011-03-14 13:56:50
+装入的任务时间: 
+	起始时间: 2011-03-01 00:00:00
+	结束时间: 2011-03-31 00:00:00
+数据成功装入的单位:
+0002189310,0002189311,0002189319,1043218530
+共 4 个
+
+*********************************************************
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 电子邮件通知用户: admin 邮件地址: 装入结果
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 开始脚本计算
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 计算脚本完成！
+
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 开始更新填报情况
+2011-04-05 23:50:31 INFO  DBDataImporter                 - 更新填报记录完成！
+
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-04-05 23:50:55 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226

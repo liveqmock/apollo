@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.ScriptForm" 
+    table="YTAPL_SCRIPTS"
+>
+    <id
+        name="scriptID"
+        type="java.lang.Integer"
+        column="SCRIPTID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property name="name" column="NAME" type="java.lang.String"/>
+    <property name="suitID" column="SUITID" type="java.lang.Integer"/>
+
+    <property
+        name="type"
+        type="int"
+        column="TYPE"
+        not-null="true"
+        length="22"
+    />
+    <property
+        name="content"
+        type="java.sql.Clob"
+        column="CONTENT"
+        not-null="true"
+    />
+
+    <!-- associations -->
+
+</class>
+</hibernate-mapping>

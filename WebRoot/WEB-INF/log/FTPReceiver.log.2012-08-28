@@ -1,0 +1,8 @@
+2012-08-28 19:49:11 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2012-08-28 19:49:15 INFO  FTPReceiver                    - 连接服务器：mk
+2012-08-28 19:49:18 ERROR FTPReceiver                    - 连接失败
+2012-08-28 19:49:18 INFO  FTPReceiver                    - 连接服务器：jbwang
+2012-08-28 19:49:20 ERROR FTPReceiver                    - 连接失败
+2012-08-28 19:49:20 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+

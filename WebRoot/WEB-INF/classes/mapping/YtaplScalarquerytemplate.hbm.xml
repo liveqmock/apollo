@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.analyse.form.ScalarQueryTemplateForm" 
+    table="YTAPL_SCALARQUERYTEMPLATE"
+>
+    <id
+        name="templateID"
+        type="java.lang.Integer"
+        column="TEMPLATEID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="name"
+        type="java.lang.String"
+        column="NAME"
+        not-null="true"
+    />
+    <property
+        name="userID"
+        type="java.lang.Integer"
+        column="USERID"
+        not-null="true"
+    />
+    <property
+        name="taskID"
+        type="java.lang.String"
+        column="TASKID"
+        not-null="true"
+        length="100"
+    />
+    <property
+        name="content"
+        type="java.sql.Clob"
+        column="CONTENT"
+    />
+
+    <!-- associations -->
+
+</class>
+</hibernate-mapping>

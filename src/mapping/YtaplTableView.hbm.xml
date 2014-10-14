@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.TableViewForm" 
+    table="YTAPL_TableViews"
+>
+
+    <id
+        name="viewID"
+        type="int"
+        column="viewID"
+    >
+        <generator class="increment" />
+    </id>
+
+<!--
+    <composite-id name="comp_id" class="cn.com.youtong.apollo.task.db.form.TaskViewFormPK">
+        <key-property name="taskID" column="taskID" type="java.lang.String"/>
+        <key-property name="tableID" column="tableID" type="java.lang.String"/>
+    </composite-id>    
+-->    
+    
+    <property
+        name="type"
+        type="java.lang.Integer"
+        column="type"
+        not-null="true"
+        length="10"
+    />    
+    
+    <property
+        name="content"
+        type="java.sql.Clob"
+        column="CONTENT"
+        not-null="true"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional many-to-one association to YtaplTabl -->
+    <many-to-one
+        name="table"
+        class="cn.com.youtong.apollo.task.db.form.TableForm"
+        not-null="true"
+    >
+        <column name="tableID" />
+    </many-to-one>
+
+</class>
+</hibernate-mapping>

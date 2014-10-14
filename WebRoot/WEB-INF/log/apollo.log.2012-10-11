@@ -1,0 +1,34 @@
+2012-10-11 19:32:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2012-10-11 19:32:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2012-10-11 19:32:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2012-10-11 19:32:45 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2012-10-11 19:32:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2012-10-11 19:32:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2012-10-11 19:32:47 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2012-10-11 19:32:47 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2012-10-11 19:32:47 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2012-10-11 19:32:47 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2012-10-11 19:32:47 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2012-10-11 19:34:27 INFO  FileProvider                   - Configuration file read-only so engine configuration changes will not be saved.
+2012-10-11 19:34:38 ERROR StandardWrapper[/apollo_gzw:model] - Servlet.service() for servlet model threw exception
+java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Integer.java:415)
+	at java.lang.Integer.<init>(Integer.java:620)
+	at cn.com.youtong.apollo.servlet.ModelServlet.showEditPage(ModelServlet.java:2386)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2205)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)

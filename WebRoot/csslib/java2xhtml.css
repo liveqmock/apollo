@@ -1,0 +1,124 @@
+.sourceCodeStyle
+  {
+    color: #000000;
+    background-color: #FFFFFF;
+    font-weight: bold;
+  }
+
+.lineNumberStyle
+  {
+    font-weight: normal;
+    color: #000000;
+    background-color: transparent;
+  }
+
+.modulusLineNumberStyle
+  {
+    font-weight: bold;
+    color: #000000;
+    background-color: transparent;
+  }
+
+.keywordStyle
+  {
+    color: #9900FF;
+    background-color: transparent;
+  }
+
+.methodStyle
+  {
+    color: #0000FF;
+    background-color: transparent;
+  }
+
+.variableStyle
+  {
+    color: #CC9933;
+    background-color: transparent;
+  }
+
+.singleLineCommentStyle
+  {
+    color: #CC3333;
+    background-color: transparent;
+  }
+
+.traditionalCommentStyle
+  {
+    color: #FF0000;
+    background-color: transparent;
+  }
+
+.javadocCommentStyle
+  {
+    color: #CC0033;
+    background-color: transparent;
+  }
+
+.javadocTagStyle
+  {
+    color: #0099CC;
+    background-color: transparent;
+  }
+
+.importNameStyle
+  {
+    color: #33CCCC;
+    background-color: transparent;
+  }
+
+.packageNameStyle
+  {
+    color: #339999;
+    background-color: transparent;
+  }
+
+.primitiveTypeStyle
+  {
+    color: #009900;
+    background-color: transparent;
+  }
+
+.nonPrimitiveTypeStyle
+  {
+    color: #009966;
+    background-color: transparent;
+  }
+
+.constructorStyle
+  {
+    color: #3300CC;
+    background-color: transparent;
+  }
+
+.constantStyle
+  {
+    color: #666666;
+    background-color: transparent;
+  }
+
+.doubleQuoteStyle
+  {
+    color: #996633;
+    background-color: transparent;
+    font-style: italic;
+  }
+
+.singleQuoteStyle
+  {
+    color: #663333;
+    background-color: transparent;
+    font-style: oblique;
+  }
+
+.numericalLiteralStyle
+  {
+    color: #333300;
+    background-color: transparent;
+  }
+
+.primitiveLiteralStyle
+  {
+    color: #006600;
+    background-color: transparent;
+  }

@@ -1,0 +1,537 @@
+2011-03-17 08:43:41 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 08:43:41 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 08:43:41 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 08:43:41 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 08:43:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 08:43:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 08:43:46 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 08:43:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 08:43:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 08:43:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 08:43:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 09:05:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 09:05:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 09:05:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 09:05:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 09:05:54 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 09:05:54 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 09:05:54 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 09:05:54 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 09:05:54 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 09:05:54 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 09:05:54 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 09:12:36 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 09:12:36 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 09:12:36 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 09:12:36 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 09:12:36 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 09:12:36 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 09:12:37 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 09:12:37 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 09:12:37 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 09:12:37 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 09:12:37 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 09:12:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 09:12:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 09:12:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 09:12:53 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 09:12:54 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 09:12:54 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 09:12:54 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 09:12:54 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 09:12:54 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 09:12:54 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 09:12:54 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 09:22:48 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 09:22:48 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 09:22:48 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 09:22:48 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 09:22:49 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 09:22:49 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 09:22:49 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 09:22:49 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 09:22:49 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 09:22:49 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 09:22:49 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 09:25:20 ERROR StandardWrapper[/apollo_gzw:debugjsp] - Servlet.service() for servlet debugjsp threw exception
+net.sf.hibernate.JDBCException: SQLException occurred
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3574)
+	at net.sf.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:223)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:332)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:94)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:305)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:291)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:76)
+	at org.apache.jsp.jsp.logo_jsp._jspService(org.apache.jsp.jsp.logo_jsp:59)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:575)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:500)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:966)
+	at org.apache.jsp.jsp.mainForm_jsp._jspService(org.apache.jsp.jsp.mainForm_jsp:56)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.servlet.LoginServlet.login(LoginServlet.java:95)
+	at cn.com.youtong.apollo.servlet.LoginServlet.perform(LoginServlet.java:218)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'hbgzw.ytapl_news' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at net.sf.hibernate.impl.BatcherImpl.getResultSet(BatcherImpl.java:87)
+	at net.sf.hibernate.loader.Loader.getResultSet(Loader.java:795)
+	at net.sf.hibernate.loader.Loader.doQuery(Loader.java:189)
+	at net.sf.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:133)
+	at net.sf.hibernate.loader.Loader.doList(Loader.java:950)
+	at net.sf.hibernate.loader.Loader.list(Loader.java:941)
+	at net.sf.hibernate.loader.CriteriaLoader.list(CriteriaLoader.java:118)
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3571)
+	... 51 more
+2011-03-17 09:25:20 ERROR StandardWrapper[/apollo_gzw:debugjsp] - Servlet.service() for servlet debugjsp threw exception
+net.sf.hibernate.JDBCException: SQLException occurred
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3574)
+	at net.sf.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:223)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:332)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:94)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:305)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:291)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:76)
+	at org.apache.jsp.jsp.logo_jsp._jspService(org.apache.jsp.jsp.logo_jsp:59)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:575)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:500)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:966)
+	at org.apache.jsp.jsp.mainForm_jsp._jspService(org.apache.jsp.jsp.mainForm_jsp:56)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.servlet.LoginServlet.login(LoginServlet.java:95)
+	at cn.com.youtong.apollo.servlet.LoginServlet.perform(LoginServlet.java:218)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'hbgzw.ytapl_news' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at net.sf.hibernate.impl.BatcherImpl.getResultSet(BatcherImpl.java:87)
+	at net.sf.hibernate.loader.Loader.getResultSet(Loader.java:795)
+	at net.sf.hibernate.loader.Loader.doQuery(Loader.java:189)
+	at net.sf.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:133)
+	at net.sf.hibernate.loader.Loader.doList(Loader.java:950)
+	at net.sf.hibernate.loader.Loader.list(Loader.java:941)
+	at net.sf.hibernate.loader.CriteriaLoader.list(CriteriaLoader.java:118)
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3571)
+	... 51 more
+2011-03-17 09:25:20 ERROR StandardWrapper[/apollo_gzw:login] - Servlet.service() for servlet login threw exception
+net.sf.hibernate.JDBCException: SQLException occurred
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3574)
+	at net.sf.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:223)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:332)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:94)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:305)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:291)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:76)
+	at org.apache.jsp.jsp.logo_jsp._jspService(org.apache.jsp.jsp.logo_jsp:59)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:575)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:500)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:966)
+	at org.apache.jsp.jsp.mainForm_jsp._jspService(org.apache.jsp.jsp.mainForm_jsp:56)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.servlet.LoginServlet.login(LoginServlet.java:95)
+	at cn.com.youtong.apollo.servlet.LoginServlet.perform(LoginServlet.java:218)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'hbgzw.ytapl_news' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at net.sf.hibernate.impl.BatcherImpl.getResultSet(BatcherImpl.java:87)
+	at net.sf.hibernate.loader.Loader.getResultSet(Loader.java:795)
+	at net.sf.hibernate.loader.Loader.doQuery(Loader.java:189)
+	at net.sf.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:133)
+	at net.sf.hibernate.loader.Loader.doList(Loader.java:950)
+	at net.sf.hibernate.loader.Loader.list(Loader.java:941)
+	at net.sf.hibernate.loader.CriteriaLoader.list(CriteriaLoader.java:118)
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3571)
+	... 51 more
+2011-03-17 09:25:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 09:25:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 09:25:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 09:25:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 09:25:48 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 09:25:48 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 09:25:48 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 09:25:48 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 09:25:48 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 09:25:48 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 09:25:48 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 09:26:16 ERROR StandardWrapper[/apollo_gzw:debugjsp] - Servlet.service() for servlet debugjsp threw exception
+net.sf.hibernate.JDBCException: SQLException occurred
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3574)
+	at net.sf.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:223)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:332)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:94)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:305)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:291)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:76)
+	at org.apache.jsp.jsp.logo_jsp._jspService(org.apache.jsp.jsp.logo_jsp:59)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:575)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:500)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:966)
+	at org.apache.jsp.jsp.mainForm_jsp._jspService(org.apache.jsp.jsp.mainForm_jsp:56)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.servlet.LoginServlet.login(LoginServlet.java:95)
+	at cn.com.youtong.apollo.servlet.LoginServlet.perform(LoginServlet.java:218)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'hbgzw.ytapl_news' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at net.sf.hibernate.impl.BatcherImpl.getResultSet(BatcherImpl.java:87)
+	at net.sf.hibernate.loader.Loader.getResultSet(Loader.java:795)
+	at net.sf.hibernate.loader.Loader.doQuery(Loader.java:189)
+	at net.sf.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:133)
+	at net.sf.hibernate.loader.Loader.doList(Loader.java:950)
+	at net.sf.hibernate.loader.Loader.list(Loader.java:941)
+	at net.sf.hibernate.loader.CriteriaLoader.list(CriteriaLoader.java:118)
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3571)
+	... 51 more
+2011-03-17 09:26:16 ERROR StandardWrapper[/apollo_gzw:debugjsp] - Servlet.service() for servlet debugjsp threw exception
+net.sf.hibernate.JDBCException: SQLException occurred
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3574)
+	at net.sf.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:223)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:332)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:94)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:305)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:291)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:76)
+	at org.apache.jsp.jsp.logo_jsp._jspService(org.apache.jsp.jsp.logo_jsp:59)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:575)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:500)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:966)
+	at org.apache.jsp.jsp.mainForm_jsp._jspService(org.apache.jsp.jsp.mainForm_jsp:56)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.servlet.LoginServlet.login(LoginServlet.java:95)
+	at cn.com.youtong.apollo.servlet.LoginServlet.perform(LoginServlet.java:218)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'hbgzw.ytapl_news' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at net.sf.hibernate.impl.BatcherImpl.getResultSet(BatcherImpl.java:87)
+	at net.sf.hibernate.loader.Loader.getResultSet(Loader.java:795)
+	at net.sf.hibernate.loader.Loader.doQuery(Loader.java:189)
+	at net.sf.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:133)
+	at net.sf.hibernate.loader.Loader.doList(Loader.java:950)
+	at net.sf.hibernate.loader.Loader.list(Loader.java:941)
+	at net.sf.hibernate.loader.CriteriaLoader.list(CriteriaLoader.java:118)
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3571)
+	... 51 more
+2011-03-17 09:26:16 ERROR StandardWrapper[/apollo_gzw:login] - Servlet.service() for servlet login threw exception
+net.sf.hibernate.JDBCException: SQLException occurred
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3574)
+	at net.sf.hibernate.impl.CriteriaImpl.list(CriteriaImpl.java:223)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:332)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:94)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:305)
+	at cn.com.youtong.apollo.news.base._BaseRootDAO.findAll(_BaseRootDAO.java:291)
+	at cn.com.youtong.apollo.news.base.BaseYtaplNewsDAO.findAll(BaseYtaplNewsDAO.java:76)
+	at org.apache.jsp.jsp.logo_jsp._jspService(org.apache.jsp.jsp.logo_jsp:59)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:575)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:500)
+	at org.apache.jasper.runtime.JspRuntimeLibrary.include(JspRuntimeLibrary.java:966)
+	at org.apache.jsp.jsp.mainForm_jsp._jspService(org.apache.jsp.jsp.mainForm_jsp:56)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:99)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:325)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:295)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:245)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:673)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:464)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:399)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:302)
+	at cn.com.youtong.apollo.servlet.RootServlet.go2UrlWithAttibute(RootServlet.java:229)
+	at cn.com.youtong.apollo.servlet.LoginServlet.login(LoginServlet.java:95)
+	at cn.com.youtong.apollo.servlet.LoginServlet.perform(LoginServlet.java:218)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'hbgzw.ytapl_news' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at net.sf.hibernate.impl.BatcherImpl.getResultSet(BatcherImpl.java:87)
+	at net.sf.hibernate.loader.Loader.getResultSet(Loader.java:795)
+	at net.sf.hibernate.loader.Loader.doQuery(Loader.java:189)
+	at net.sf.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:133)
+	at net.sf.hibernate.loader.Loader.doList(Loader.java:950)
+	at net.sf.hibernate.loader.Loader.list(Loader.java:941)
+	at net.sf.hibernate.loader.CriteriaLoader.list(CriteriaLoader.java:118)
+	at net.sf.hibernate.impl.SessionImpl.find(SessionImpl.java:3571)
+	... 51 more
+2011-03-17 09:29:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 09:29:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 09:29:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 09:29:17 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 09:29:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 09:29:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 09:29:18 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 09:29:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 09:29:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 09:29:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 09:29:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 10:08:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 10:08:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 10:08:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 10:08:47 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 10:08:48 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 10:08:48 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 10:08:48 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 10:08:48 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 10:08:48 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 10:08:48 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 10:08:48 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-03-17 10:32:55 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-03-17 10:32:55 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-03-17 10:32:55 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-03-17 10:32:55 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-03-17 10:32:55 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-03-17 10:32:55 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-03-17 10:32:56 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-03-17 10:32:56 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-03-17 10:32:56 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-03-17 10:32:56 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-03-17 10:32:56 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.

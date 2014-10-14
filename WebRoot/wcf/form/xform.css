@@ -1,0 +1,52 @@
+td.xform-error, span.xform-error {
+  background-color : #ffffff;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size :10pt;
+  font-weight: bold;
+  color : red;
+  text-align: left;
+  vertical-align: center;
+}
+
+td.xform-label, td.xform-input, td.xform-both {
+  background-color : #ffffff;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size :10pt;
+  color : Black;
+  text-align: left;
+  vertical-align: top;
+}
+
+
+td.xform-buttons {
+  background-color : #ffffff;
+  text-align: right;
+}
+
+
+th.xform-title {
+  background-color : #DEE3EF;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size :10pt;
+  font-weight: bold;
+  color : Black;
+  text-align: left;
+  vertical-align: center;
+}
+
+td.xform-close-button {
+  background-color : #DEE3EF;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size :10pt;
+  font-weight: bold;
+  color : Black;
+  text-align: right;
+  vertical-align: center;
+}
+
+
+
+textarea.xform-textarea, span.xform-textarea {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  font-size :10pt;
+}

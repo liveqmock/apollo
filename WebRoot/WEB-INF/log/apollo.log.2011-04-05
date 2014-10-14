@@ -1,0 +1,168 @@
+2011-04-30 19:04:14 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/logkit.xml
+2011-04-30 19:04:14 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/roles.xml
+2011-04-30 19:04:14 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/components.xml
+2011-04-30 19:04:14 INFO  [/apollo_gzw]                  - ExcaliburComponentManagerServlet: Attempting to access resource: /WEB-INF/conf/instrument.xml
+2011-04-30 19:04:17 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2011-04-30 19:04:17 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2011-04-30 19:04:17 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2011-04-30 19:04:17 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2011-04-30 19:04:17 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2011-04-30 19:04:17 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2011-04-30 19:04:17 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2011-04-05 23:09:40 INFO  FileProvider                   - Configuration file read-only so engine configuration changes will not be saved.
+2011-04-05 23:15:48 ERROR AxisServlet                    - Exception:
+AxisFault
+ faultCode: {http://xml.apache.org/axis/}Server.userException
+ faultString: java.lang.NumberFormatException: For input string: ""
+ faultActor: null
+ faultDetail: 
+	stackTrace: java.lang.NumberFormatException: For input string: &quot;&quot;
+	at org.apache.axis.encoding.ser.SimpleDeserializer.onEndElement(SimpleDeserializer.java:219)
+	at org.apache.axis.encoding.DeserializerImpl.endElement(DeserializerImpl.java:495)
+	at org.apache.axis.encoding.DeserializationContextImpl.endElement(DeserializationContextImpl.java:942)
+	at org.apache.axis.message.SAX2EventRecorder.replay(SAX2EventRecorder.java:206)
+	at org.apache.axis.message.MessageElement.publishToHandler(MessageElement.java:684)
+	at org.apache.axis.message.RPCElement.deserialize(RPCElement.java:207)
+	at org.apache.axis.message.RPCElement.getParams(RPCElement.java:265)
+	at org.apache.axis.providers.java.RPCProvider.processMessage(RPCProvider.java:190)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:276)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:71)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:156)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:126)
+	at org.apache.axis.handlers.soap.SOAPService.invoke(SOAPService.java:437)
+	at org.apache.axis.server.AxisServer.invoke(AxisServer.java:316)
+	at org.apache.axis.transport.http.AxisServlet.doPost(AxisServlet.java:701)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:709)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+
+
+java.lang.NumberFormatException: For input string: ""
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:120)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:280)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:71)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:156)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:126)
+	at org.apache.axis.handlers.soap.SOAPService.invoke(SOAPService.java:437)
+	at org.apache.axis.server.AxisServer.invoke(AxisServer.java:316)
+	at org.apache.axis.transport.http.AxisServlet.doPost(AxisServlet.java:701)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:709)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at org.apache.axis.encoding.ser.SimpleDeserializer.onEndElement(SimpleDeserializer.java:219)
+	at org.apache.axis.encoding.DeserializerImpl.endElement(DeserializerImpl.java:495)
+	at org.apache.axis.encoding.DeserializationContextImpl.endElement(DeserializationContextImpl.java:942)
+	at org.apache.axis.message.SAX2EventRecorder.replay(SAX2EventRecorder.java:206)
+	at org.apache.axis.message.MessageElement.publishToHandler(MessageElement.java:684)
+	at org.apache.axis.message.RPCElement.deserialize(RPCElement.java:207)
+	at org.apache.axis.message.RPCElement.getParams(RPCElement.java:265)
+	at org.apache.axis.providers.java.RPCProvider.processMessage(RPCProvider.java:190)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:276)
+	... 23 more
+2011-04-05 23:16:47 ERROR AxisServlet                    - Exception:
+AxisFault
+ faultCode: {http://xml.apache.org/axis/}Server.userException
+ faultString: java.lang.NumberFormatException: For input string: ""
+ faultActor: null
+ faultDetail: 
+	stackTrace: java.lang.NumberFormatException: For input string: &quot;&quot;
+	at org.apache.axis.encoding.ser.SimpleDeserializer.onEndElement(SimpleDeserializer.java:219)
+	at org.apache.axis.encoding.DeserializerImpl.endElement(DeserializerImpl.java:495)
+	at org.apache.axis.encoding.DeserializationContextImpl.endElement(DeserializationContextImpl.java:942)
+	at org.apache.axis.message.SAX2EventRecorder.replay(SAX2EventRecorder.java:206)
+	at org.apache.axis.message.MessageElement.publishToHandler(MessageElement.java:684)
+	at org.apache.axis.message.RPCElement.deserialize(RPCElement.java:207)
+	at org.apache.axis.message.RPCElement.getParams(RPCElement.java:265)
+	at org.apache.axis.providers.java.RPCProvider.processMessage(RPCProvider.java:190)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:276)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:71)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:156)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:126)
+	at org.apache.axis.handlers.soap.SOAPService.invoke(SOAPService.java:437)
+	at org.apache.axis.server.AxisServer.invoke(AxisServer.java:316)
+	at org.apache.axis.transport.http.AxisServlet.doPost(AxisServlet.java:701)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:709)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+
+
+java.lang.NumberFormatException: For input string: ""
+	at org.apache.axis.AxisFault.makeFault(AxisFault.java:120)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:280)
+	at org.apache.axis.strategies.InvocationStrategy.visit(InvocationStrategy.java:71)
+	at org.apache.axis.SimpleChain.doVisiting(SimpleChain.java:156)
+	at org.apache.axis.SimpleChain.invoke(SimpleChain.java:126)
+	at org.apache.axis.handlers.soap.SOAPService.invoke(SOAPService.java:437)
+	at org.apache.axis.server.AxisServer.invoke(AxisServer.java:316)
+	at org.apache.axis.transport.http.AxisServlet.doPost(AxisServlet.java:701)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:709)
+	at org.apache.axis.transport.http.AxisServletBase.service(AxisServletBase.java:335)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.lang.NumberFormatException: For input string: ""
+	at org.apache.axis.encoding.ser.SimpleDeserializer.onEndElement(SimpleDeserializer.java:219)
+	at org.apache.axis.encoding.DeserializerImpl.endElement(DeserializerImpl.java:495)
+	at org.apache.axis.encoding.DeserializationContextImpl.endElement(DeserializationContextImpl.java:942)
+	at org.apache.axis.message.SAX2EventRecorder.replay(SAX2EventRecorder.java:206)
+	at org.apache.axis.message.MessageElement.publishToHandler(MessageElement.java:684)
+	at org.apache.axis.message.RPCElement.deserialize(RPCElement.java:207)
+	at org.apache.axis.message.RPCElement.getParams(RPCElement.java:265)
+	at org.apache.axis.providers.java.RPCProvider.processMessage(RPCProvider.java:190)
+	at org.apache.axis.providers.java.JavaProvider.invoke(JavaProvider.java:276)
+	... 23 more

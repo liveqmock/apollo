@@ -1,0 +1,65 @@
+/* ==========================================
+** THIS FILE IS GENERATED WITH
+** THE CC-RESOURCEFACTORY TOOL.
+**
+** USER...........: P001001
+** PAINTER........: def2
+** BUILD-FACTORY..: v1.2.001
+** BUILD-DATE.....: Wed Jan 14 19:37:22 CET 2004
+** BUILD-DIRECTORY: C:\eclipse\workspace\cc-framework
+** BUILD-FILE.....: C:\eclipse\workspace\cc-framework/build/resources/resources-def2.xml
+**
+** DO NOT MODIFY!
+** ==========================================
+*/
+
+/* ==========================================
+** Panel-Download / Panel-About
+**
+** Acronym's
+** ------------------------------------------
+** ah  : Applicationheader
+** ahl : Applicationheader Label
+** ==========================================
+*/
+
+.pd_header, .pa_header {
+	font-family: Arial;
+	font-size: 10pt;
+	font-weight: bold;
+	background-color: #B8CBE1;
+	padding-top: 2px;
+	padding-left: 4px;
+	padding-bottom: 2px;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	color: #004882;
+}
+
+.pd_body, .pa_body {
+	font-family: Arial;
+	font-size: 8pt;
+	background-color: #E7EEF3;
+	border: 2px solid #E7EEF3;
+}
+
+.pd_img {
+	padding-top:  6px;
+	padding-left: 2px;
+}
+
+.pd_text, .pa_text {
+	padding-left: 2px;
+	padding-top: 2px;
+}
+
+.pd_line {
+	 height : 1px;
+	 border-bottom: 1px solid #808080;
+	 padding-top: 2px;
+}
+
+.pa_text_h1 {
+	padding-left: 2px;
+	padding-top: 6px;
+}

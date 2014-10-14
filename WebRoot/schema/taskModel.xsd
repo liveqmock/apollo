@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by rth77 (rth77) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="taskModel">
+		<xs:annotation>
+			<xs:documentation>报表数据</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="taskTime"/>
+			</xs:sequence>
+			<xs:attribute name="ID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>任务ID，表明该数据属于哪个任务</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="table">
+		<xs:annotation>
+			<xs:documentation>数据表</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cell" minOccurs="0" maxOccurs="unbounded"/>
+				<xs:element name="floatRow" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>浮动行</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="row" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>一条浮动行</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element ref="cell" maxOccurs="unbounded"/>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="ID" type="xs:string" use="required">
+							<xs:annotation>
+								<xs:documentation>浮动行ID，对应于任务参数中行的ID</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="ID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>数据表的ID，对应于任务参数中表的ID</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cell">
+		<xs:annotation>
+			<xs:documentation>单元格</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="field" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>存储该单元格数据的数据库表字段名称</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="value" type="xs:string" use="optional">
+				<xs:annotation>
+					<xs:documentation>该单元格的值</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="taskTime">
+		<xs:annotation>
+			<xs:documentation>任务时间</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="unit" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="taskTime" type="xs:dateTime" use="required">
+				<xs:annotation>
+					<xs:documentation>任务时间</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="unit">
+		<xs:annotation>
+			<xs:documentation>单位</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="table" maxOccurs="unbounded"/>
+				<xs:element name="attachment" minOccurs="0">
+					<xs:annotation>
+						<xs:documentation>附件，用base64编码</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:base64Binary">
+								<xs:attribute name="name" type="xs:string" use="required">
+									<xs:annotation>
+										<xs:documentation>附件名称，比如"分析文档.zip"</xs:documentation>
+									</xs:annotation>
+								</xs:attribute>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="ID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>单位ID</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="dictionary">
+		<xs:annotation>
+			<xs:documentation>代码字典</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="item" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="memo" type="xs:string"/>
+			<xs:attribute name="levelPosition" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>代码字典分级位置，如2,2,2</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="keyLength" type="xs:int" use="required"/>
+			<xs:attribute name="ID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>代码字典标识，在整个系统中唯一</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="flag" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>代码字典标志</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="dateModified" type="xs:dateTime">
+				<xs:annotation>
+					<xs:documentation>代码字典的最后修改时间</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="item">
+		<xs:annotation>
+			<xs:documentation>代码字典条目</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="key" type="xs:string" use="required"/>
+			<xs:attribute name="value" type="xs:string"/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

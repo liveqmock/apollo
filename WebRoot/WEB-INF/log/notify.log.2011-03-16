@@ -1,0 +1,171 @@
+2011-03-16 09:25:59 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 09:45:59 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 11:05:29 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 11:25:28 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 11:45:28 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 12:05:28 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 12:25:28 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 12:45:28 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 13:32:27 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 14:18:53 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 14:38:53 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 15:27:22 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 15:47:22 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 16:07:22 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 16:27:22 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 16:47:22 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 17:07:22 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 17:36:37 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)
+2011-03-16 18:40:23 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: 指定的任务不存在[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:233)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:619)

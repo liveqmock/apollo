@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="gb2312"?>
+<component-list>
+
+    <scheduler>
+    	<NonPersistentSchedulerService>
+    	
+    		<!--
+	    	Job 计划任务。系统会在一定时间间隔内启动计划任务。所以计划任务是
+	    	良好的定时任务的激活机制。
+	    	<job>
+	    		/** 计划任务的执行类 */
+    			<classname>cn.com.youtong.apollo.receiver.FileReceiveScheduledJob</classname>
+    			/** 计划任务id，每个计划任务的唯一标识 */
+    			<id>1</id>
+    			/** minute,hour,weekday,dayofmonth都为-1情况下，表示多少秒启动一次；
+    			    否则表示在某秒启动 */
+    			<second>0</second>
+    			/** hour,weekday,dayofmonth都为-1情况下，表示多少分钟启动一次；
+    			    否则表示在某分钟启动 */
+    			<minute>20</minute>
+    			/** weekday,dayofmonth都为-1情况下，表示多少小时启动一次；
+    			    否则表示在某小时启动 */
+    			<hour>-1</hour>
+    			/** 每周几启动，-1表示失效。周日为1，周六为7 */
+    			<weekday>-1</weekday>
+    			/** 每月第几天启动，-1表示失效。1号对于为1 */
+    			<dayofmonth>-1</dayofmonth>
+	    	</job>
+	    	-->
+	    	
+	    	<jobs>	    	
+	       		<job>
+	       			<!-- 文件接收 -->
+	    			<classname>cn.com.youtong.apollo.receiver.FileReceiveScheduledJob</classname>
+	    			<id>1</id>
+	    			<second>0</second>
+	    			<minute>20</minute>
+	    			<hour>-1</hour>
+	    			<weekday>-1</weekday>
+	    			<dayofmonth>-1</dayofmonth>
+	    		</job>
+	       		<job>
+	       			<!-- FTP接收 -->
+	    			<classname>cn.com.youtong.apollo.receiver.FTPReceiveScheduledJob</classname>
+	    			<id>2</id>
+	    			<second>0</second>
+	    			<minute>20</minute>
+	    			<hour>-1</hour>
+	    			<weekday>-1</weekday>
+	    			<dayofmonth>-1</dayofmonth>
+	    		</job>
+	    		<job>
+	    			<!-- 邮件接收 -->
+	    			<classname>cn.com.youtong.apollo.receiver.MailReceiveScheduledJob</classname>
+	    			<id>3</id>
+	    			<second>0</second>
+	    			<minute>20</minute>
+	    			<hour>-1</hour>
+	    			<weekday>-1</weekday>
+	    			<dayofmonth>-1</dayofmonth>
+	    		</job>
+
+	    		<!-- 催报任务系列id从11到13   -->
+	    		
+	    		<job>
+	    			<!-- 催报任务 -->
+	    			<classname>cn.com.youtong.apollo.notify.NotifyScheduledJob</classname>
+	    			<id>11</id>
+	    			<second>0</second>
+	    			<minute>20</minute>
+	    			<hour>-1</hour>
+	    			<weekday>-1</weekday>
+	    			<dayofmonth>-1</dayofmonth>
+	    		</job>
+	    		
+	    		
+	    		<job>
+	    			<!-- 向上级服务器上报数据 -->
+	    			<classname>cn.com.youtong.apollo.upload.UploaderScheduledJob</classname>
+	    			<id>21</id>
+	    			<second>0</second>
+	    			<minute>0</minute>
+	    			<hour>10</hour>
+	    			<weekday>-1</weekday>
+	    			<dayofmonth>5</dayofmonth>
+	    		</job>
+	    	</jobs>
+	    </NonPersistentSchedulerService>
+    </scheduler>
+	
+	<!-- 属性配置 -->
+	<config configurationPath="conf/config.xml"/>
+	
+	<!-- 工厂方法 -->
+	<factory>
+		<object-factory>
+			<cn.com.youtong.apollo.usermanager.UserManagerFactory>
+				cn.com.youtong.apollo.usermanager.db.DBUserManagerFactory
+			</cn.com.youtong.apollo.usermanager.UserManagerFactory>
+			<cn.com.youtong.apollo.dictionary.DictionaryManagerFactory>
+				cn.com.youtong.apollo.dictionary.db.DBDictionaryManagerFactory
+			</cn.com.youtong.apollo.dictionary.DictionaryManagerFactory>
+			<cn.com.youtong.apollo.task.TaskManagerFactory>
+				cn.com.youtong.apollo.task.db.DBTaskManagerFactory
+			</cn.com.youtong.apollo.task.TaskManagerFactory>
+			<cn.com.youtong.apollo.data.ModelManagerFactory>
+				cn.com.youtong.apollo.data.db.DBModelManagerFactory
+			</cn.com.youtong.apollo.data.ModelManagerFactory>
+			<cn.com.youtong.apollo.address.AddressManagerFactory>
+				cn.com.youtong.apollo.address.db.DBAddressManagerFactory
+			</cn.com.youtong.apollo.address.AddressManagerFactory>
+			<cn.com.youtong.apollo.authentication.AuthenticationFactory>
+				cn.com.youtong.apollo.authentication.db.DBAuthenticationFactory			
+			</cn.com.youtong.apollo.authentication.AuthenticationFactory>
+			<cn.com.youtong.apollo.analyse.AnalyseManagerFactory>
+				cn.com.youtong.apollo.analyse.db.DBAnalyseManagerFactory			
+			</cn.com.youtong.apollo.analyse.AnalyseManagerFactory>
+			<cn.com.youtong.apollo.log.LogManagerFactory>
+				cn.com.youtong.apollo.log.db.DBLogManagerFactory			
+			</cn.com.youtong.apollo.log.LogManagerFactory>
+		</object-factory>
+	</factory>
+
+</component-list>

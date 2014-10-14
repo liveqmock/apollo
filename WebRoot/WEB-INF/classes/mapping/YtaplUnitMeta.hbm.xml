@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.UnitMetaForm" 
+    table="YTAPL_UnitMeta"
+>
+	<id
+        name="taskID"
+        type="int"
+        column="taskID"
+    >
+        <generator class="foreign">
+				<param name="property">task</param>
+		</generator>
+    </id>
+    <property
+        name="parentUnitCodeCellID"
+        type="java.lang.Integer"
+        column="parentUnitCodeCellID"
+        length="10"
+    />
+    <property
+        name="reprotTypeCellID"
+        type="java.lang.Integer"
+        column="reprotTypeCellID"
+        length="10"
+    />
+    <property
+        name="unitCodeCellID"
+        type="java.lang.Integer"
+        column="unitCodeCellID"
+        length="10"
+    />
+    <property
+        name="headquarterCodeCellID"
+        type="java.lang.Integer"
+        column="headquarterCodeCellID"
+        length="10"
+    />
+    <property
+        name="unitNameCellID"
+        type="java.lang.Integer"
+        column="unitNameCellID"
+        length="10"
+    />
+    <property
+        name="unitMetaTableID"
+        type="java.lang.Integer"
+        column="unitMetaTableID"
+        length="10"
+    />
+    <property
+        name="displayCellID"
+	type="java.lang.Integer"
+	column="displayCellID"
+	length="10"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional one-to-one association to YtaplTask -->
+    <!--many-to-one
+        name="task"
+        class="cn.com.youtong.apollo.task.db.form.TaskForm"
+    >
+        <column name="taskID" />
+    </many-to-one-->   
+    <one-to-one
+        name="task"
+        class="cn.com.youtong.apollo.task.db.form.TaskForm"
+    >
+    </one-to-one>  
+
+</class>
+</hibernate-mapping>

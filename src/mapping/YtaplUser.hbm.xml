@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping>
+
+<!--
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class
+    name="cn.com.youtong.apollo.usermanager.db.form.UserForm"
+    table="YTAPL_Users"
+>
+    <id
+        name="userID"
+        type="int"
+        column="userID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="name"
+        type="java.lang.String"
+        column="name"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="password"
+        type="java.lang.String"
+        column="password"
+        length="255"
+    />
+    
+    <property
+        name="enterpriseName"
+        type="java.lang.String"
+        column="enterpriseName"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="lawPersionCode"
+        type="java.lang.String"
+        column="lawPersionCode"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="lawPersionName"
+        type="java.lang.String"
+        column="lawPersionName"
+        not-null="true"
+        length="255"
+    />    
+    <property
+        name="lawPersionPhone"
+        type="java.lang.String"
+        column="lawPersionPhone"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="contactPersionName"
+        type="java.lang.String"
+        column="contactPersionName"
+        not-null="true"
+        length="255"
+    />    
+    <property
+        name="contactPersionPhone"
+        type="java.lang.String"
+        column="contactPersionPhone"
+        not-null="true"
+        length="255"
+    />    
+    <property
+        name="contactPersionMobile"
+        type="java.lang.String"
+        column="contactPersionMobile"
+        length="255"
+    />    
+    <property
+        name="contactAddress"
+        type="java.lang.String"
+        column="contactAddress"
+        not-null="true"
+        length="255"
+    />      
+    <property
+        name="postcode"
+        type="java.lang.String"
+        column="postcode"
+        not-null="true"
+        length="255"
+    />      
+    <property
+        name="email"
+        type="java.lang.String"
+        column="email"
+        length="255"
+    />      
+    <property
+        name="fax"
+        type="java.lang.String"
+        column="fax"
+        length="255"
+    />      
+    <property
+        name="dateCreated"
+        type="java.sql.Timestamp"
+        column="dateCreated"
+        length="23"
+    />
+    <property
+        name="dateModified"
+        type="java.sql.Timestamp"
+        column="dateModified"
+        length="23"
+    />
+    <property
+        name="memo"
+        type="java.lang.String"
+        column="memo"
+        length="6000"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional many-to-one association to YtaplRol -->
+    <many-to-one
+        name="role"
+        class="cn.com.youtong.apollo.usermanager.db.form.RoleForm"
+        not-null="true"
+    >
+        <column name="roleID" />
+    </many-to-one>
+    <!-- bi-directional many-to-many association to YtaplGroup -->
+    <set
+        name="groups"
+        lazy="true"
+        table="YTAPL_GroupMember"
+    >
+        <key>
+            <column name="userID" />
+        </key>
+        <many-to-many
+            class="cn.com.youtong.apollo.usermanager.db.form.GroupForm"
+        >
+            <column name="groupID" />
+        </many-to-many>
+    </set>
+
+</class>
+</hibernate-mapping>

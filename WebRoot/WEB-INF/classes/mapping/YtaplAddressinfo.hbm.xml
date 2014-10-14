@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.address.db.form.AddressInfoForm" 
+    table="YTAPL_ADDRESSINFO"
+>
+    <composite-id name="comp_id" class="cn.com.youtong.apollo.address.db.form.AddressInfoFormPK">
+        <key-property name="taskID" column="TASKID" type="java.lang.String"/>
+        <key-property name="unitID" column="UNITID" type="java.lang.String"/>
+    </composite-id>    
+    <property
+        name="email"
+        type="java.lang.String"
+        column="EMAIL"
+        length="30"
+    />
+    <property
+        name="mobile"
+        type="java.lang.String"
+        column="MOBILE"
+        length="20"
+    />
+    <property
+        name="phone"
+        type="java.lang.String"
+        column="PHONE"
+        length="30"
+    />
+    <property
+        name="fax"
+        type="java.lang.String"
+        column="FAX"
+        length="30"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="FLAG"
+        not-null="true"
+        length="22"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="RESERVED1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="RESERVED2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="RESERVED3"
+        length="255"
+    />
+
+    <!-- associations -->
+
+</class>
+</hibernate-mapping>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.TaskTimeForm" 
+    table="YTAPL_TaskTimes"
+>
+    <id
+        name="taskTimeID"
+        type="int"
+        column="taskTimeID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="beginTime"
+        type="java.sql.Timestamp"
+        column="beginTime"
+        length="23"
+    />
+    <property
+        name="endTime"
+        type="java.sql.Timestamp"
+        column="endTime"
+        length="23"
+    />
+    <property
+        name="submitBeginTime"
+        type="java.sql.Timestamp"
+        column="submitBeginTime"
+        length="23"
+    />
+    <property
+        name="submitEndTime"
+        type="java.sql.Timestamp"
+        column="submitEndTime"
+        length="23"
+    />
+    <property
+        name="attentionBeginTime"
+        type="java.sql.Timestamp"
+        column="attentionBeginTime"
+        length="23"
+    />
+    <property
+        name="attentionEndTime"
+        type="java.sql.Timestamp"
+        column="attentionEndTime"
+        length="23"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional many-to-one association to YtaplTask -->
+    <many-to-one
+        name="task"
+        class="cn.com.youtong.apollo.task.db.form.TaskForm"
+        not-null="true"
+    >
+        <column name="taskID" />
+    </many-to-one>   
+
+</class>
+</hibernate-mapping>

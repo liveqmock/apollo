@@ -1,0 +1,690 @@
+2011-03-23 08:45:20 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:20 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:20 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 08:45:21 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:10 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:15 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:19:34 INFO  DBSummer                       - 开始对单位“HBGZW000X7”节点汇总
+2011-03-23 10:19:34 ERROR DBSummer                       - 对单位“HBGZW000X7”节点汇总失败
+net.sf.hibernate.HibernateException: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:931)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:830)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:512)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:490)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:194)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:924)
+	... 22 more
+2011-03-23 10:19:45 INFO  DBSummer                       - 开始对单位“76516359X7”节点汇总
+2011-03-23 10:19:46 ERROR DBSummer                       - 对单位“76516359X7”节点汇总失败
+net.sf.hibernate.HibernateException: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:931)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:830)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:512)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:490)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:194)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:924)
+	... 22 more
+2011-03-23 10:24:18 INFO  DBSummer                       - 开始对单位“HBSSJGZW27”节点汇总
+2011-03-23 10:24:18 ERROR DBSummer                       - 对单位“HBSSJGZW27”节点汇总失败
+net.sf.hibernate.HibernateException: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:931)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:830)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:512)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:490)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:194)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:924)
+	... 22 more
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:34 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:25:39 INFO  DBSummer                       - 开始对单位“HBSSJGZW27”节点汇总
+2011-03-23 10:25:39 ERROR DBSummer                       - 对单位“HBSSJGZW27”节点汇总失败
+net.sf.hibernate.HibernateException: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:932)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:831)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:513)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:491)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:199)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:925)
+	... 22 more
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:14 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:18 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:27:21 INFO  DBSummer                       - 开始对单位“HBSSJGZW27”节点汇总
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:36 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:31:39 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:52:52 INFO  DBSummer                       - 开始对单位“BDSFJGQY37”节点汇总
+2011-03-23 10:52:53 ERROR DBSummer                       - 对单位“BDSFJGQY37”节点汇总失败
+net.sf.hibernate.HibernateException: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:933)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:831)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:513)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:491)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:199)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:926)
+	... 22 more
+2011-03-23 10:56:42 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:42 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:42 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:43 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:56:52 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:57:13 INFO  DBSummer                       - 开始对单位“BDSJGQY007”节点汇总
+2011-03-23 10:57:13 ERROR DBSummer                       - 对单位“BDSJGQY007”节点汇总失败
+net.sf.hibernate.HibernateException: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:933)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:831)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:513)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:491)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:199)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:926)
+	... 22 more
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 10:59:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:22 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:00:26 INFO  DBSummer                       - 开始对单位“HBSSJGZW27”节点汇总
+2011-03-23 11:00:26 ERROR DBSummer                       - 对单位“HBSSJGZW27”节点汇总失败
+net.sf.hibernate.HibernateException: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'rmrb.ytapl_newqykb_qyb3' doesn't exist
+	at cn.com.youtong.apollo.data.db.DBSummer.clearResult(DBSummer.java:872)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:830)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:513)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:491)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:199)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'rmrb.ytapl_newqykb_qyb3' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:794)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.execute(FilterPreparedStatement.java:164)
+	at cn.com.youtong.apollo.data.db.DBSummer.clearResult(DBSummer.java:868)
+	... 22 more
+2011-03-23 11:00:47 INFO  DBSummer                       - 开始对单位“HBSSQYHZB7”节点汇总
+2011-03-23 11:00:48 ERROR DBSummer                       - 对单位“HBSSQYHZB7”节点汇总失败
+net.sf.hibernate.HibernateException: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'rmrb.ytapl_newqykb_qyb3' doesn't exist
+	at cn.com.youtong.apollo.data.db.DBSummer.clearResult(DBSummer.java:872)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:830)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:513)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:491)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:199)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Table 'rmrb.ytapl_newqykb_qyb3' doesn't exist
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:794)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.execute(FilterPreparedStatement.java:164)
+	at cn.com.youtong.apollo.data.db.DBSummer.clearResult(DBSummer.java:868)
+	... 22 more
+2011-03-23 11:07:33 INFO  DBSummer                       - 开始对单位“HBSSJGZW27”节点汇总
+2011-03-23 11:07:33 ERROR DBSummer                       - 对单位“HBSSJGZW27”节点汇总失败
+net.sf.hibernate.HibernateException: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:933)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumTable(DBSummer.java:831)
+	at cn.com.youtong.apollo.data.db.DBSummer.sum(DBSummer.java:513)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:491)
+	at cn.com.youtong.apollo.data.db.DBSummer.sumNode(DBSummer.java:199)
+	at cn.com.youtong.apollo.servlet.ModelServlet.sumNode(ModelServlet.java:615)
+	at cn.com.youtong.apollo.servlet.ModelServlet.perform(ModelServlet.java:2135)
+	at cn.com.youtong.apollo.servlet.RootServlet.service(RootServlet.java:142)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:802)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:252)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:173)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:214)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:178)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:126)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:105)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:107)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:148)
+	at org.apache.coyote.http11.Http11Processor.process(Http11Processor.java:825)
+	at org.apache.coyote.http11.Http11Protocol$Http11ConnectionHandler.processConnection(Http11Protocol.java:738)
+	at org.apache.tomcat.util.net.PoolTcpEndpoint.processSocket(PoolTcpEndpoint.java:526)
+	at org.apache.tomcat.util.net.LeaderFollowerWorkerThread.runIt(LeaderFollowerWorkerThread.java:80)
+	at org.apache.tomcat.util.threads.ThreadPool$ControlRunnable.run(ThreadPool.java:684)
+	at java.lang.Thread.run(Thread.java:619)
+Caused by: java.sql.SQLException: Illegal mix of collations (gbk_chinese_ci,IMPLICIT) and (gb2312_chinese_ci,IMPLICIT) for operation '='
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:946)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2870)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1573)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:1665)
+	at com.mysql.jdbc.Connection.execSQL(Connection.java:3176)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1153)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1266)
+	at com.mchange.v2.sql.filter.FilterPreparedStatement.executeQuery(FilterPreparedStatement.java:68)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnection$2.executeQuery(C3P0PooledConnection.java:561)
+	at cn.com.youtong.apollo.data.db.DBSummer.getSumResult(DBSummer.java:926)
+	... 22 more
+2011-03-23 11:10:33 INFO  DBSummer                       - 开始对单位“HBSSQYHZB7”节点汇总
+2011-03-23 11:10:34 INFO  DBSummer                       - 成功完成对单位“HBSSQYHZB7”节点汇总
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:10:37 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:08 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 开始向数据库保存数据
+2011-03-23 11:14:41 INFO  DBDataStorer                   - 开始初始化
+2011-03-23 11:14:41 INFO  DBDataStorer                   - 初始化完成
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2011-03-23 11:14:41 INFO  DBDataStorer                   - 开始释放资源
+2011-03-23 11:14:41 INFO  DBDataStorer                   - 资源释放完毕
+2011-03-23 11:14:41 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:41 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:41 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: admin
+	企业名称: 系统管理员
+	装入开始时间: 2011-03-23 11:14:41
+	装入结束时间: 2011-03-23 11:14:41
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-14 13:56:50
+	修改时间: 2011-03-14 13:56:50
+装入的任务时间: 
+	起始时间: 2011-02-01 00:00:00
+	结束时间: 2011-02-28 00:00:00
+数据成功装入的单位:
+7401816447
+共 1 个
+
+*********************************************************
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 电子邮件通知用户: admin 邮件地址: 装入结果
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 开始脚本计算
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 计算脚本完成！
+
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 开始更新填报情况
+2011-03-23 11:14:41 INFO  DBDataImporter                 - 更新填报记录完成！
+
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 开始向数据库保存数据
+2011-03-23 11:15:12 INFO  DBDataStorer                   - 开始初始化
+2011-03-23 11:15:12 INFO  DBDataStorer                   - 初始化完成
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2011-03-23 11:15:12 INFO  DBDataStorer                   - 开始释放资源
+2011-03-23 11:15:12 INFO  DBDataStorer                   - 资源释放完毕
+2011-03-23 11:15:12 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:15:12 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:15:12 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: admin
+	企业名称: 系统管理员
+	装入开始时间: 2011-03-23 11:15:12
+	装入结束时间: 2011-03-23 11:15:12
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-14 13:56:50
+	修改时间: 2011-03-14 13:56:50
+装入的任务时间: 
+	起始时间: 2011-02-01 00:00:00
+	结束时间: 2011-02-28 00:00:00
+数据成功装入的单位:
+7401816447
+共 1 个
+
+*********************************************************
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 电子邮件通知用户: admin 邮件地址: 装入结果
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 开始脚本计算
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 计算脚本完成！
+
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 开始更新填报情况
+2011-03-23 11:15:12 INFO  DBDataImporter                 - 更新填报记录完成！
+
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 开始向数据库保存数据
+2011-03-23 11:15:49 INFO  DBDataStorer                   - 开始初始化
+2011-03-23 11:15:49 INFO  DBDataStorer                   - 初始化完成
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2011-03-23 11:15:49 INFO  DBDataStorer                   - 开始释放资源
+2011-03-23 11:15:49 INFO  DBDataStorer                   - 资源释放完毕
+2011-03-23 11:15:49 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:15:49 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:15:49 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: admin
+	企业名称: 系统管理员
+	装入开始时间: 2011-03-23 11:15:49
+	装入结束时间: 2011-03-23 11:15:49
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-14 13:56:50
+	修改时间: 2011-03-14 13:56:50
+装入的任务时间: 
+	起始时间: 2011-02-01 00:00:00
+	结束时间: 2011-02-28 00:00:00
+数据成功装入的单位:
+CDSGZW0097
+共 1 个
+
+*********************************************************
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 电子邮件通知用户: admin 邮件地址: 装入结果
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 开始脚本计算
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 计算脚本完成！
+
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 开始更新填报情况
+2011-03-23 11:15:49 INFO  DBDataImporter                 - 更新填报记录完成！
+
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:25 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:29 INFO  DBSummer                       - 开始对单位“HBSSJGZW27”节点汇总
+2011-03-23 11:18:29 INFO  DBSummer                       - 成功完成对单位“HBSSJGZW27”节点汇总
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:31 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226
+2011-03-23 11:18:33 ERROR DBUnitTreeNode                 - Report type is null, unit: 105940226

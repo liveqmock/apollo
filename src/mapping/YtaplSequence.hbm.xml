@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping>
+
+<!--
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class
+    name="cn.com.youtong.apollo.common.sql.Sequence"
+    table="YTAPL_Sequence"
+>
+    <id
+        name="tableName"
+        type="java.lang.String"
+        column="tableName"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="maxID"
+        type="java.lang.Integer"
+        column="maxID"
+        length="10"
+    />
+
+    <!-- associations -->
+
+</class>
+</hibernate-mapping>

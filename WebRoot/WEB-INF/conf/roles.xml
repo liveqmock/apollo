@@ -1,0 +1,17 @@
+<roles-list>
+	<role
+        name="org.apache.fulcrum.schedule.ScheduleService"
+        shorthand="scheduler"
+        default-class="org.apache.fulcrum.schedule.turbine.nonpersistent.NonPersistentSchedulerService"/>
+
+	<role
+    	name="org.apache.commons.configuration.Configuration"
+    	shorthand="config"
+    	default-class="org.apache.fulcrum.configuration.DefaultConfigurationService"/>
+
+	<role
+		name="org.apache.fulcrum.factory.FactoryService"
+		shorthand="factory"
+		default-class="org.apache.fulcrum.factory.DefaultFactoryService"/>
+
+</roles-list>

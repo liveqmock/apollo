@@ -1,0 +1,48 @@
+2011-03-23 09:04:55 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2011-03-23 09:04:56 INFO  FTPReceiver                    - 连接服务器：mk
+2011-03-23 09:04:58 ERROR FTPReceiver                    - 连接失败
+2011-03-23 09:04:58 INFO  FTPReceiver                    - 连接服务器：jbwang
+2011-03-23 09:05:00 ERROR FTPReceiver                    - 连接失败
+2011-03-23 09:05:00 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2011-03-23 09:24:55 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2011-03-23 09:24:55 INFO  FTPReceiver                    - 连接服务器：mk
+2011-03-23 09:24:57 ERROR FTPReceiver                    - 连接失败
+2011-03-23 09:24:57 INFO  FTPReceiver                    - 连接服务器：jbwang
+2011-03-23 09:25:00 ERROR FTPReceiver                    - 连接失败
+2011-03-23 09:25:00 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2011-03-23 09:44:55 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2011-03-23 09:44:55 INFO  FTPReceiver                    - 连接服务器：mk
+2011-03-23 09:44:57 ERROR FTPReceiver                    - 连接失败
+2011-03-23 09:44:57 INFO  FTPReceiver                    - 连接服务器：jbwang
+2011-03-23 09:45:00 ERROR FTPReceiver                    - 连接失败
+2011-03-23 09:45:00 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2011-03-23 10:04:55 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2011-03-23 10:04:55 INFO  FTPReceiver                    - 连接服务器：mk
+2011-03-23 10:04:57 ERROR FTPReceiver                    - 连接失败
+2011-03-23 10:04:57 INFO  FTPReceiver                    - 连接服务器：jbwang
+2011-03-23 10:05:00 ERROR FTPReceiver                    - 连接失败
+2011-03-23 10:05:00 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2011-03-23 10:51:11 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2011-03-23 10:51:11 INFO  FTPReceiver                    - 连接服务器：mk
+2011-03-23 10:51:14 ERROR FTPReceiver                    - 连接失败
+2011-03-23 10:51:14 INFO  FTPReceiver                    - 连接服务器：jbwang
+2011-03-23 10:51:16 ERROR FTPReceiver                    - 连接失败
+2011-03-23 10:51:16 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2011-03-23 11:15:57 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2011-03-23 11:15:57 INFO  FTPReceiver                    - 连接服务器：mk
+2011-03-23 11:16:00 ERROR FTPReceiver                    - 连接失败
+2011-03-23 11:16:00 INFO  FTPReceiver                    - 连接服务器：jbwang
+2011-03-23 11:16:02 ERROR FTPReceiver                    - 连接失败
+2011-03-23 11:16:02 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+

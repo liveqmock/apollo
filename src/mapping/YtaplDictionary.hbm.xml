@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.dictionary.db.form.DictionaryForm" 
+    table="YTAPL_Dict"
+>
+    <id
+        name="dictid"
+        type="java.lang.String"
+        column="dictid"
+        length="255"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="name"
+        type="java.lang.String"
+        column="name"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="memo"
+        type="java.lang.String"
+        column="memo"
+        length="255"
+    />
+    <property
+        name="dateCreated"
+        type="java.sql.Timestamp"
+        column="dateCreated"
+        length="23"
+    />
+    <property
+        name="dateModified"
+        type="java.sql.Timestamp"
+        column="dateModified"
+        length="23"
+    />
+    <property
+        name="levelPosition"
+        type="java.lang.String"
+        column="levelPosition"
+        length="255"
+    />
+    <property
+        name="keyLength"
+        type="int"
+        column="keyLength"
+        not-null="true"
+        length="10"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+        length="10"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+
+</class>
+</hibernate-mapping>

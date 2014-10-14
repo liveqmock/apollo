@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by frank (frank inc.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="task">
+		<xs:annotation>
+			<xs:documentation>任务</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="table" maxOccurs="unbounded"/>
+				<xs:element ref="taskTime" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="memo" type="xs:string"/>
+			<xs:attribute name="ID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>任务标识，在整个系统中唯一</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="taskTime">
+		<xs:annotation>
+			<xs:documentation>任务时间</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="beginTime" type="xs:dateTime"/>
+			<xs:attribute name="endTime" type="xs:dateTime"/>
+			<xs:attribute name="submitBeginTime" type="xs:dateTime"/>
+			<xs:attribute name="submitEndTime" type="xs:dateTime"/>
+			<xs:attribute name="attentionBeginTime" type="xs:dateTime"/>
+			<xs:attribute name="attentionEndTime" type="xs:dateTime"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="table">
+		<xs:annotation>
+			<xs:documentation>表</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="row" maxOccurs="unbounded"/>
+				<xs:element name="tableView" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>表样信息---XSLT字符串（ 左右尖括号 需要转义为“&lt;”和“&gt;”）</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:simpleContent>
+							<xs:extension base="xs:string">
+								<xs:attribute name="type" type="xs:int" use="required">
+									<xs:annotation>
+										<xs:documentation>标志信息：表示该XSLT的用途
+
+1--生成HTML
+
+2--生成EXCEL
+
+3--生成PDF</xs:documentation>
+									</xs:annotation>
+								</xs:attribute>
+							</xs:extension>
+						</xs:simpleContent>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="ID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>表的标识，在同一任务中唯一</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isUnitMetaTable" type="xs:boolean" use="required">
+				<xs:annotation>
+					<xs:documentation>该表是否是用户原数据表：是用户原数据表，则为true；否则为false</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="flag" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>单元格标志，1代表该单元格为汇总单元格；否则为0</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="row">
+		<xs:annotation>
+			<xs:documentation>行</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="cell" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="flag" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>行标志：1 -- 浮动行</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="ID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>行标识，在同一表中唯一</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="cell">
+		<xs:annotation>
+			<xs:documentation>单元格</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="dataType" type="xs:int" use="required">
+				<xs:annotation>
+					<xs:documentation>数据类型：
+
+
+1 -- 数值型    
+2 -- 文本型
+
+
+    3 -- 二进制
+
+
+     4 -- 大文本
+
+
+    5 -- 日期型</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="DBFieldName" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>存储该单元格数据的数据库字段名</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="scalarName" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>该单元格所代表的指标的名称</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="label" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>单元格的标签，如A12</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="width" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>单元个内容的长度</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="dictionaryID" type="xs:string"/>
+			<xs:attribute name="flag" type="xs:int">
+				<xs:annotation>
+					<xs:documentation>单元格标志，1代表该单元格为汇总单元格；否则为0</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isHeadquarterCodeCell" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>该单元格是否是集团总部代码单元格：是则为true；否则为false</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isParentUnitCodeCell" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>该单元格是否是上级单位代码单元格：是则为true；否则为false</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isReportTypeCell" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>该单元格是否是报表类型单元格：是则为true；否则为false</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isUnitCodeCell" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>该单元格是否是单位代码单元格：是则为true；否则为false</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isUnitNameCell" type="xs:boolean">
+				<xs:annotation>
+					<xs:documentation>该单元格是否是单位名称单元格：是则为true；否则为false</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

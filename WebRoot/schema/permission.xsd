@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by rth77 (rth77) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="permissions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="permission" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="unitID" type="xs:string" use="required"/>
+						<xs:attribute name="taskID" type="xs:string" use="required"/>
+						<xs:attribute name="groupName" type="xs:string" use="required"/>
+						<xs:attribute name="permit" type="xs:int" use="required">
+							<xs:annotation>
+								<xs:documentation>权限值：对本系统来说   1(读权限)  3(读写权限)</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

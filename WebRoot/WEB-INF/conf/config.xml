@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<configuration>
+  <!--
+  <jndi className="org.apache.commons.configuration.JNDIConfiguration" prefix="java:comp/env"/>
+  <dom4j className="org.apache.commons.configuration.DOM4JConfiguration" fileName="conf/test.xml"/>
+  -->
+  <properties className="org.apache.commons.configuration.PropertiesConfiguration" fileName="conf/config.properties"/>
+  <properties className="org.apache.commons.configuration.PropertiesConfiguration" fileName="conf/sms_config.properties"/>
+  <properties className="org.apache.commons.configuration.PropertiesConfiguration" fileName="conf/upload.properties"/>
+</configuration>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping>
+	<class name="cn.com.youtong.apollo.sms.form.PhoneBookEntity" table="YTAPL_Phonebook">
+	    <id name="id" type="java.lang.Integer" column="ph_id" >
+	        <generator class="increment" />
+	    </id>
+	    <property name="companyname" type="java.lang.String" column="ph_companyname" length="255" />
+	    <property name="personname" type="java.lang.String" column="ph_personname" length="255" />
+	    <property name="telno" type="java.lang.String" column="ph_tel" length="255" />
+	    <property name="phdate" type="java.lang.String" column="ph_date" length="255" />
+	</class>
+</hibernate-mapping>

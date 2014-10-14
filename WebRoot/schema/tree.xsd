@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="gb2312"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="treeRoot">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="tree" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="text" type="xs:string" use="required"/>
+						<xs:attribute name="src" type="xs:string"/>
+						<xs:attribute name="action" type="xs:string"/>
+						<xs:attribute name="icon" type="xs:string"/>
+						<xs:attribute name="openIcon" type="xs:string"/>
+						<xs:attribute name="target" type="xs:string"/>
+						<xs:attribute name="checked" type="xs:boolean">
+							<xs:annotation>
+								<xs:documentation>checkbox或radio button是否被选中</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="checkValue" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>checkbox或radio button的值</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

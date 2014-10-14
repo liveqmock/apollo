@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type"
+content="text/html; charset=iso-8859-1">
+<title>Apache-Axis</title>
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<h1 align="center">Borland Apache AXIS</h1>
+
+<p>Hello! <em>Welcome</em> to Borland Apache Axis.</p>
+
+<p>What do you want to do today?</p>
+
+<ul>
+    <li><a href="servlet/AdminServlet">Administer Axis</a></li>
+    <li><a href="servlet/AxisServlet">View</a>
+        the list of deployed Web services</li>
+    <li><a href="happyaxis.jsp">Validate</a>
+        the local installation's configuration</li>
+    <li><a href="http://xml.apache.org/axis">Visit</a>
+        the Apache Axis Home Page</li>
+<!--
+Here are three things to enable the Axis TCP monitor feature on the server-side
+using Axis handler and the Axis SOAPMonitor Applet.
+
+step1: copy SOAPMonitorApplet.java from <jbuilder>defaults to project src directory
+
+step2: uncomment the following two lines in this file
+-----------------------------------------------------
+     <li><a href="SOAPMonitor">SOAP Monitor Service</a>
+        Launch SOAPMonitor Applet</li>
+
+
+step3: copy the following into any one of the deploy.wsdd in your project
+-------------------------------------------------------------------------
+<globalConfiguration>
+  <parameter name="adminPassword" value="admin"/>
+  <parameter name="attachments.implementation" value="org.apache.axis.attachments.AttachmentsImpl"/>
+  <parameter name="sendXsiTypes" value="true"/>
+  <parameter name="sendMultiRefs" value="true"/>
+  <parameter name="sendXMLDeclaration" value="true"/>
+  <requestFlow>
+   <handler type="java:org.apache.axis.handlers.JWSHandler">
+    <parameter name="scope" value="session"/>
+   </handler>
+   <handler type="java:org.apache.axis.handlers.JWSHandler">
+    <parameter name="scope" value="request"/>
+    <parameter name="extension" value=".jwr"/>
+   </handler>
+   <handler type="java:org.apache.axis.handlers.SOAPMonitorHandler"/>
+  </requestFlow>
+  <responseFlow>
+   <handler type="java:org.apache.axis.handlers.SOAPMonitorHandler"/>
+  </responseFlow>
+ </globalConfiguration>
+-->
+</ul>
+</body>
+</html>

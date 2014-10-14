@@ -1,0 +1,16 @@
+[version]
+Signature="$CHICAGO$" 
+AdvancedINF=2.5 
+Provider=Yotop
+  
+[SourceDisksNames] 
+  
+[SourceDisksFiles] 
+ 
+[DefaultInstall] 
+ComponentName=YotopTableCtrl
+RunPreSetupCommands=Programs.PreRpsc 
+ 
+[Programs.PreRpsc] 
+YotopTableCtrl.EXE
+ 

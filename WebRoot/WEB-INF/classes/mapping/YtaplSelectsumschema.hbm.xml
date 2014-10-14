@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.data.db.form.SelectSumSchemaForm" 
+    table="YTAPL_SELECTSUMSCHEMAS"
+>
+    <id
+        name="schemaID"
+        type="java.lang.Integer"
+        column="SCHEMAID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="name"
+        type="java.lang.String"
+        column="NAME"
+        not-null="true"
+        length="100"
+    />
+    <property
+        name="taskID"
+        type="java.lang.String"
+        column="TASKID"
+        not-null="true"
+        length="100"
+    />
+    <property
+        name="memo"
+        type="java.lang.String"
+        column="MEMO"
+        length="255"
+    />
+    <property
+        name="dateCreated"
+        type="java.sql.Timestamp"
+        column="DATECREATED"
+        length="7"
+    />
+    <property
+        name="dateModified"
+        type="java.sql.Timestamp"
+        column="DATEMODIFIED"
+        length="7"
+    />
+    <property
+        name="content"
+        type="java.sql.Clob"
+        column="CONTENT"
+    />
+
+    <!-- associations -->
+
+</class>
+</hibernate-mapping>

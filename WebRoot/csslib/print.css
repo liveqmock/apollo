@@ -1,0 +1,75 @@
+/*封面的头样式*/
+.TTitle{
+	border-top:		#ffffff 1px solid;
+	border-left:		#ffffff 1px solid;
+	border-bottom:		#000000 1px solid;
+	border-right:		#000000 1px solid;
+
+        font-size:              23.0pt;
+        font-family:            方正姚体;
+        color:                  black;
+}
+.Tbody{
+	border-top:		#ffffff 1px solid;
+	border-left:		#ffffff 1px solid;
+	border-bottom:		#ffffff 1px solid;
+	border-right:		#000000 0px solid;
+
+        font-size:              10.0pt;
+}
+.Tbottom{
+	border-top:		#ffffff 1px solid;
+	border-left:		#ffffff 1px solid;
+	border-bottom:		#000000 1px solid;
+	border-right:		#000000 1px solid;
+
+        font-size:              10.0pt;
+}
+.TData{
+	border-top:		#ffffff 0px solid;
+	border-left:		#ffffff 0px solid;
+	border-bottom:		#000000 0px solid;
+	border-right:		#000000 0px solid;
+
+        font-size:              10.0pt;
+}
+.Setup{
+        font-size:              10.0pt;
+}
+.stbtm{
+  BORDER-RIGHT: #665b8e 1px solid;
+  BORDER-TOP: #ffffff 1px solid;
+  FONT-SIZE: 9pt;
+  BORDER-LEFT: #ffffff 1px solid;
+  WIDTH: 80px;
+  COLOR: blue;
+  BORDER-BOTTOM: #665b8e 1px solid;
+  HEIGHT: 20px;
+  BACKGROUND-COLOR: #cecbde
+}
+.THeader{
+	border-top:		#ffffff 1px solid;
+	border-left:		#ffffff 1px solid;
+	border-bottom:		#000000 1px solid;
+	border-right:		#000000 1px solid;
+
+	color:				#000000;
+	font-size:			12px;
+	Height:				25px;
+}
+.Td1{
+	border-top:		#ffffff 1px solid;
+	border-left:		#ffffff 1px solid;
+	border-bottom:		#000000 1px solid;
+	border-right:		#000000 1px solid;
+	color:			#000000;
+	font-size:			12px;
+}
+.pages{
+	border-top:		#ffffff 1px solid;
+	border-left:		#ffffff 1px solid;
+	border-bottom:		#000000 0px solid;
+	border-right:		#000000 0px solid;
+	color:			#000000;
+	font-size:			12px;
+}

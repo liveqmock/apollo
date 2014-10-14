@@ -1,0 +1,300 @@
+BODY
+{
+    SCROLLBAR-FACE-COLOR: #fffbde;
+    FONT-SIZE: 9pt;
+    MARGIN: 0px;
+    SCROLLBAR-HIGHLIGHT-COLOR: #c1c1bb;
+    OVERFLOW: auto;
+    SCROLLBAR-SHADOW-COLOR: #c1c1bb;
+    SCROLLBAR-3DLIGHT-COLOR: #ebebe4;
+    SCROLLBAR-ARROW-COLOR: #cacab7;
+    SCROLLBAR-TRACK-COLOR: #f4f4f0;
+    FONT-FAMILY: 宋体;
+    SCROLLBAR-DARKSHADOW-COLOR: #ebebe4
+}
+INPUT
+{
+    BORDER-RIGHT: #000000 1px double;
+    BORDER-TOP: #000000 1px double;
+    BORDER-LEFT: #000000 1px double;
+    BORDER-BOTTOM: #000000 1px double
+}
+SELECT
+{
+    BORDER-RIGHT: #000000 1px double;
+    BORDER-TOP: #000000 1px double;
+    BORDER-LEFT: #000000 1px double;
+    COLOR: #000000;
+    BORDER-BOTTOM: #000000 1px double
+}
+A:link
+{
+    FONT-SIZE: 9pt;
+    COLOR: #003399;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    FONT-SIZE: 9pt;
+    COLOR: #003399;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    FONT-SIZE: 9pt;
+    COLOR: #ff6600;
+    TEXT-DECORATION: underline
+}
+A:active
+{
+    COLOR: #003399;
+    TEXT-DECORATION: none
+}
+.large
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 21px;
+    COLOR: #ff8346;
+    FONT-FAMILY: 黑体
+}
+.huge
+{
+    FONT-SIZE: 32px;
+    COLOR: #ff8346;
+    FONT-FAMILY: 黑体
+}
+.big
+{
+    FONT-SIZE: 14px
+}
+TABLE
+{
+    BORDER-RIGHT: #000000 1px;
+    BORDER-TOP: #000000 1px;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: #000000 1px;
+    BORDER-BOTTOM: #000000 1px;
+    BACKGROUND-COLOR: #d8e4f1
+}
+TABLE.NormalTable
+{
+    BORDER-RIGHT: white 0px;
+    BORDER-TOP: white 0px;
+    FONT-SIZE: 9pt;
+    BORDER-LEFT: white 0px;
+    WIDTH: 80%;
+    BORDER-BOTTOM: white 0px;
+    BACKGROUND-COLOR: white
+}
+TR.TrHeader
+{
+    COLOR: white;
+    BACKGROUND-COLOR: #6487dc
+}
+TR.TrLight
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    BACKGROUND-COLOR: #e9e9e9
+}
+TR.TrDark
+{
+    BACKGROUND-COLOR: #d8e4f1
+}
+TD.TdDark
+{
+    BACKGROUND-COLOR: #d8e4f1
+}
+TD.TdLight
+{
+    BACKGROUND-COLOR: #d8e4f1
+}
+.MnuGroupText
+{
+    FONT-SIZE: 12px;
+    COLOR: black
+}
+.MnuGroupTextOnOver
+{
+    FONT-SIZE: 12px;
+    CURSOR: hand;
+    COLOR: red
+}
+.MnuAText
+{
+}
+.MnuBody
+{
+}
+.MnuBar
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #84584c 1px solid;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: #000000 0px solid;
+    WIDTH: 100%;
+    COLOR: #000000;
+    BORDER-BOTTOM: #84584c 1px solid;
+    HEIGHT: 28px
+}
+.FrmBorder
+{
+    BORDER-RIGHT: #84584c 1px solid;
+    BORDER-TOP: #fad287 1px solid;
+    BORDER-LEFT: #fad287 1px solid;
+    WIDTH: 100%;
+    COLOR: #ffffe7;
+    BORDER-BOTTOM: medium none;
+    font-color: 14px
+}
+.TTitle
+{
+    COLOR: #3e3c3c;
+    HEIGHT: 26px
+}
+.TCaption
+{
+    FONT-WEIGHT: bold;
+    COLOR: #000000
+}
+.TSubCaption
+{
+    COLOR: black;
+    FONT-FAMILY: Arial
+}
+.OutButton
+{
+    WIDTH: 70px;
+    CURSOR: hand;
+    COLOR: black;
+    HEIGHT: 20px;
+    align: absmiddle
+}
+.OnButton
+{
+    FONT-SIZE: 13px;
+    WIDTH: 70px;
+    CURSOR: hand;
+    COLOR: #071197;
+    HEIGHT: 20px;
+    align: absmiddle
+}
+.btnStaticNarrow
+{
+    FONT-SIZE: 12px;
+    WIDTH: 60px;
+    COLOR: #3e3c3c
+}
+.btnStaticWide
+{
+    FONT-SIZE: 12px;
+    WIDTH: 120px;
+    COLOR: #082096
+}
+.PageEnd
+{
+    COLOR: #082096
+}
+.PageBanner
+{
+    BORDER-RIGHT: #000000 1px solid;
+    BORDER-TOP: #fad287 1px solid;
+    BORDER-LEFT: #fad287 1px solid;
+    BORDER-BOTTOM: #000000 1px solid;
+    HEIGHT: 25px;
+    BACKGROUND-COLOR: #fad287
+}
+.PlatTitle
+{
+    BORDER-TOP: #efa630 5px double;
+    BORDER-BOTTOM: #efa630 1px double;
+    BACKGROUND-COLOR: #efa630
+}
+.ButtonNormal
+{
+    BORDER-RIGHT: #b7d6ff 0px solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #b7d6ff 0px solid;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 14px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: #b7d6ff 0px solid;
+    WIDTH: 70px;
+    CURSOR: hand;
+    COLOR: white;
+    LINE-HEIGHT: 24px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #b7d6ff 0px solid;
+    FONT-FAMILY: verdana;
+    LETTER-SPACING: -0.5pt;
+    TEXT-DECORATION: none
+}
+.ButtonUp
+{
+    BORDER-RIGHT: #333366 1px solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: white 1px solid;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 14px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: white 1px solid;
+    WIDTH: 70px;
+    CURSOR: hand;
+    COLOR: white;
+    LINE-HEIGHT: 24px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: #333366 1px solid;
+    FONT-FAMILY: verdana;
+    LETTER-SPACING: -0.5pt;
+    HEIGHT: 0pt;
+    TEXT-DECORATION: none
+}
+.ButtonDown
+{
+    BORDER-RIGHT: white 1px solid;
+    PADDING-RIGHT: 5px;
+    BORDER-TOP: #333366 1px solid;
+    PADDING-LEFT: 5px;
+    FONT-SIZE: 14px;
+    PADDING-BOTTOM: 0px;
+    MARGIN: 0px;
+    VERTICAL-ALIGN: middle;
+    BORDER-LEFT: #333366 1px solid;
+    WIDTH: 70px;
+    CURSOR: hand;
+    COLOR: #0000a0;
+    LINE-HEIGHT: 24px;
+    PADDING-TOP: 0px;
+    BORDER-BOTTOM: white 1px solid;
+    FONT-FAMILY: verdana;
+    LETTER-SPACING: -0.5pt;
+    TEXT-DECORATION: none
+}
+.ListTd1
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    COLOR: #082096;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: "宋体";
+    BACKGROUND-COLOR: #f7b85e
+}
+.ListTd2
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: 0px;
+    FONT-SIZE: 12px;
+    BORDER-LEFT: 0px;
+    COLOR: #082096;
+    BORDER-BOTTOM: 0px;
+    FONT-FAMILY: "宋体";
+    BACKGROUND-COLOR: #ffeda3
+}

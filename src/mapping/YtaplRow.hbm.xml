@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.RowForm" 
+    table="YTAPL_Rows"
+>
+    <id
+        name="rowID"
+        type="int"
+        column="idRow"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+        length="10"
+    />
+    <property
+        name="isFloat"
+        type="int"
+        column="isfloat"
+        not-null="true"
+        length="10"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+    <property
+        name="ID"
+        type="java.lang.String"
+        column="strid"
+        not-null="true"
+        length="255"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional many-to-one association to YtaplTabl -->
+    <many-to-one
+        name="table"
+        class="cn.com.youtong.apollo.task.db.form.TableForm"
+        not-null="true"
+    >
+        <column name="tableID" />
+    </many-to-one>   
+    <!-- bi-directional one-to-many association to YtaplCell -->
+    <set
+        name="cells"
+        inverse="true"
+    >
+        <key>
+            <column name="idRow" />
+        </key>
+        <one-to-many 
+            class="cn.com.youtong.apollo.task.db.form.CellForm"
+        />
+    </set>
+
+</class>
+</hibernate-mapping>

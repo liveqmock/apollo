@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration
+    PUBLIC "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-2.0.dtd">
+    
+<hibernate-configuration>
+	<session-factory>
+		<!-- Begin DataBase -->
+		<!-- MS SQL SERVER -->
+		<!--
+			property name="dialect">net.sf.hibernate.dialect.SybaseDialect</property>
+			<property name="connection.driver_class">com.microsoft.jdbc.sqlserver.SQLServerDriver</property>
+			<property name="connection.url">jdbc:microsoft:sqlserver://localhost:1433</property>
+			<property name="connection.username">formserver</property>
+			<property name="connection.password">youtong</property>
+			<property name="connection.databasename">apollo</property>
+			<property name="connection.SelectMethod">cursor</property
+		//-->
+	<!-- MySql -->
+	
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/hbsa1231?useUnicode=true&amp;characterEncoding=gb2312</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">sa</property>
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+	
+	<!-- MySql Pool -->
+
+	<!-- 
+	<property name="hibernate.connection.datasource">
+		java:comp/env/jdbc/ap
+	</property>
+	<property name="hibernate.dialect">
+		org.hibernate.dialect.MySQLDialect
+	</property>
+	-->
+
+	<!-- Oracle -->
+	<!--
+		property name="dialect">net.sf.hibernate.dialect.OracleDialect</property>
+		<property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+		<property name="connection.url">jdbc:oracle:thin:@testserver:1521:apollo</property>
+		<property name="connection.username">apollo</property>
+		<property name="connection.password">apollo</property>
+		//-->
+		<!-- End DataBase -->
+		<!-- using data source -->
+		<!--
+			property name="connection.datasource">apollo</property>
+			<property name="jndi.class">weblogic.jndi.WLInitialContextFactory</property>
+			<property name="jndi.url">t3://localhost:7001</property>
+			<property name="dialect">net.sf.hibernate.dialect.SybaseDialect</property
+		//-->
+		<property name="show_sql">false</property>
+		<!-- using connection pool -->
+		<!--
+			property name="dbcp.maxActive">10</property>
+			<property name="dbcp.whenExhaustedAction">1</property>
+			<property name="dbcp.maxWait">120000</property>
+			<property name="dbcp.maxIdle">10</property>
+			<property name="dbcp.ps.maxActive">28</property>
+			<property name="dbcp.ps.whenExhaustedAction">1</property>
+			<property name="dbcp.ps.maxWait">120000</property>
+			<property name="dbcp.ps.maxIdle">28</property
+		//-->
+		<property name="c3p0.max_size">20</property>
+		<property name="c3p0.min_size">5</property>
+		<property name="c3p0.timeout">5000</property>
+		<property name="c3p0.max_statements">0</property>
+		<property name="c3p0.validate">false</property>
+		<!-- Mapping files -->
+		<mapping resource="mapping/YtaplUser.hbm.xml" />
+		<mapping resource="mapping/YtaplRol.hbm.xml" />
+		<mapping resource="mapping/YtaplGroup.hbm.xml" />
+		<mapping resource="mapping/YtaplSequence.hbm.xml" />
+		<!-- Task mapping fils -->
+		<mapping resource="mapping/YtaplCell.hbm.xml" />
+		<mapping resource="mapping/YtaplDictionary.hbm.xml" />
+		<mapping resource="mapping/YtaplRow.hbm.xml" />
+		<mapping resource="mapping/YtaplTabl.hbm.xml" />
+		<mapping resource="mapping/YtaplTask.hbm.xml" />
+		<mapping resource="mapping/YtaplTaskTim.hbm.xml" />
+		<mapping resource="mapping/YtaplUnitMeta.hbm.xml" />
+		<mapping resource="mapping/YtaplUnitPermission.hbm.xml" />
+		<mapping resource="mapping/YtaplScript.hbm.xml" />
+		<mapping resource="mapping/YtaplScriptsuit.hbm.xml" />
+		<mapping resource="mapping/YtaplAddressinfo.hbm.xml" />
+		<mapping resource="mapping/YtaplScalarquerytemplate.hbm.xml" />
+		<mapping resource="mapping/YtaplSelectsumschema.hbm.xml" />
+		<mapping resource="mapping/YtaplSecurityevent.hbm.xml" />
+		<mapping resource="mapping/YtaplDataevent.hbm.xml" />
+		<mapping resource="mapping/YtaplTableView.hbm.xml" />
+		<mapping resource="mapping/YtaplNews.hbm.xml" />
+		<!--
+		<mapping resource="cn/com/youtong/apollo/sms/form/PhoneBookEntity.hbm.xml" />
+		
+		
+			mapping resource="cn/com/youtong/apollo/report/form/YtaplReportTemplate.hbm.xml"/>
+			<mapping resource="cn/com/youtong/apollo/report/form/YtaplReportReport.hbm.xml"/
+		//-->
+		<!-- Report mapping files -->		
+	</session-factory>
+</hibernate-configuration>

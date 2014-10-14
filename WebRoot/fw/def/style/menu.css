@@ -1,0 +1,206 @@
+/* ==========================================
+** THIS FILE IS GENERATED WITH
+** THE CC-RESOURCEFACTORY TOOL.
+**
+** USER...........: P001001
+** PAINTER........: def
+** BUILD-FACTORY..: v1.2.001
+** BUILD-DATE.....: Wed Jan 14 19:37:22 CET 2004
+** BUILD-DIRECTORY: C:\eclipse\workspace\cc-framework
+** BUILD-FILE.....: C:\eclipse\workspace\cc-framework/build/resources/resources-def.xml
+**
+** DO NOT MODIFY!
+** ==========================================
+*/
+
+/* ==========================================
+** Header
+**
+** Acronym's
+** ------------------------------------------
+** ah  : Applicationheader
+** ahl : Applicationheader Label
+** ==========================================
+*/
+
+.ah {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 8pt;
+	background-color: #B4CED4;
+}
+
+.ahl {
+	font-weight: bold;
+	padding-left: 10px;
+	width: 55px;
+}
+
+/* ==========================================
+** StyleSheet for the horizontal Mainmenu
+**
+** Acronym's
+** ------------------------------------------
+** mm   : Menu Type Main
+**
+** mm1  : Menu 1te level
+** mm1s : Menu 1te level - selected
+** ==========================================
+*/
+
+.mm .mm1 {
+	padding-right: 18px;
+}
+
+.mm .mm1s {
+	padding-right: 18px;
+}
+
+/* ==========================================
+** StyleSheet for the horizontal Toolsmenu
+**
+** Acronym's
+** ------------------------------------------
+** mt   : Menu Type Tools Menu
+**
+** mt1  : Menu 1te level
+** mt1s : Menu 1te level - selected
+** ==========================================
+*/
+
+.mt .mt1 {
+	padding-left: 5px;
+}
+
+.mt .mt1s {
+	padding-left: 5px;
+}
+
+/* ==========================================
+** StyleSheet for the vertical Submenu
+**
+** Acronym's
+** ------------------------------------------
+** msb  : Menu Type Sidebar
+**
+** m1   : Menu 1te level
+** m1s  : Menu 1te level - selected
+** m2   : menu 2te level
+** m2s  : menu 2te level - selected
+** m3   : menu 3te level
+** m3s  : menu 3te level - selected
+** ==========================================
+*/
+
+.msb {
+
+}
+
+.msb .m1 {
+	background-color: #87B1BA;
+	padding-left: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-bottom: 1pt solid #FFFFFF;
+}
+
+.msb .m1s {
+	background-color: #87B1BA;
+	padding-left: 5pt;
+	padding-top: 2pt;
+	padding-bottom: 2pt;
+	border-bottom: none;
+}
+
+.msb .m1s_l {
+	background-color: #87B1BA;
+	border-bottom: 1pt solid #FFFFFF;
+}
+
+.msb .m1s_r {
+	background-color: #FFFFFF;
+	border-bottom: 0pt;
+	padding-left: 1pt;
+	padding-top: 1pt;
+}
+
+.msb .m1 A {
+	font-family : Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #005A6B;
+}
+
+.msb .m1s A {
+	font-family : Arial;
+	font-size: 9pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #005A6B;
+}
+
+/*
+** Level 2
+*/
+
+.msb .m2 {
+	border-bottom: 1pt solid #FFFFFF;
+	background-color: #C1D6DB;
+	color: #005A6B;
+	padding-left: 5px;
+}
+
+.msb .m2s {
+	border-bottom: 1pt solid #FFFFFF;
+	background-color: #FEA217;
+	padding-left: 5px;
+	color: #FFFFFF;
+}
+
+.msb .m2 A {
+	font-family : Arial;
+	font-size : 8pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #005A6B;
+}
+
+.msb .m2s A {
+	font-family : Arial;
+	font-size : 8pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #FFFFFF;
+}
+
+/*
+** Level 3
+*/
+
+.msb .m3 {
+	border-bottom: 1pt solid #FFFFFF;
+	background-color: #FAE4C2;
+	padding-left: 22px;
+}
+
+.msb .m3s {
+	border-bottom: 1pt solid #FFFFFF;
+	background-color: #FAE4C2;
+	padding-left: 8px;
+	padding-right: 0px;
+}
+	
+.msb .m3 A {
+	font-family : Arial;
+	font-size : 8pt;
+	text-decoration : none;
+	color: #000000;
+}
+
+.msb .m3s A {
+	font-family : Arial;
+	font-size : 8pt;
+	font-weight: bold;
+	text-decoration : none;
+	color: #000000;
+}

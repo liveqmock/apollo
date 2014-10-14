@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="gb2312"?>
+<Schema name="apollo">
+	<!-- Shared dimensions -->
+	<Dimension name="单位">
+		<Hierarchy hasAll="true" allMemberName="全部" primaryKey="unitID">
+			<Table name="dim_unit"/>
+			<Level name="单位" column="unitID" uniqueMembers="true" parentColumn="parentID" nameColumn="name" nullParentValue="root"/>
+		</Hierarchy>
+	</Dimension>
+	
+	<Dimension name="任务时间">
+		<Hierarchy hasAll="true" allMemberName="全部" primaryKey="timeID">
+			<Table name="dim_time"/>
+			<Level name="年" column="year" type="Numeric" uniqueMembers="true"/>
+			<Level name="月" column="month_name" uniqueMembers="false"/>
+		</Hierarchy>
+	</Dimension>
+
+	<Dimension name="经营规模">
+		<Hierarchy hasAll="true" allMemberName="全部" primaryKey="jygmID">
+			<Table name="dim_jygm"/>
+			<Level name="经营规模" column="name" uniqueMembers="true"/>		
+		</Hierarchy>
+	</Dimension>
+
+	<Dimension name="所在地区">
+		<Hierarchy hasAll="true" allMemberName="全部" primaryKey="szdqID">
+			<table name="dim_szdq"/>
+			<Level name="level1" column="level1" uniqueMembers="true"/>		
+			<Level name="level2" column="level2" uniqueMembers="false"/>
+			<Level name="level3" column="name" uniqueMembers="false"/>
+		</Hierarchy>
+	</Dimension>
+	
+	<!--Cube-->
+	<Cube name="资产负债">
+		<Table name="fact"/>
+ 		<DimensionUsage name="单位" source="单位" foreignKey="dim_unit"/>
+		<DimensionUsage name="任务时间" source="任务时间" foreignKey="dim_time"/>
+		<DimensionUsage name="经营规模" source="经营规模" foreignKey="dim_jygm"/>
+		<DimensionUsage name="所在地区" source="所在地区" foreignKey="dim_szdq"/>
+		
+		<Measure name="销售（营业）收入净额" column="A1" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="其他业务收入" column="A2" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="销售（营业）成本" column="A3" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="销售税金及附加" column="A4" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="销售利润" column="A5" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="营业（经营）费用" column="A6" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="管理费用" column="A7" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="财务费用" column="A8" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="利息支出净额" column="A9" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="投资收益" column="A10" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="补贴收入" column="A11" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="利润总额" column="A12" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="净利润" column="A13" aggregator="sum" formatString="#,##0.00"/>
+		<Measure name="人工成本支出" column="A14" aggregator="sum" formatString="#,##0.00"/>
+	</Cube>
+</Schema>

@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.ScriptSuitForm" 
+    table="YTAPL_SCRIPTSUITS"
+>
+    <id
+        name="suitID"
+        type="java.lang.Integer"
+        column="suitID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property name="name" column="NAME" type="java.lang.String"/>    
+    <property name="taskID" column="TASKID" type="java.lang.Integer"/>
+
+    <property
+        name="memo"
+        type="java.lang.String"
+        column="MEMO"
+        length="255"
+    />
+    <property
+        name="dateCreated"
+        type="java.sql.Timestamp"
+        column="DATECREATED"
+        length="7"
+    />
+    <property
+        name="dateModified"
+        type="java.sql.Timestamp"
+        column="DATEMODIFIED"
+        length="7"
+    />
+    <property
+        name="execSeqence"
+        type="java.lang.String"
+        column="EXECSEQENCE"
+        length="500"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional one-to-many association to YtaplScript -->
+    <set
+        name="scripts"
+        inverse="true"
+    >
+        <key>
+            <column name="suitID" />
+        </key>
+        <one-to-many 
+            class="cn.com.youtong.apollo.task.db.form.ScriptForm"
+        />
+    </set>
+</class>
+</hibernate-mapping>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="license">
+		<xs:annotation>
+			<xs:documentation>license 根目录</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="company" type="xs:string" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+						<xs:documentation>购买公司名称</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="username" type="xs:string" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+						<xs:documentation>注册用户名</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="installdate" type="xs:date">
+					<xs:annotation>
+						<xs:documentation>产品安装日期</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="machinecode" type="xs:string">
+					<xs:annotation>
+						<xs:documentation>机器码</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+				<xs:element name="regkey" type="xs:string" minOccurs="0" maxOccurs="1">
+					<xs:annotation>
+						<xs:documentation>注册码</xs:documentation>
+					</xs:annotation>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

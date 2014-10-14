@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.log.db.form.SecurityEventForm" 
+    table="YTAPL_SECURITYEVENTS"
+>
+    <id
+        name="eventID"
+        type="int"
+        column="EVENTID"
+    >
+        <generator class="increment" />
+    </id>
+    <property
+        name="timeOccured"
+        type="java.sql.Timestamp"
+        column="TIMEOCCURED"
+        not-null="true"
+    />
+    <property
+        name="type"
+        type="int"
+        column="TYPE"
+        not-null="true"
+    />
+    <property
+        name="source"
+        type="java.lang.String"
+        column="SOURCE"
+    />
+    <property
+        name="userName"
+        type="java.lang.String"
+        column="USERNAME"
+    />
+    <property
+        name="memo"
+        type="java.lang.String"
+        column="MEMO"
+    />
+
+    <!-- associations -->
+
+</class>
+</hibernate-mapping>

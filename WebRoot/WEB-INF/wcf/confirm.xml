@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<xform style="twocolumn">
+  <title value="Do you want?">
+    <imgButton id="confirm.cancel" src="wcf/form/cancel.png" label="Cancel"/>
+  </title>
+
+  <text value="Some text to display and to explain what we are going to do. Do you understand?"/>
+
+  <buttons>
+    <button id="confirm.accept" label="Yes"/>
+    <button id="confirm.cancel" label="No"/>
+  </buttons>
+
+</xform>

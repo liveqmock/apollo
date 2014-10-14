@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XML Spy v4.2 U (http://www.xmlspy.com) by abcd (cen) -->
+<!-- edited with XMLSPY v2004 rel. 3 U (http://www.xmlspy.com) by frank (frank inc.) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="scalarQueryTemplate">
+		<xs:annotation>
+			<xs:documentation>指标查模板</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="fonts"/>
+				<xs:element name="colWidth">
+					<xs:complexType>
+						<xs:attribute name="value" type="xs:string" use="required">
+							<xs:annotation>
+								<xs:documentation>所有列宽度（单位：像素），中间以逗号隔开</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="rowHeight">
+					<xs:complexType>
+						<xs:attribute name="value" type="xs:string" use="required">
+							<xs:annotation>
+								<xs:documentation>所有行高度（单位：像素），中间以逗号隔开。</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+				<xs:element ref="head"/>
+				<xs:element ref="body"/>
+				<xs:element ref="printInformation"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>模板名称</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="taskID" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>任务ID</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isFixed" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="printOrder" type="xs:string" use="optional" default="Horizontal">
+				<xs:annotation>
+					<xs:documentation>打印方向。Horizontal表示水平打印；Vertical竖直打印。</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="row">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="cell" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:attribute name="colspan" type="xs:int" use="optional" default="1"/>
+						<xs:attribute name="rowspan" type="xs:int" use="optional" default="1"/>
+						<xs:attribute name="label" type="xs:string" use="required"/>
+						<xs:attribute name="expression" type="xs:string" use="optional"/>
+						<xs:attribute name="bgcolor" type="xs:string" use="optional" default="#FFFFFF"/>
+						<xs:attribute name="contentStyle" type="xs:string" use="optional" default="string">
+							<xs:annotation>
+								<xs:documentation>单元格内容。可能值为string, number, date, datetime (文字，数值，日期或者时间)</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="halign" type="xs:string" use="optional" default="center">
+							<xs:annotation>
+								<xs:documentation>对齐方式。可能值有： center, left, right</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="valign" type="xs:string" use="optional" default="bottom">
+							<xs:annotation>
+								<xs:documentation>对齐方式，可能值：top, bottom, center</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+						<xs:attribute name="fontID" type="xs:int" use="optional"/>
+						<xs:attribute name="isScalar" type="xs:boolean" use="optional" default="true"/>
+						<xs:attribute name="formatStyle" type="xs:string" use="optional">
+							<xs:annotation>
+								<xs:documentation>如果是数值，或者日期型，指定格式化方法。定义格式与excel定义一致</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute name="condition" type="xs:string" use="optional"/>
+			<xs:attribute name="isTotalRow" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="fonts">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="font" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="font">
+		<xs:annotation>
+			<xs:documentation>字体定义</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:attribute name="ID" type="xs:int" use="required">
+				<xs:annotation>
+					<xs:documentation>给Font定义ID，方便其他的地方引用</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="description" type="xs:string" use="optional"/>
+			<xs:attribute name="size" type="xs:int" use="optional" default="9"/>
+			<xs:attribute name="isBold" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="isItalic" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="isUnderline" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="isStrikeThrough" type="xs:boolean" use="optional" default="false"/>
+			<xs:attribute name="pdfFontName" type="xs:string" use="optional" default="STSong-Light">
+				<xs:annotation>
+					<xs:documentation>在PDF中使用的字体名称</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="pdfEncoding" type="xs:string" use="optional" default="UniGB-UCS2-H">
+				<xs:annotation>
+					<xs:documentation>对应的PDF字体编码方式</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="isPdfEmbedded" type="xs:boolean" use="optional" default="true"/>
+			<xs:attribute name="color" type="xs:string" use="optional" default="#000000">
+				<xs:annotation>
+					<xs:documentation>字体颜色，引用颜色定义中的ID。如果改ID对应的颜色不存在，该设置无效</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="head">
+		<xs:annotation>
+			<xs:documentation>表头</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="row" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="colnum" type="xs:int" use="required">
+				<xs:annotation>
+					<xs:documentation>总列数</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rownum" type="xs:int" use="required">
+				<xs:annotation>
+					<xs:documentation>总行数</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defaultColor" type="xs:string" use="optional" default="#FFFFFF">
+				<xs:annotation>
+					<xs:documentation>设置缺省Cell颜色，引用Color定义里面的ID</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defaultFontID" type="xs:int" use="optional">
+				<xs:annotation>
+					<xs:documentation>缺省使用的字体，引用Font定义里面的ID</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="body">
+		<xs:annotation>
+			<xs:documentation>显示主体部分</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="row" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="colnum" type="xs:int" use="required">
+				<xs:annotation>
+					<xs:documentation>总列数</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="rownum" type="xs:int" use="required">
+				<xs:annotation>
+					<xs:documentation>总行数</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defaultColor" type="xs:string" use="optional" default="#FFFFFF">
+				<xs:annotation>
+					<xs:documentation>设置缺省Cell颜色，引用Color定义里面的ID</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="defaultFontID" type="xs:int" use="optional">
+				<xs:annotation>
+					<xs:documentation>缺省使用的字体，引用Font定义里面的ID</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+			<xs:attribute name="hasTotalRow" type="xs:boolean" use="optional" default="false"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="printInformation">
+		<xs:annotation>
+			<xs:documentation>打印信息</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="header">
+					<xs:complexType>
+						<xs:attribute name="left" type="xs:string" use="required"/>
+						<xs:attribute name="middle" type="xs:string" use="required"/>
+						<xs:attribute name="right" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="footer">
+					<xs:complexType>
+						<xs:attribute name="left" type="xs:string" use="required"/>
+						<xs:attribute name="middle" type="xs:string" use="required"/>
+						<xs:attribute name="right" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

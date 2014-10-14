@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by rth77 (rth77) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="userinit">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="users" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="user" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="property" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>属性值对</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:attribute name="key" type="xs:string" use="required">
+													<xs:annotation>
+														<xs:documentation>属性值对，可能的属性有：
+1---name (必填项)
+2---password  (必填项)
+3---roleName  (必填项)
+4---enterpriseName  (必填项)
+5---lawPersionCode  (必填项)
+6---lawPersionName  (必填项)
+7---lawPersionPhone  (必填项)
+8---contactPersionName  (必填项)
+9---contactPersionPhone  (必填项)
+10---contactPersionMobile
+11---contactAddress  (必填项)
+12---postcode  (必填项)
+13---email  (必填项)
+14---fax  (必填项)
+15---flag  (布尔值 true 或 false  必填项)
+16---memo
+</xs:documentation>
+													</xs:annotation>
+												</xs:attribute>
+												<xs:attribute name="value" type="xs:string" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="groups" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="group" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="member" minOccurs="0" maxOccurs="unbounded">
+											<xs:complexType>
+												<xs:attribute name="userName" type="xs:string" use="required"/>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="name" type="xs:string" use="required"/>
+									<xs:attribute name="flag" type="xs:boolean"/>
+									<xs:attribute name="memo" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+				<xs:element name="roles" minOccurs="0">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="role" maxOccurs="unbounded">
+								<xs:complexType>
+									<xs:attribute name="name" type="xs:string" use="required"/>
+									<xs:attribute name="userRights" type="xs:string" use="required"/>
+									<xs:attribute name="flag" type="xs:boolean"/>
+									<xs:attribute name="memo" type="xs:string"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

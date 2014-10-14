@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="gb2312"?>
+<!-- edited with XMLSPY v5 rel. 4 U (http://www.xmlspy.com) by rth77 (rth77) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="selsum">
+		<xs:annotation>
+			<xs:documentation>选择汇总方案</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="scriptglobalcondition" minOccurs="0"/>
+				<xs:element ref="script" minOccurs="0"/>
+				<xs:element ref="node" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="idprefix" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="node">
+		<xs:annotation>
+			<xs:documentation>选择汇总节点</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="node" minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:attribute name="id" type="xs:string" use="required"/>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+			<xs:attribute name="logicexpr" type="xs:string" use="required">
+				<xs:annotation>
+					<xs:documentation>选择单位的逻辑表达式</xs:documentation>
+				</xs:annotation>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="script" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>公共脚本</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+	<xs:element name="scriptglobalcondition" type="xs:string">
+		<xs:annotation>
+			<xs:documentation>审核大条件</xs:documentation>
+		</xs:annotation>
+	</xs:element>
+</xs:schema>

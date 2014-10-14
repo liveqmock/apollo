@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+
+<hibernate-mapping>
+
+<!--
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class
+    name="cn.com.youtong.apollo.usermanager.db.form.RoleForm"
+    table="YTAPL_Roles"
+>
+    <id
+        name="roleID"
+        type="int"
+        column="roleID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="name"
+        type="java.lang.String"
+        column="name"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="userRights"
+        type="java.lang.String"
+        column="userRights"
+        length="32"
+    />
+    <property
+        name="memo"
+        type="java.lang.String"
+        column="memo"
+        length="6000"
+    />
+    <property
+        name="dateCreated"
+        type="java.sql.Timestamp"
+        column="dateCreated"
+        length="23"
+    />
+    <property
+        name="dateModified"
+        type="java.sql.Timestamp"
+        column="dateModified"
+        length="23"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+
+    <!-- associations -->
+    <!-- bi-directional one-to-many association to YtaplUser -->
+    <set
+        name="users"
+        lazy="true"
+        inverse="true"
+    >
+        <key>
+            <column name="roleID" />
+        </key>
+        <one-to-many
+            class="cn.com.youtong.apollo.usermanager.db.form.UserForm"
+        />
+    </set>
+
+</class>
+</hibernate-mapping>

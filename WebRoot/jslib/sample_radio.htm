@@ -1,0 +1,44 @@
+<script type="text/javascript" src="xtree.js"></script>
+<script type="text/javascript" src="xmlextras.js"></script>
+<script type="text/javascript" src="xradiotree.js"></script>
+<script type="text/javascript">
+	var tree = new WebFXRadioTree('Root', false, "root");
+	tree.setBehavior('classic');
+	var a = new WebFXRadioTreeItem('1', false, "1");
+	tree.add(a);
+	var b = new WebFXRadioTreeItem('1.1', false, "1.1");
+	a.add(b);
+	b.add(new WebFXRadioTreeItem('1.1.1'));
+	b.add(new WebFXRadioTreeItem('1.1.2'));
+	b.add(new WebFXRadioTreeItem('1.1.3'));
+	var f = new WebFXRadioTreeItem('1.1.4');
+	b.add(f);
+	f.add(new WebFXRadioTreeItem('1.1.4.1'));
+	f.add(new WebFXRadioTreeItem('1.1.4.2'));
+	f.add(new WebFXRadioTreeItem('1.1.4.3'));
+	var c = new WebFXRadioTreeItem('1.2');
+	a.add(c);
+	c.add(new WebFXRadioTreeItem('1.5.1'));
+	c.add(new WebFXRadioTreeItem('1.5.2'));
+	c.add(new WebFXRadioTreeItem('1.5.3'));
+	a.add(new WebFXRadioTreeItem('1.3'));
+	a.add(new WebFXRadioTreeItem('1.4'));
+	a.add(new WebFXRadioTreeItem('1.5'));
+	var d = new WebFXRadioTreeItem('2');
+	tree.add(d);
+	var e = new WebFXRadioTreeItem('2.1');
+	d.add(e);
+	e.add(new WebFXRadioTreeItem('2.1.1'));
+	e.add(new WebFXRadioTreeItem('2.1.2'));
+	e.add(new WebFXRadioTreeItem('2.1.3'));
+	d.add(new WebFXRadioTreeItem('2.2'));
+	d.add(new WebFXRadioTreeItem('2.3'));
+	d.add(new WebFXRadioTreeItem('2.4'));
+	document.write(tree);
+
+	tree.setChecked(true);
+	b.setChecked(true);
+	alert(tree.getChecked());
+	alert(b.getChecked());
+	alert(tree.getCheckedValue());
+</script>

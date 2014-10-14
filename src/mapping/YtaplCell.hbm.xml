@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-2.0.dtd" >
+    
+<hibernate-mapping>
+
+<!-- 
+    Created by Middlegen Hibernate plugin
+
+    http://boss.bekk.no/boss/middlegen/
+    http://hibernate.sourceforge.net/
+-->
+
+<class 
+    name="cn.com.youtong.apollo.task.db.form.CellForm" 
+    table="YTAPL_Cells"
+>
+    <id
+        name="cellID"
+        type="int"
+        column="cellID"
+    >
+        <generator class="assigned" />
+    </id>
+    <property
+        name="dataType"
+        type="int"
+        column="dataType"
+        not-null="true"
+        length="10"
+    />
+    <property
+        name="dbfieldName"
+        type="java.lang.String"
+        column="DBFieldName"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="scalarName"
+        type="java.lang.String"
+        column="scalarName"
+        length="255"
+    />
+    <property
+        name="flag"
+        type="int"
+        column="flag"
+        not-null="true"
+        length="10"
+    />
+    <property
+        name="label"
+        type="java.lang.String"
+        column="labelName"
+        not-null="true"
+        length="255"
+    />
+    <property
+        name="width"
+        type="int"
+        column="width"
+        length="10"
+    />
+    <property
+        name="dictionaryID"
+        type="java.lang.String"
+        column="dictID"
+        length="255"
+    />
+    <property
+        name="reserved1"
+        type="java.lang.String"
+        column="reserved1"
+        length="255"
+    />
+    <property
+        name="reserved2"
+        type="java.lang.String"
+        column="reserved2"
+        length="255"
+    />
+    <property
+        name="reserved3"
+        type="java.lang.String"
+        column="reserved3"
+        length="255"
+    />
+    
+
+    <!-- associations -->
+    <!-- bi-directional many-to-one association to YtaplRow -->
+    <many-to-one
+        name="row"
+        class="cn.com.youtong.apollo.task.db.form.RowForm"
+        not-null="true"
+    >
+        <column name="idRow" />
+    </many-to-one>   
+
+</class>
+</hibernate-mapping>
