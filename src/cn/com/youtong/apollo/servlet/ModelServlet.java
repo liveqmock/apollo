@@ -397,7 +397,6 @@ public class ModelServlet extends RootServlet {
 		response.setCharacterEncoding("utf-8");
 //		String name = "冀东发展集团有限责任公司";
 		String idinfo = request.getParameter("taskID");
-		String aa = request.getParameter("name");
 		String name = new String(request.getParameter("name").getBytes("iso8859-1"),"utf-8");
 //		System.out.println("nameinfo----->"+nameinfo+"<-----");
 //		System.out.println("----->"+aa+"<-----");

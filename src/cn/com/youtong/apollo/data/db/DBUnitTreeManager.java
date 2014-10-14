@@ -19,8 +19,7 @@ import net.sf.hibernate.type.*;
 /**
  * UnitTreeManager的数据库实现
  */
-class DBUnitTreeManager
-	implements UnitTreeManager
+class DBUnitTreeManager	implements UnitTreeManager
 {
 	private Log log = LogFactory.getLog(DBUnitTreeManager.class);
 

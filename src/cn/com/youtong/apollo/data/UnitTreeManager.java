@@ -10,8 +10,7 @@ import cn.com.youtong.apollo.data.db.DBUnitTreeNode;
 /**
  * 单位树管理器
  */
-public interface UnitTreeManager
-{
+public interface UnitTreeManager{
 	/**
 	 * 根据给定的taskID 查找该任务中的所有的单位(以单位对象集合的形式返回)
 	 * 根据给的paramname  得到单元数据信息
@@ -20,7 +19,7 @@ public interface UnitTreeManager
 	 * @return 单位对象的集合
 	 * @throws HibernateException
 	 */
-	public List<DBUnitTreeNode> getAllUnitTreeNodes(String taskID,String paramname,UnitACL unitACL);
+	public List<DBUnitTreeNode>  getAllUnitTreeNodes(String taskID,String paramname,UnitACL unitACL);
 	/**
 	 * 判断单位是否存在
 	 * @param unitID 单位ID号
@@ -71,9 +70,16 @@ public interface UnitTreeManager
 	 * @throws ModelException
 	 */
 	public UnitTreeNode createUnit(String code, String name, String reportType,
-						   String parentCode, String HQCode, String p_Parent) throws
-		ModelException;
-
+						   String parentCode, String HQCode, String p_Parent) throws ModelException;
+	/**
+	 * 删除单位
+	 * @param id 单位id
+	 * @throws ModelException
+	 */
+	public void deleteUnit(String id) throws ModelException;
+	
+	//取得单位树下的所有单位
+	public void getUnits(UnitTreeNode node, Map map);
 	/**
 	 * 更新单位
 	 * @param unitID 单位id
@@ -89,15 +95,5 @@ public interface UnitTreeManager
 	public UnitTreeNode updateUnit(String unitID, String code, String name,
 						   String reportType, String parentCode, String HQCode,
 						   String p_Parent,int display) throws ModelException;
-
-	/**
-	 * 删除单位
-	 * @param id 单位id
-	 * @throws ModelException
-	 */
-	public void deleteUnit(String id) throws ModelException;
-	
-	//取得单位树下的所有单位
-	public void getUnits(UnitTreeNode node, Map map);
 
 }
