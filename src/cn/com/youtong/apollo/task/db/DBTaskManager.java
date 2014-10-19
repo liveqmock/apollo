@@ -1,26 +1,72 @@
 package cn.com.youtong.apollo.task.db;
 
-import java.io.*;
-import java.sql.*;
-import java.util.*;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.Reader;
+import java.io.StringReader;
+import java.io.UnsupportedEncodingException;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Collection;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.StringTokenizer;
 
-import org.apache.commons.logging.*;
-import cn.com.youtong.apollo.common.*;
-import cn.com.youtong.apollo.common.sql.*;
-import cn.com.youtong.apollo.data.*;
-import cn.com.youtong.apollo.data.db.*;
-import cn.com.youtong.apollo.data.form.*;
-import cn.com.youtong.apollo.services.*;
-import cn.com.youtong.apollo.task.*;
+import net.sf.hibernate.Hibernate;
+import net.sf.hibernate.HibernateException;
+import net.sf.hibernate.LockMode;
+import net.sf.hibernate.Query;
+import net.sf.hibernate.Session;
+import net.sf.hibernate.Transaction;
+import net.sf.hibernate.type.Type;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+
+import cn.com.youtong.apollo.common.Convertor;
+import cn.com.youtong.apollo.common.sql.HibernateUtil;
+import cn.com.youtong.apollo.common.sql.NameGenerator;
+import cn.com.youtong.apollo.common.sql.SQLUtil;
+import cn.com.youtong.apollo.data.ModelManagerFactory;
+import cn.com.youtong.apollo.data.db.DBModelHelper;
+import cn.com.youtong.apollo.data.form.TableInfo;
+import cn.com.youtong.apollo.services.Config;
+import cn.com.youtong.apollo.services.Factory;
+import cn.com.youtong.apollo.task.Script;
 import cn.com.youtong.apollo.task.ScriptSuit;
 import cn.com.youtong.apollo.task.Task;
-import cn.com.youtong.apollo.task.db.form.*;
-import cn.com.youtong.apollo.task.xml.*;
+import cn.com.youtong.apollo.task.TaskException;
+import cn.com.youtong.apollo.task.TaskManager;
+import cn.com.youtong.apollo.task.TaskTime;
+import cn.com.youtong.apollo.task.db.form.RowForm;
+import cn.com.youtong.apollo.task.db.form.ScriptForm;
+import cn.com.youtong.apollo.task.db.form.ScriptSuitForm;
+import cn.com.youtong.apollo.task.db.form.TableForm;
+import cn.com.youtong.apollo.task.db.form.TableViewForm;
+import cn.com.youtong.apollo.task.db.form.TaskForm;
+import cn.com.youtong.apollo.task.db.form.TaskTimeForm;
+import cn.com.youtong.apollo.task.xml.AuditCrossTable;
+import cn.com.youtong.apollo.task.xml.AuditInTable;
+import cn.com.youtong.apollo.task.xml.CalculateCrossTable;
+import cn.com.youtong.apollo.task.xml.CalculateInTable;
+import cn.com.youtong.apollo.task.xml.ScriptEntry;
 import cn.com.youtong.apollo.task.xml.Sequence;
-import net.sf.hibernate.*;
-import net.sf.hibernate.type.*;
-import org.apache.fulcrum.factory.*;
-import cn.com.youtong.apollo.services.Factory;
 
 /**
  * TaskManager的数据库实现
@@ -49,7 +95,9 @@ public class DBTaskManager
 	 * key/value=task.id()/task。
 	 */
 	private Map taskMap = new Hashtable();
-
+	private Map taskFormMap = new Hashtable();
+	/** 根据主键查找TaskTime是否存在(Task对于的表硬编码为Ytapl_Tasks)和Tasktime时间 */
+	private static String SELECT_TASKTIME_BY_ID = "SELECT COUNT(*) FROM  ytapl_tasktimes where taskID = (select taskid from ytapl_tasks where strid = ?)  and beginTime like ?";
 	/** 根据主键查找Task是否存在(Task对于的表硬编码为Ytapl_Tasks) */
 	private static String SELECT_TASK_BY_ID = "SELECT COUNT(*) FROM Ytapl_Tasks WHERE taskID=?";
 	/** 根据String型id查找Task是否存在(Task对于的表硬编码为Ytapl_Tasks) */
@@ -120,6 +168,7 @@ public class DBTaskManager
 
 				// cache task
 				taskMap.put(task.id(), task);
+				taskFormMap.put(task.id(), temp);
 			}
 		}
 		catch(HibernateException e)
@@ -225,9 +274,7 @@ public class DBTaskManager
 	 * @throws TaskException
 	 * @see cn.com.youtong.apollo.task.TaskManager#getTaskByID(java.lang.String)
 	 */
-	public Task getTaskByID(String id)
-		throws TaskException
-	{
+	public Task getTaskByID(String id)throws TaskException{
 		// 返回缓存中的task
 		Task task = (Task) taskMap.get(id);
 		if(task == null)
@@ -236,7 +283,15 @@ public class DBTaskManager
 		}
 		return task;
 	}
-
+	public TaskForm getTaskFormByID(String id) throws TaskException{
+		// 返回缓存中的task
+		TaskForm task = (TaskForm)taskFormMap.get(id);
+		if(task == null)
+		{
+			throw new TaskException("指定的任务Form不存在[taskID=" + id + "]");
+		}
+		return task;
+	}
 	/**
 	 * 得到指定的任务
 	 * @param taskID 任务id
@@ -979,6 +1034,148 @@ public class DBTaskManager
 			HibernateUtil.close(session);
 		}
 		return result;
+	}
+	/**
+	 * 判断任务时间是否在数据库中存在
+	 *
+	 * @param taskID  任务id
+	 * @param session  hibernate会话
+	 * @return 存在返回true；否则false
+	 * @throws HibernateException  发生hibernate异常
+	 */
+	private boolean isTaskTimeDefined(String taskID,Integer year, Session session) throws HibernateException{
+		Connection con = session.connection();
+		PreparedStatement ps = null;
+		ResultSet rs = null;
+		try{
+			ps = con.prepareStatement(SELECT_TASKTIME_BY_ID);
+			ps.setString(1, taskID);
+			ps.setString(2, "%"+year+"%");
+			rs = ps.executeQuery();
+			rs.next();
+			int count = rs.getInt(1);
+			return count > 0;
+		}
+		catch(SQLException sqle){
+			throw new HibernateException(sqle);
+		}
+		finally{
+			if(rs != null){
+				try
+				{
+					rs.close();
+				}
+				catch(Exception ex)
+				{}
+			}
+			if(ps != null){
+				try{
+					ps.close();
+				}
+				catch(SQLException ex)
+				{}
+			}
+		}
+	}
+	public static void main(String[] args) {
+		try {
+			for (int i = 0; i < 12; i++) {
+				
+				
+//				TaskTimeForm tasktimeform = new TaskTimeForm();
+				/*
+				tasktimeform.setBeginTime(cal.get(Calendar.JANUARY));
+				tasktimeform.setEndTime(submitBeginTime);
+				tasktimeform.setSubmitBeginTime(submitBeginTime);
+				tasktimeform.setSubmitEndTime(submitBeginTime);
+				tasktimeform.setAttentionBeginTime(attentionBeginTime);
+				tasktimeform.setAttentionEndTime(attentionEndTime);
+				tasktimeform.setFlag(0);
+				session.save(tasktimeform);
+				*/
+			}	
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	private List<TaskTime> createTaskTime(String taskID,int year,Session session) throws TaskException{
+		List<TaskTime> list = null;
+		try {
+			Transaction tx = session.beginTransaction();
+			for (int i = 0; i < 12; i++) {
+				Calendar calendar = Calendar.getInstance();
+				calendar.set(Calendar.YEAR, year);
+				calendar.set(Calendar.MONTH, i);
+				calendar.set(Calendar.DATE, 1);
+				calendar.set(Calendar.HOUR_OF_DAY, 0);  
+				calendar.set(Calendar.MINUTE, 0);  
+				calendar.set(Calendar.SECOND, 0); 
+				TaskTimeForm tasktimeform = new TaskTimeForm();
+				calendar.set(Calendar.DATE, calendar.getActualMinimum(Calendar.DAY_OF_MONTH));  
+				tasktimeform.setBeginTime(calendar.getTime());
+				tasktimeform.setSubmitBeginTime(calendar.getTime());
+				tasktimeform.setAttentionBeginTime(calendar.getTime());
+				calendar.set(Calendar.DATE, calendar.getActualMaximum(Calendar.DAY_OF_MONTH));  
+				tasktimeform.setEndTime(calendar.getTime());
+				tasktimeform.setSubmitEndTime(calendar.getTime());
+				tasktimeform.setAttentionEndTime(calendar.getTime());
+				tasktimeform.setFlag(0);
+				tasktimeform.setTaskTimeID(Integer.parseInt(year+""+i));
+//				System.out.println("<------1125------->");
+				tasktimeform.setTask(getTaskFormByID(taskID));
+				session.save(tasktimeform);
+				tx.commit();
+			}	
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+			log.error("创建任务时间",e);
+		}
+		return list;
+	}
+	
+	 /**
+     * 创建任务时间
+     * @param taskID 任务ID
+     * @param year 任务时间
+     * @return 已经创建人任务时间
+     * @throws TaskException 已经创建人任务时间失败
+     */
+	public List<TaskTime> publishTaskTime(String taskID, int year) throws TaskException {
+		// TODO Auto-generated method stub
+		Session session = null;
+		
+		
+		try {
+			session = HibernateUtil.getSessionFactory().openSession();
+//			tx = session.beginTransaction();
+			boolean flag = this.isTaskTimeDefined(taskID, year, session);
+			if (!flag) {
+				//创建tasktime
+				this.createTaskTime(taskID, year, session);
+//				tx.commit();
+			}
+		} catch (Exception ex) {
+			ex.printStackTrace();
+			String message = "创建任务时间失败";
+			/*if(tx != null)
+			{
+				try{
+					tx.rollback();
+				}
+				catch(HibernateException ex1){
+					log.error(message,ex1);
+				}
+			}*/
+			log.error(message, ex);
+			throw new TaskException(message, ex);
+		}finally{
+			HibernateUtil.close(session);
+		}
+		// 更新缓存中对应的task
+		putCache(taskID);
+		return null;
 	}
 
 	/**

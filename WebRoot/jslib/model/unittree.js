@@ -24,7 +24,6 @@ var findunit = function(){
 		  }
 		});
 	}else{
-		alert(27);
 		location.reload();
 	}
 	

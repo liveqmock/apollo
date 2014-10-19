@@ -48,7 +48,15 @@ public interface TaskManager
      */
     Task publishTask(InputStream xmlInputStream)
             throws TaskException;
-
+    /**
+     * 创建任务时间
+     * @param taskID 任务ID
+     * @param year 任务时间
+     * @return 已经创建人任务时间
+     * @throws TaskException 发布脚本组失败
+     */
+    public List<TaskTime> publishTaskTime(String taskID,int year)throws
+    TaskException;
     /**
      * 发布脚本组，如果存在，覆盖
      * @param taskID 任务ID
