@@ -505,7 +505,7 @@ class DBDataHandler
 			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
 			String content =oneUnitData.toString();
 			ByteArrayInputStream in = new ByteArrayInputStream(content.getBytes("gb2312"));
-
+//			System.out.println(content);
 			String cnt =DBAnalyseHelper.queryDraft(unitID, getTask().id(), taskTime.getTaskTimeID().intValue());
 			if(cnt!=null) DBAnalyseHelper.delDraft(unitID, getTask().id(), taskTime.getTaskTimeID().intValue());
 			if(isUpload){
@@ -528,6 +528,7 @@ class DBDataHandler
 		}
 		catch (Exception ex)
 		{
+			ex.printStackTrace();
 			log.error("保存单位数据发生异常", ex);
 			throw new SAXException("保存单位数据发生异常", ex);
 		}

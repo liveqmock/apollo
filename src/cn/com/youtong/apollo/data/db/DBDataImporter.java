@@ -1,37 +1,63 @@
 package cn.com.youtong.apollo.data.db;
 
 // java
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-import java.util.*;
+import java.util.Collection;
+import java.util.Date;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Properties;
+import java.util.ResourceBundle;
+
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
-import org.xml.sax.*;
-import org.xml.sax.helpers.DefaultHandler;
-// hibernate
+
 import net.sf.hibernate.HibernateException;
 import net.sf.hibernate.Session;
 import net.sf.hibernate.Transaction;
 
-// apache
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
-// apollo
-import cn.com.youtong.apollo.common.*;
-import cn.com.youtong.apollo.common.mail.*;
+import cn.com.youtong.apollo.common.Convertor;
+import cn.com.youtong.apollo.common.Util;
+import cn.com.youtong.apollo.common.mail.Mail;
 import cn.com.youtong.apollo.common.sql.HibernateUtil;
 import cn.com.youtong.apollo.common.sql.SQLUtil;
-import cn.com.youtong.apollo.data.*;
-import cn.com.youtong.apollo.notify.*;
+import cn.com.youtong.apollo.data.DataImporter;
+import cn.com.youtong.apollo.data.DataSource;
+import cn.com.youtong.apollo.data.DataStatus;
+import cn.com.youtong.apollo.data.LoadResult;
+import cn.com.youtong.apollo.data.ModelException;
+import cn.com.youtong.apollo.data.TaskData;
+import cn.com.youtong.apollo.data.UnitACL;
+import cn.com.youtong.apollo.data.UnitPermission;
+import cn.com.youtong.apollo.data.UnitPermissionManager;
+import cn.com.youtong.apollo.notify.Message;
+import cn.com.youtong.apollo.notify.NotifyException;
+import cn.com.youtong.apollo.notify.NotifyService;
 import cn.com.youtong.apollo.script.AuditResult;
 import cn.com.youtong.apollo.script.ScriptEngine;
 import cn.com.youtong.apollo.script.ScriptException;
-import cn.com.youtong.apollo.services.*;
-import cn.com.youtong.apollo.task.*;
-import cn.com.youtong.apollo.usermanager.*;
+import cn.com.youtong.apollo.services.Config;
+import cn.com.youtong.apollo.task.Script;
+import cn.com.youtong.apollo.task.ScriptSuit;
+import cn.com.youtong.apollo.task.Task;
+import cn.com.youtong.apollo.task.TaskException;
+import cn.com.youtong.apollo.task.TaskTime;
+import cn.com.youtong.apollo.usermanager.Group;
+import cn.com.youtong.apollo.usermanager.SetOfPrivileges;
+import cn.com.youtong.apollo.usermanager.User;
 
 
 /**
@@ -130,7 +156,49 @@ class DBDataImporter implements DataImporter
 			}
 		}
 	}
-
+	//写入文件
+	public void inputStreamToString(String str){
+		 String path="e://a.txt";   
+         try {   
+              FileWriter fw=new FileWriter(path,true);   
+              BufferedWriter bw=new BufferedWriter(fw);   
+              bw.newLine();   
+  bw.write(str);     
+  bw.close();  
+   fw.close();   
+       } catch (IOException e) {   
+            // TODO Auto-generated catch block   
+           e.printStackTrace();   
+        }   
+	}
+	//inputstream2string
+	public static String convertStreamToString(InputStream is) {      
+        /*  
+          * To convert the InputStream to String we use the BufferedReader.readLine()  
+          * method. We iterate until the BufferedReader return null which means  
+          * there's no more data to read. Each line will appended to a StringBuilder  
+          * and returned as String.  
+          */     
+         BufferedReader reader = new BufferedReader(new InputStreamReader(is));      
+         StringBuilder sb = new StringBuilder();      
+     
+         String line = null;      
+        try {      
+            while ((line = reader.readLine()) != null) {      
+                 sb.append(line + "\n");      
+             }      
+         } catch (IOException e) {      
+             e.printStackTrace();      
+         } finally {      
+            try {      
+                 is.close();      
+             } catch (IOException e) {      
+                 e.printStackTrace();      
+             }      
+         }      
+     
+        return sb.toString();      
+     }
 	/**
 	 * 单纯只是为了保存数据，不发送消息，
 	 * @param xmlInputStream
@@ -144,7 +212,11 @@ class DBDataImporter implements DataImporter
 		beginLoad = new Date();
 
 		DBDataHandler handler = new DBDataHandler( acl, task, treeManager );
-
+//		String string = this.convertStreamToString(xmlInputStream);
+//		System.out.println("===========");
+////		System.out.println(string);
+//		inputStreamToString(string);
+//		System.out.println("==========");
 		if (acl.getUser().getRole().getPrivileges().getPrivilege(
 			SetOfPrivileges.FORCE_IMPORT_OVERDUE_DATA))
 		{
@@ -154,7 +226,7 @@ class DBDataImporter implements DataImporter
 		SAXParserFactory factory = SAXParserFactory.newInstance();
 
 		SAXParser saxParser;
-
+		
 		try
 		{
 			saxParser = factory.newSAXParser();
@@ -175,6 +247,7 @@ class DBDataImporter implements DataImporter
 		catch( Exception ex )
 		{
 			log.error("", ex );
+			ex.printStackTrace();
 			throw new ModelException( ex );
 		}
 		finally

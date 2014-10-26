@@ -691,6 +691,7 @@ class DBDataStorer
 				}
 				catch( SQLException ex )
 				{
+					ex.printStackTrace();
 					log.error( "保存附件发生SQL异常", ex );
 				throw new SAXException( "保存附件发生SQL异常", ex );
 				}
@@ -830,6 +831,7 @@ class DBDataStorer
 
 				//创建附件
 				pst = con.prepareStatement( insertSql );
+//				System.out.println("833=======>"+insertSql);
 				pst.setString( 1, unitID );
 				pst.setInt( 2, getTaskTime().getTaskTimeID().intValue() );
 				pst.setString( 3, attachmentName );

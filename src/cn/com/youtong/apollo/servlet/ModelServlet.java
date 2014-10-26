@@ -18,6 +18,8 @@ import cn.com.youtong.apollo.serialization.*;
 import cn.com.youtong.apollo.services.*;
 import cn.com.youtong.apollo.servlet.unittree.AddressInfoTree;
 import cn.com.youtong.apollo.task.*;
+import cn.com.youtong.apollo.task.db.DBTaskManager;
+import cn.com.youtong.apollo.task.db.DBTaskTime;
 import cn.com.youtong.apollo.usermanager.*;
 
 import com.alibaba.fastjson.JSONArray;
@@ -386,6 +388,11 @@ public class ModelServlet extends RootServlet {
 
 	//查询组织单元树形结构
 	public static final String SHOW_UNITTREE_BY_NAMEORCODE="showUnitTreeByNameOrCode";
+	
+	
+	
+	
+	
 	/**
 	 * 根据输入的查询条件返回对应的树形列表
 	 * @throws HibernateException 
@@ -393,6 +400,20 @@ public class ModelServlet extends RootServlet {
 	private void showUnitTreeByNameOrCode(HttpServletRequest request,
 			HttpServletResponse response) throws Warning, IOException,
 			ServletException {
+		
+		TaskManager taskMng = ( (TaskManagerFactory) Factory.getInstance(
+				TaskManagerFactory.class.getName())).createTaskManager();
+//		taskMng = new DBTaskManager();
+		
+//		taskMng.publishTaskTime("NEWQYKB", 2014);
+		
+		/*Task t = taskMng.getTaskByID("NEWQYKB");
+		Iterator i = t.getTaskTimes();
+		while (i.hasNext()) {
+			DBTaskTime elem = (DBTaskTime) i.next();
+			System.out.println(elem.getFromTime()+"-----"+elem.getTaskTimeID());
+		}*/
+//		request.setAttribute("task", t);
 		request.setCharacterEncoding("GBK");
 		response.setCharacterEncoding("utf-8");
 //		String name = "冀东发展集团有限责任公司";
@@ -2109,7 +2130,10 @@ public class ModelServlet extends RootServlet {
 				.getInstance(TaskManagerFactory.class.getName()))
 				.createTaskManager();
 		String taskID = (String) request.getSession().getAttribute("taskID");
-
+//		taskManager = new DBTaskManager();
+		Task t = taskManager.getTaskByID(taskID);
+		TaskTime tt = t.getTaskTime(565);
+//		System.out.println("task time =!!!===>"+tt);
 		request.setAttribute("task", taskManager.getTaskByID(taskID));
 
 		String operation = request.getParameter("operation");
@@ -2528,7 +2552,7 @@ public class ModelServlet extends RootServlet {
 		resultBuf.append("</taskModel>");
 
 		//@todo将数据保存
-		System.out.println(resultBuf.toString());
+//		System.out.println(resultBuf.toString());
 
 	}
 
