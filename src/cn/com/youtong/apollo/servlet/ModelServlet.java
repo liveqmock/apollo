@@ -23,6 +23,7 @@ import cn.com.youtong.apollo.task.db.DBTaskTime;
 import cn.com.youtong.apollo.usermanager.*;
 
 import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.jspsmart.upload.File;
 import com.lowagie.text.*;
 import com.lowagie.text.html.*;
@@ -55,6 +56,8 @@ import cn.com.youtong.apollo.data.UnitPermissionManager;
 import org.apache.struts.upload.MultipartRequestWrapper;
 import cn.com.youtong.apollo.data.help.AttachModel;
 import cn.com.youtong.apollo.data.help.AttachManager;
+import cn.com.youtong.apollo.expand.dao.UnitMetaTableDao;
+import cn.com.youtong.apollo.expand.entity.UnitMetaFormInfoEntity;
 import cn.com.youtong.apollo.common.sql.NameGenerator;
 import cn.com.youtong.apollo.analyse.db.*;
 //import cn.com.youtong.apollo.data.ShowReportUtil;
@@ -389,10 +392,64 @@ public class ModelServlet extends RootServlet {
 	//查询组织单元树形结构
 	public static final String SHOW_UNITTREE_BY_NAMEORCODE="showUnitTreeByNameOrCode";
 	
+	//根据UNITID查询封面表中的组织单元
+	public static final String LOAD_UNITDATA_BY_UNITID = "loadDataByUnitid";
 	
-	
-	
-	
+	//根据UNITID保存封面表中的组织单元
+	public static final String SAVE_UNITDATA_BY_UNITID = "saveUnitByUnitid";
+	/**
+	 *更新封面表中的组织单元 
+	 **/
+	private void saveUnitByUnitid(HttpServletRequest request,
+			HttpServletResponse response) throws Warning, IOException,
+			ServletException {
+		request.setCharacterEncoding("GBK");
+		response.setCharacterEncoding("utf-8");
+		String jsonstr = "{failure:true}";
+		try {
+			String unitid = request.getParameter("unitid");
+			String qymc = new String(request.getParameter("qymc").getBytes("iso8859-1"),"utf-8");
+			String lxdh = new String(request.getParameter("lxdh").getBytes("iso8859-1"),"utf-8");
+			String zbr = new String(request.getParameter("zbr").getBytes("iso8859-1"),"utf-8");
+			String qh = new String(request.getParameter("qh").getBytes("iso8859-1"),"utf-8");
+			String fj = new String(request.getParameter("fj").getBytes("iso8859-1"),"utf-8");
+			UnitMetaFormInfoEntity umfie = new UnitMetaFormInfoEntity();
+			umfie.setUnitid(unitid);
+			umfie.setQymc(qymc);
+			umfie.setLxdh(lxdh);
+			umfie.setZbr(zbr);
+			umfie.setQh(qh);
+			umfie.setFj(fj);
+			UnitMetaTableDao umtd = new UnitMetaTableDao();
+			umtd.updateUnitMetaForm(umfie);
+			jsonstr = "{success:true,data:"+jsonstr+"}";	
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		response.getWriter().print(jsonstr);
+		response.getWriter().flush();	
+		
+	}
+	/**
+	 *根据封面表中的组织单元 
+	 **/
+	private void loadDataByUnitid(HttpServletRequest request,
+			HttpServletResponse response) throws Warning, IOException,
+			ServletException {
+//		request.setCharacterEncoding("GBK");
+		response.setCharacterEncoding("utf-8");
+		String str = request.getParameter("unitid");
+//		System.out.println("str==========>"+str);
+		UnitMetaTableDao umtd = new UnitMetaTableDao();
+		UnitMetaFormInfoEntity umte = umtd.findUnitMetaByUnitid(str);
+		String jsonstr = JSONObject.toJSONString(umte);
+//		System.out.println("======>"+jsonstr);
+		jsonstr = "{success:true,data:"+jsonstr+"}";
+		response.getWriter().print(jsonstr);
+		response.getWriter().flush();	
+		
+	}
 	/**
 	 * 根据输入的查询条件返回对应的树形列表
 	 * @throws HibernateException 
@@ -2140,9 +2197,13 @@ public class ModelServlet extends RootServlet {
 
 		if (operation == null) {
 			throw new Warning("无效的参数operation = " + operation);
-		}
-
-		else if (operation.equalsIgnoreCase(UPLOAD_ATTACH)) {
+		}else if(operation.equalsIgnoreCase(SAVE_UNITDATA_BY_UNITID)){
+			saveUnitByUnitid(request, response);
+			return;
+		}else if(operation.equalsIgnoreCase(LOAD_UNITDATA_BY_UNITID)){
+			loadDataByUnitid(request, response);
+			return;
+		} else if (operation.equalsIgnoreCase(UPLOAD_ATTACH)) {
 			uploadattach(request, response);
 			return;
 		} else if (operation.equalsIgnoreCase(LIST_ATTACH)) {

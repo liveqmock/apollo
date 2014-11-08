@@ -14,6 +14,13 @@
 <script type="text/javascript" src="../jslib/public.js"></script>
 <script type="text/javascript" src="../jslib/tabpane.js"></script>
 
+<script type="text/javascript" src="../jslib/ext/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="../jslib/ext/ext-all.js"></script>
+<script type="text/javascript" src="../jslib/ext/ui/Util.js"></script>
+<link rel="stylesheet" type="text/css" href="../jslib/ext/resources/css/ext-all.css">
+
+<script type="text/javascript" src="../jslib/jquery-1.5.1.min.js"></script>
+<script type="text/javascript" src="../jslib/model/editfmtable.js"></script>
 <SCRIPT LANGUAGE="JavaScript">
 <!--
  function downExcel(type)
@@ -169,6 +176,9 @@ body {
  <table  width=100% border=0>
                <tr>
                    <td align="right">
+
+<a href='#' onclick="openFmTable('<%=request.getParameter("unitID")%>')"><img src='../img/home.png' alt='编辑封面表' border="0" align="absmiddle" title='编辑封面表'></a>
+&nbsp;
 <%if(canEditor!=null&&canEditor.equals("1")){%>
 <a href='javascript:editData(1);'><img src='../img/qtsw.gif' alt='编辑数据' border="0" align="absmiddle" title='编辑数据'></a>
 &nbsp;
