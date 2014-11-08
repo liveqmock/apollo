@@ -344,8 +344,16 @@ function setTabIndex(index){
 <%
 if(operation.equals(SystemOperationServlet.SHOW_USER_ADD) || operation.equals(SystemOperationServlet.SHOW_USER_MODIFY))
 {
+	String hidden = "display:hidden";
+	if(operation.equals(SystemOperationServlet.SHOW_USER_ADD)){
+		out.print("<div style=\"display:none\" >");
+	}else{
+		out.print("<div  class=\"tab-page\">");
+	}
 %>
-     <div class="tab-page">
+<!-- 
+     <div  class="tab-page">
+      -->
         <h2 class="tab">ื้&nbsp;</h2>
 
              <table width="100%">

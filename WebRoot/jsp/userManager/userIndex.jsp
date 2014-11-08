@@ -23,6 +23,8 @@
 <link rel="stylesheet" type="text/css" href="../csslib/main.css">
 <script Language="JavaScript" src="../jslib/floatbutton.js"></script>
 <script Language="JavaScript" src="../jslib/optionfunction.js"></script>
+<script Language="JavaScript" src="../jslib/user/user.js"></script>
+
 
 <script language="JavaScript">
 function addUser()
