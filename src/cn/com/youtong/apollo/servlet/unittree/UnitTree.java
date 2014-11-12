@@ -316,6 +316,7 @@ abstract public class UnitTree
             UnitTreeNode tempNode = (UnitTreeNode) unitTreeNodes.next();
             boolean isShow =false;
             if((treeStyle().equals(CHECKBOX_XLOAD_TREE))||(!treeStyle().equals(CHECKBOX_XLOAD_TREE)&&tempNode.getDisplay()==1)) isShow=true;
+            
             if(isShow){
 	            String treeName = "tree" + i;
 				result.append( "var " )
@@ -384,11 +385,10 @@ abstract public class UnitTree
         result.append( "function getCheckedValues" )
 			.append( (postFix == null ? "" : postFix) )
 			.append( "()\r\n{\r\n result = new Array();\r\n" );
-        for (int j = 1; j <= i; j++)
-        {
-            result.append( "result = result.concat(tree" )
-				.append( j )
-				.append( ".getCheckedValue());\r\n" );
+        for (int j = 1; j <= i; j++){
+        	result.append("if(typeof tree").append(j).append("!= 'undefined'){\r\n");
+            result.append( "result = result.concat(tree").append(j).append( ".getCheckedValue());\r\n" );
+            result.append("}");
         }
         result.append( "return result;\r\n}\r\n</script>\r\n" );
 

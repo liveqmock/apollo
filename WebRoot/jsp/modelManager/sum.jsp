@@ -20,6 +20,8 @@ String CTX_PATH= request.getContextPath();
 <script language= "javascript">
 function getTaskTimeid()
 {
+
+	//alert(document.getElementById("taskTimeIDSelect"));
     <%if(task.getTaskType() == task.REPORT_OF_MONTH){%>
       if(document.getElementById("taskTimeIDSelect").value=="")
       {
@@ -55,7 +57,7 @@ function adjustNodeDiff()
 {
 	if(document.all.dispinfo.style.display=="block") {alert('上一步处理还未结束');return;}
     var unitID = getCheckedValues();
-
+	
     if(unitID == null || unitID == "")
     {
         alert("请选择单位节点");
@@ -74,7 +76,7 @@ function adjustNodeDiff()
     {
         hasChild = (node.src !=null && node.src != "");
     }
-
+	
     if(!isGroupSumUnit(unitID))
     {
         alert("该节点不是集团合并表类型（9），无法调整差额表");
@@ -88,7 +90,9 @@ function adjustNodeDiff()
     }
 
     form1.operation.value = "<%= ModelServlet.ADJUST_NODE_DIFF %>";
+    //alert(91);
 	var taskTimeID= getTaskTimeid();
+	//alert(taskTimeID);
 	if(taskTimeID=="")
 		return;
 
