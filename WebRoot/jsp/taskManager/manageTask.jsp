@@ -7,6 +7,12 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=GB2312" />
+
+<script type="text/javascript" src="../jslib/ext/adapter/ext/ext-base.js"></script>
+<script type="text/javascript" src="../jslib/ext/ext-all.js"></script>
+<script type="text/javascript" src="../jslib/ext/ui/Util.js"></script>
+<link rel="stylesheet" type="text/css" href="../jslib/ext/resources/css/ext-all.css">
+
 <link href="../csslib/main.css" rel="stylesheet" type="text/css">
 <STYLE TYPE='text/css'>
 .parent {visibility:visible;MARGIN: 0px;BACKGROUND-COLOR: #f2f2f0}
@@ -91,6 +97,8 @@ var table_end = "</td></tr></table>"
           document.write(table_head+"<div id='p" + "<%=String.valueOf(i)%>" + "Parent'" + " class='parent'>");
           document.write("&nbsp;&nbsp;&nbsp;"+"<a class='clsMain' href='#' onClick=\"expandIt("+"'p<%=String.valueOf(i)%>'"+"); return false\">"+menuOn+"<%=task.getName()%>"+"</a>"+table_middle);
           document.write("<div id='p" + "<%=String.valueOf(i)%>" + "Child'" + " class='child'>");
+          
+          document.write(blank+"<font id='arrow"+"<%=String.valueOf(i)%>0'"+" color='#f2f2f0'>→</font>"+"<a class='clsChild' href=\"javascript:editFmTable("+"'<%=task.getName()%>'"+",'<%=task.id()%>'"+",'<%=String.valueOf(i)%>'"+")\">封面表管理<br>");
           document.write(blank+"<font id='arrow"+"<%=String.valueOf(i)%>1'"+" color='#f2f2f0'>→</font>"+"<a class='clsChild' href=\"javascript:addressInfoManager("+"'<%=task.getName()%>'"+",'<%=task.id()%>'"+",'<%=String.valueOf(i)%>'"+")\">催报管理</a><br>");
           document.write(blank+"<font id='arrow"+"<%=String.valueOf(i)%>2'"+" color='#f2f2f0'>→</font>"+"<a class='clsChild' href=\"javascript:unitManger("+"'<%=task.getName()%>'"+",'<%=task.id()%>'"+",'<%=String.valueOf(i)%>'"+")\">单位管理</a><br>");
           document.write(blank+"<font id='arrow"+"<%=String.valueOf(i)%>3'"+" color='#f2f2f0'>→</font>"+"<a class='clsChild' href=\"javascript:permissionManager("+"'<%=task.getName()%>'"+",'<%=task.id()%>'"+",'<%=String.valueOf(i)%>'"+")\">权限管理</a><br>");
@@ -100,7 +108,7 @@ var table_end = "</td></tr></table>"
           document.write(blank+"<font id='arrow"+"<%=String.valueOf(i)%>5'"+" color='#f2f2f0'>→</font>"+"<a class='clsChild' href=\"javascript:xsltManger("+"'<%=task.getName()%>'"+",'<%=task.id()%>'"+",'<%=String.valueOf(i)%>'"+")\">表样发布</a><br>");
           document.write(blank+"<font id='arrow"+"<%=String.valueOf(i)%>6'"+" color='#f2f2f0'>→</font>"+"<a class='clsChild' href=\"javascript:initPermissionManager("+"'<%=task.getName()%>'"+",'<%=task.id()%>'"+",'<%=String.valueOf(i)%>'"+")\">初始化权限</a><br>");
           document.write(blank+"<font id='arrow"+"<%=String.valueOf(i)%>9'"+" color='#f2f2f0'>→</font>"+"<a class='clsChild' href=\"javascript:newsManager("+"'<%=task.getName()%>'"+",'<%=task.id()%>'"+",'<%=String.valueOf(i)%>'"+")\">信息管理</a></div>"+table_end);
-
+		 
        　　　
     <%i++;}%>
 </script>　
@@ -164,7 +172,11 @@ function newsManager(taskName, taskID, index)
    url = "../news/shownewss.jsp?taskID="+taskID;
    taskFrame.location = encodeURI(url);
 }
-
+function editFmTable(taskName,taskID,index){
+   url = "../servlet/model?operation=<%=cn.com.youtong.apollo.servlet.ModelServlet.SHOW_UNITMETATABLE_INFO_PAGE%>";
+   url += "&managerTaskID="+taskID+"&managerTaskName="+encodeURIComponent(taskName);
+   taskFrame.location = encodeURI(url);
+}
 function addressInfoManager(taskName,taskID,index){
    setArrow(1,index);
    url = "../servlet/model?operation=<%=cn.com.youtong.apollo.servlet.ModelServlet.SHOW_ADDRESS_INFO_PAGE%>";

@@ -120,12 +120,21 @@ public class ModelServlet extends RootServlet {
 	/**
 	 * 页面常数 -- 报表数据节点汇总页面
 	 */
+	public static final String UNITMETATABLE_MANAGER_PAGE = "/jsp/modelManager/unitMetaTableManager.jsp";
+	
+	/**
+	 * 页面常数 -- 报表数据节点汇总页面
+	 */
 	public static final String ADDRESS_MANAGER_PAGE = "/jsp/modelManager/addressManager.jsp";
 
 	/**
 	 * 页面常数 -- 催报详细信息页面
 	 */
 	public static final String ADDRESS_INFO_PAGE = "/jsp/modelManager/addressInfo.jsp";
+	/**
+	 * 页面常数 -- 催报详细信息页面
+	 */
+	public static final String UNITMETA_INFO_PAGE = "/jsp/modelManager/unitMetaInfo.jsp";
 
 	/**
 	 * 页面常数 --
@@ -256,7 +265,12 @@ public class ModelServlet extends RootServlet {
 	 * 请求类型常量 -- 检查集团汇总节点单位下的所有节点汇总结果是否正确
 	 */
 	public static final String VALIDATE_NODE_SUM = "validateNodeSum";
-
+	
+	/**
+	 * 请求类型常量 -- 显示封面表信息管理页面
+	 */
+	public static final String SHOW_UNITMETATABLE_INFO_PAGE = "showUnitMetaTableInfoPage";
+	
 	/**
 	 * 请求类型常量 -- 显示催报信息管理页面
 	 */
@@ -271,7 +285,13 @@ public class ModelServlet extends RootServlet {
 	 * 请求类型常量 -- 根据任务id得到此任务的所有信息
 	 */
 	public static final String GET_ADDRESS_INFO_BYTASKID = "getAddressInfoByTaskID";
-
+	
+	/**
+	 * 请求类型常量 -- 根据任务id得到此任务的封面表数据信息
+	 */
+	public static final String GET_UNITMETA_INFO_BYTASKID = "getUnitMetaInfoByTaskID";
+	
+	
 	/**
 	 * 请求类型常量 -- 显示数据
 	 */
@@ -397,12 +417,12 @@ public class ModelServlet extends RootServlet {
 	
 	//根据UNITID保存封面表中的组织单元
 	public static final String SAVE_UNITDATA_BY_UNITID = "saveUnitByUnitid";
+	
 	/**
 	 *更新封面表中的组织单元 
 	 **/
-	private void saveUnitByUnitid(HttpServletRequest request,
-			HttpServletResponse response) throws Warning, IOException,
-			ServletException {
+	private void saveUnitByUnitid(HttpServletRequest request,HttpServletResponse response)
+		throws Warning, IOException,ServletException {
 		request.setCharacterEncoding("GBK");
 		response.setCharacterEncoding("utf-8");
 		String jsonstr = "{failure:true}";
@@ -413,6 +433,15 @@ public class ModelServlet extends RootServlet {
 			String zbr = new String(request.getParameter("zbr").getBytes("iso8859-1"),"utf-8");
 			String qh = new String(request.getParameter("qh").getBytes("iso8859-1"),"utf-8");
 			String fj = new String(request.getParameter("fj").getBytes("iso8859-1"),"utf-8");
+			
+			String jygm = new String(request.getParameter("jygm").getBytes("iso8859-1"),"utf-8");
+			String zzxs = new String(request.getParameter("zzxs").getBytes("iso8859-1"),"utf-8");
+			String xbys = new String(request.getParameter("xbys").getBytes("iso8859-1"),"utf-8");
+			String bblx = new String(request.getParameter("bblx").getBytes("iso8859-1"),"utf-8");
+			
+			String szdq = new String(request.getParameter("szdq").getBytes("iso8859-1"),"utf-8");
+			String sshy = new String(request.getParameter("sshy").getBytes("iso8859-1"),"utf-8");
+			
 			UnitMetaFormInfoEntity umfie = new UnitMetaFormInfoEntity();
 			umfie.setUnitid(unitid);
 			umfie.setQymc(qymc);
@@ -420,6 +449,15 @@ public class ModelServlet extends RootServlet {
 			umfie.setZbr(zbr);
 			umfie.setQh(qh);
 			umfie.setFj(fj);
+
+			umfie.setJygm(jygm);
+			umfie.setZzxs(zzxs);
+			umfie.setXbys(xbys);
+			umfie.setBblx(bblx);
+			
+			umfie.setSzdq(szdq);
+			umfie.setSshy(sshy);
+			
 			UnitMetaTableDao umtd = new UnitMetaTableDao();
 			umtd.updateUnitMetaForm(umfie);
 			jsonstr = "{success:true,data:"+jsonstr+"}";	
@@ -428,7 +466,7 @@ public class ModelServlet extends RootServlet {
 			e.printStackTrace();
 		}
 		response.getWriter().print(jsonstr);
-		response.getWriter().flush();	
+		response.getWriter().flush();
 		
 	}
 	/**
@@ -599,7 +637,25 @@ public class ModelServlet extends RootServlet {
 		request.setAttribute("taskID", taskID);
 		go2UrlWithAttibute(request, response, ADDRESS_INFO_PAGE);
 	}
-
+	/**
+	 * 显示管理封面表信息页面
+	 * @param request
+	 * @param response
+	 * @throws Warning
+	 * @throws IOException
+	 * @throws ServletException
+	 */
+	private void showUnitMetaTableInfoPage(HttpServletRequest request,
+			HttpServletResponse response) throws Warning, IOException,
+			ServletException {
+		TaskManager taskManager = ((TaskManagerFactory) Factory
+				.getInstance(TaskManagerFactory.class.getName()))
+				.createTaskManager();
+		request.setAttribute("taskItr", taskManager.getAllTasks());
+		UtilServlet.showUnitTree(request, response);
+		go2UrlWithAttibute(request, response, UNITMETATABLE_MANAGER_PAGE);
+	}
+	
 	/**
 	 * 显示管理催报信息页面
 	 * 
@@ -670,7 +726,39 @@ public class ModelServlet extends RootServlet {
 		request.setAttribute("flag", "true");
 		go2UrlWithAttibute(request, response, ADDRESS_INFO_PAGE);
 	}
-
+	/**
+	 * 根据任务ID得到封面表信息
+	 * 
+	 * @param request
+	 * @param response
+	 * @throws Warning
+	 * @throws IOException
+	 * @throws ServletException
+	 */
+	private void getUnitMetaInfoByTaskID(HttpServletRequest request,
+			HttpServletResponse response) throws Warning, IOException,
+			ServletException {
+		String taskID = request.getParameter("taskID");
+		String unitID = request.getParameter("unitID");
+		String unitName = java.net.URLDecoder.decode(request
+				.getParameter("unitName"), "utf8");
+		AddressInfoFormPK pk = new AddressInfoFormPK(taskID, unitID);
+		AddressInfoPK InterfacePK = new DBAddressInfoPK(pk);
+		AddressManager addressManager = ((AddressManagerFactory) Factory
+				.getInstance(AddressManagerFactory.class.getName()))
+				.createAddressManager();
+		AddressInfo addressInfo = null;
+		try {
+			addressInfo = addressManager.findByPK(InterfacePK);
+		} catch (AddressException ex) {
+		}
+		request.setAttribute("addressInfo", addressInfo);
+		request.setAttribute("taskID", taskID);
+		request.setAttribute("unitID", unitID);
+		request.setAttribute("unitName", unitName);
+		go2UrlWithAttibute(request, response, UNITMETA_INFO_PAGE);
+	}
+	
 	/**
 	 * 根据任务ID得到催报信息
 	 * 
@@ -2278,13 +2366,19 @@ public class ModelServlet extends RootServlet {
 		} else if (operation.equalsIgnoreCase(SHOW_ADDRESS_INFO_PAGE)) {
 			showAddressInfoPage(request, response);
 			return;
-		} else if (operation.equalsIgnoreCase(ADD_ADDRESS_INFO)) {
+		} else if(operation.equalsIgnoreCase(SHOW_UNITMETATABLE_INFO_PAGE)){
+			showUnitMetaTableInfoPage(request,response);
+			return;
+		}else if (operation.equalsIgnoreCase(ADD_ADDRESS_INFO)) {
 			addAddressInfo(request, response);
 			return;
 		} else if (operation.equalsIgnoreCase(GET_ADDRESS_INFO_BYTASKID)) {
 			getAddressInfoByTaskID(request, response);
 			return;
-		} else if (operation.equalsIgnoreCase(SHOW_DATA)) {
+		} else if(operation.equalsIgnoreCase(GET_UNITMETA_INFO_BYTASKID)){
+			getUnitMetaInfoByTaskID(request, response);
+			return;
+		}else if (operation.equalsIgnoreCase(SHOW_DATA)) {
 			showData(request, response);
 			return;
 		} else if (operation.equalsIgnoreCase(SHOW_DATA_MANAGER)) {

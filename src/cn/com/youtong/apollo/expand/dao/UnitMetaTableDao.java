@@ -26,14 +26,23 @@ public class UnitMetaTableDao {
 		PreparedStatement pst = null;
 		try {
 			conn = this.getConnection();
-			String sql  = "update ytapl_newqykb_fm set qymc=?,zbr=?,lxdh=?,qh=?,fj=? where unitid = ?";
+			String sql  = "update ytapl_newqykb_fm set qymc=?,zbr=?,lxdh=?,qh=?,fj=?,jygm=?,zzxs=?,xbys=?,bblx=?,szdq=?,sshy=? where unitid = ?";
 			pst = conn.prepareStatement(sql);
 			pst.setString(1, umfie.getQymc());
 			pst.setString(2, umfie.getZbr());
 			pst.setString(3, umfie.getLxdh());
 			pst.setString(4, umfie.getQh());
 			pst.setString(5, umfie.getFj());
-			pst.setString(6, umfie.getUnitid());
+			
+			pst.setString(6, umfie.getJygm());
+			pst.setString(7, umfie.getZzxs());
+			pst.setString(8, umfie.getXbys());
+			pst.setString(9, umfie.getBblx());
+			
+			pst.setString(10, umfie.getSzdq());
+			pst.setString(11, umfie.getSshy());
+			pst.setString(12, umfie.getUnitid());
+			
 			int count = pst.executeUpdate();
 			if (count>0) {
 				flag = true;
@@ -61,6 +70,7 @@ public class UnitMetaTableDao {
 			rs = pst.executeQuery();
 			while (rs.next()) {
 				umfie = new UnitMetaFormInfoEntity();
+				umfie.setJygm(rs.getString("jygm"));
 				umfie.setBblx(rs.getString("bblx"));
 				umfie.setFj(rs.getString("fj"));
 				umfie.setGjdm(rs.getString("gjdm"));
