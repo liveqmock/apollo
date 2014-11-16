@@ -35,6 +35,7 @@ function changeUnit(unitID,unitName){
      thisForm.unitID.value = unitID;
      thisForm.unitName.value = unitName;
      thisForm.submit();
+     document.getElementById('txtHeader').innerHTML=unitName;
 }
 </script>
 <body>
@@ -56,7 +57,7 @@ function changeUnit(unitID,unitName){
                          <table  valign=top width=100% height=100% bordercolordark="white" bordercolorlight="black">
                             <tr class="clsTrContext">
                               <td>
-                              	 <h1>&lt;-点击左侧单位名称，维护封面表信息</h1>
+                              	 <h1 id="txtHeader">&lt;-点击左侧单位名称，维护封面表信息</h1>
                                  <iframe name="addressInfo" width=100% FRAMEBORDER=0 height=100%></iframe>
                              </td>
                             </tr>
