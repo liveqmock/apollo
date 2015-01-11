@@ -1,0 +1,80 @@
+2014-10-19 10:39:09 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 10:39:09 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 10:39:12 ERROR FTPReceiver                    - 连接失败
+2014-10-19 10:39:12 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 10:39:14 ERROR FTPReceiver                    - 连接失败
+2014-10-19 10:39:14 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 10:59:09 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 10:59:09 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 10:59:11 ERROR FTPReceiver                    - 连接失败
+2014-10-19 10:59:11 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 10:59:14 ERROR FTPReceiver                    - 连接失败
+2014-10-19 10:59:14 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 11:53:43 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 11:53:43 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 11:53:46 ERROR FTPReceiver                    - 连接失败
+2014-10-19 11:53:46 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 11:53:48 ERROR FTPReceiver                    - 连接失败
+2014-10-19 11:53:48 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 13:13:38 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 13:13:39 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 13:13:41 ERROR FTPReceiver                    - 连接失败
+2014-10-19 13:13:41 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 13:13:44 ERROR FTPReceiver                    - 连接失败
+2014-10-19 13:13:44 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 14:07:17 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 14:07:17 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 14:07:18 ERROR FTPReceiver                    - 连接失败
+2014-10-19 14:07:18 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 14:07:18 ERROR FTPReceiver                    - 连接失败
+2014-10-19 14:07:18 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 14:27:17 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 14:27:17 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 14:27:20 ERROR FTPReceiver                    - 连接失败
+2014-10-19 14:27:20 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 14:27:22 ERROR FTPReceiver                    - 连接失败
+2014-10-19 14:27:22 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 19:43:44 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 19:43:44 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 19:43:47 ERROR FTPReceiver                    - 连接失败
+2014-10-19 19:43:47 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 19:43:50 ERROR FTPReceiver                    - 连接失败
+2014-10-19 19:43:50 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 20:03:44 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 20:03:44 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 20:03:47 ERROR FTPReceiver                    - 连接失败
+2014-10-19 20:03:47 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 20:03:49 ERROR FTPReceiver                    - 连接失败
+2014-10-19 20:03:49 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 20:23:44 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 20:23:44 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 20:23:47 ERROR FTPReceiver                    - 连接失败
+2014-10-19 20:23:47 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 20:23:49 ERROR FTPReceiver                    - 连接失败
+2014-10-19 20:23:49 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
+2014-10-19 20:43:44 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-19 20:43:44 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-19 20:43:47 ERROR FTPReceiver                    - 连接失败
+2014-10-19 20:43:47 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-19 20:43:49 ERROR FTPReceiver                    - 连接失败
+2014-10-19 20:43:49 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+

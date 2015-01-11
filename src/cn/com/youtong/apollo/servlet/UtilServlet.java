@@ -176,10 +176,7 @@ public class UtilServlet
    * @throws IOException
    * @throws Warning
    */
-  private synchronized void showTree(HttpServletRequest req,
-                                     HttpServletResponse res) throws
-      ServletException, IOException, Warning {
-
+  private synchronized void showTree(HttpServletRequest req,HttpServletResponse res) throws ServletException, IOException, Warning {
     //得到对象树
     String taskID = req.getParameter("taskID");
     String treeName = req.getParameter("treeName");
@@ -187,12 +184,10 @@ public class UtilServlet
     if (req.getParameter("checkedUnitIDs") != null) {
       checkedUnitIDs = req.getParameterValues("checkedUnitIDs");
     }
-    Object[] param = {
-        taskID};
+    Object[] param = {taskID};
     UnitTree tree = null;
     try {
-      tree = (UnitTree) Class.forName(treeName).getConstructors()[0].
-          newInstance(param);
+      tree = (UnitTree) Class.forName(treeName).getConstructors()[0].newInstance(param);
     }
     catch (SecurityException ex) {
       ex.printStackTrace();
@@ -219,11 +214,8 @@ public class UtilServlet
       throw new Warning(ex);
     }
 
-    ModelManager modelManager = ( (ModelManagerFactory) Factory.getInstance(
-        ModelManagerFactory.class.getName())).createModelManager(taskID);
-    String unitTree = tree.getUnitTree(modelManager.getUnitTreeManager().
-                                       getUnitTree(req.getParameter(
-        "unitID")), checkedUnitIDs);
+    ModelManager modelManager = ( (ModelManagerFactory) Factory.getInstance(ModelManagerFactory.class.getName())).createModelManager(taskID);
+    String unitTree = tree.getUnitTree(modelManager.getUnitTreeManager().getUnitTree(req.getParameter("unitID")), checkedUnitIDs);
 
     res.setContentType("text/xml; charset=gb2312");
     Writer writer = res.getWriter();

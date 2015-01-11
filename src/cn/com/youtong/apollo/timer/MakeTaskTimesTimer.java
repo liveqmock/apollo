@@ -5,6 +5,7 @@ import java.util.Timer;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 
+import cn.com.youtong.apollo.services.ApolloService;
 import cn.com.youtong.apollo.services.Config;
 public class MakeTaskTimesTimer implements ServletContextListener{
 	private Timer timer = null;  
@@ -29,10 +30,16 @@ public class MakeTaskTimesTimer implements ServletContextListener{
 		calendar.set(Calendar.MINUTE, 1);  
 		calendar.set(Calendar.SECOND, 1); */
 		
-		calendar.set(Calendar.MONTH, 11);
+		/*calendar.set(Calendar.MONTH, 11);
 		calendar.set(Calendar.DATE, 1);
 		calendar.set(Calendar.HOUR_OF_DAY, 0);  
 		calendar.set(Calendar.MINUTE, 1);  
+		calendar.set(Calendar.SECOND,1); */
+		
+		calendar.set(Calendar.MONTH, 11);
+		calendar.set(Calendar.DATE, 4);
+		calendar.set(Calendar.HOUR_OF_DAY, 20);  
+		calendar.set(Calendar.MINUTE, 49);  
 		calendar.set(Calendar.SECOND,1); 
 		
 		time = calendar.getTime();

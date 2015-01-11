@@ -1,0 +1,168 @@
+2014-11-08 17:35:25 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 17:35:25 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 17:35:26 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 17:35:26 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 17:35:26 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 17:35:26 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 17:35:26 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 17:58:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 17:58:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 17:58:46 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 17:58:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 17:58:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 17:58:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 17:58:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 18:00:52 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 18:00:52 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 18:00:52 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 18:00:52 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 18:00:52 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 18:00:52 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 18:00:52 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 18:03:58 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 18:03:58 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 18:03:58 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 18:03:58 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 18:03:58 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 18:03:58 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 18:03:58 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 18:07:25 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 18:07:25 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 18:07:26 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 18:07:26 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 18:07:26 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 18:07:26 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 18:07:26 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 19:02:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 19:02:18 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 19:02:18 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 19:02:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 19:02:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 19:02:18 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 19:02:18 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 19:03:22 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 19:03:22 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 19:03:22 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 19:03:22 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 19:03:22 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 19:03:22 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 19:03:22 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 20:57:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 20:57:46 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 20:57:46 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 20:57:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 20:57:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 20:57:46 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 20:57:46 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:00:15 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:00:15 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:00:15 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:00:15 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:00:15 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:00:15 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:00:15 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:09:02 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:09:02 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:09:02 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:09:02 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:09:02 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:09:02 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:09:02 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:09:31 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:09:31 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:09:31 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:09:31 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:09:31 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:09:31 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:09:31 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:21:01 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:21:01 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:21:01 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:21:01 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:21:01 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:21:01 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:21:01 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:22:43 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:22:43 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:22:43 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:22:43 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:22:43 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:22:43 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:22:43 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:27:29 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:27:29 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:27:29 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:27:29 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:27:29 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:27:29 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:27:29 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:34:33 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:34:33 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:34:34 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:34:34 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:34:34 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:34:34 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:34:34 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:35:33 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:35:33 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:35:33 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:35:33 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:35:33 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:35:33 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:35:33 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:42:05 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:42:05 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:42:05 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:42:05 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:42:05 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:42:05 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:42:05 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 21:57:43 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 21:57:43 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 21:57:44 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 21:57:44 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 21:57:44 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 21:57:44 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 21:57:44 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 22:05:22 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 22:05:22 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 22:05:22 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 22:05:22 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 22:05:22 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 22:05:22 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 22:05:22 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 22:35:05 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 22:35:05 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 22:35:05 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 22:35:05 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 22:35:05 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 22:35:05 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 22:35:05 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 22:51:23 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 22:51:23 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 22:51:24 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 22:51:24 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 22:51:24 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 22:51:24 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 22:51:24 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 22:52:01 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 22:52:01 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 22:52:01 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 22:52:01 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 22:52:01 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 22:52:01 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 22:52:01 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 22:58:21 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 22:58:21 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 22:58:21 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 22:58:21 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 22:58:21 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 22:58:21 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 22:58:21 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.
+2014-11-08 23:01:23 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.util.LocalStrings', returnNull=true
+2014-11-08 23:01:23 INFO  PropertyMessageResources       - Initializing, config='org.apache.struts.action.ActionResources', returnNull=true
+2014-11-08 23:01:23 INFO  PropertyMessageResources       - Initializing, config='resources.application', returnNull=true
+2014-11-08 23:01:23 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validator-rules.xml'
+2014-11-08 23:01:23 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validator-rules.xml'.  No stream could be opened.
+2014-11-08 23:01:23 INFO  ValidatorPlugIn                - Loading validation rules file from '/WEB-INF/validation.xml'
+2014-11-08 23:01:23 ERROR ValidatorPlugIn                - Skipping validation rules file from '/WEB-INF/validation.xml'.  No stream could be opened.

@@ -28,7 +28,18 @@
 	    	</job>
 	    	-->
 	    	
-	    	<jobs>	    	
+	    	<jobs>	
+	    		<job>
+	       			<!-- 定时任务创建 -->
+	    			<classname>cn.com.youtong.apollo.timer.CreateTimeFieldTask</classname>
+	    			<id>31</id>
+	    			<second>0</second>
+	    			<minute>28</minute>
+	    			<hour>18</hour>
+	    			<weekday>-1</weekday>
+	    			<dayofmonth>3</dayofmonth>
+	    		</job>
+	    	    	
 	       		<job>
 	       			<!-- 文件接收 -->
 	    			<classname>cn.com.youtong.apollo.receiver.FileReceiveScheduledJob</classname>

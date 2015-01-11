@@ -1,0 +1,86 @@
+- 创建上报数据任务时间定时器已启动
+启动任务时间====>Thu Dec 04 20:49:01 CST 2014
+DEBUG   2014-12-04 20:48:28.203 [system.l] (): Logger for category system.roles not defined in configuration. New Logger created and returned
+DEBUG   2014-12-04 20:48:28.250 [system.r] (): added Role org.apache.fulcrum.schedule.ScheduleService with shorthand scheduler for org.apache.fulcrum.schedule.turbine.nonpersistent.NonPersistentSchedulerService
+DEBUG   2014-12-04 20:48:28.250 [system.r] (): added Role org.apache.commons.configuration.Configuration with shorthand config for org.apache.fulcrum.configuration.DefaultConfigurationService
+DEBUG   2014-12-04 20:48:28.250 [system.r] (): added Role org.apache.fulcrum.factory.FactoryService with shorthand factory for org.apache.fulcrum.factory.DefaultFactoryService
+DEBUG   2014-12-04 20:48:28.250 [system.l] (): Logger for category system.instrument not defined in configuration. New Logger created and returned
+DEBUG   2014-12-04 20:48:28.296 [system.i] (): Registering Instrumentable: instrument-manager
+DEBUG   2014-12-04 20:48:28.312 [system.i] (): Registering Instrument: instrument-manager.total-memory
+DEBUG   2014-12-04 20:48:28.328 [system.i] (): Registering Instrument: instrument-manager.free-memory
+DEBUG   2014-12-04 20:48:28.328 [system.i] (): Registering Instrument: instrument-manager.memory
+DEBUG   2014-12-04 20:48:28.328 [system.i] (): Registering Instrument: instrument-manager.active-thread-count
+DEBUG   2014-12-04 20:48:28.328 [system.l] (): Logger for category system.components not defined in configuration. New Logger created and returned
+DEBUG   2014-12-04 20:48:28.359 [system.r] (): looking up shorthand scheduler, returning org.apache.fulcrum.schedule.ScheduleService
+DEBUG   2014-12-04 20:48:28.359 [system.c] (): Adding component (org.apache.fulcrum.schedule.ScheduleService = org.apache.fulcrum.schedule.turbine.nonpersistent.NonPersistentSchedulerService)
+DEBUG   2014-12-04 20:48:28.375 [system.c] (): Attempting to get Handler for role [org.apache.fulcrum.schedule.ScheduleService]
+DEBUG   2014-12-04 20:48:28.406 [system.c] (): Handler type = org.apache.avalon.excalibur.component.ThreadSafeComponentHandler
+DEBUG   2014-12-04 20:48:28.406 [system.r] (): looking up shorthand config, returning org.apache.commons.configuration.Configuration
+DEBUG   2014-12-04 20:48:28.406 [system.c] (): Adding component (org.apache.commons.configuration.Configuration = org.apache.fulcrum.configuration.DefaultConfigurationService)
+DEBUG   2014-12-04 20:48:28.421 [system.c] (): Attempting to get Handler for role [org.apache.commons.configuration.Configuration]
+DEBUG   2014-12-04 20:48:28.421 [system.c] (): Handler type = org.apache.avalon.excalibur.component.DefaultComponentHandler
+DEBUG   2014-12-04 20:48:28.421 [system.r] (): looking up shorthand factory, returning org.apache.fulcrum.factory.FactoryService
+DEBUG   2014-12-04 20:48:28.421 [system.c] (): Adding component (org.apache.fulcrum.factory.FactoryService = org.apache.fulcrum.factory.DefaultFactoryService)
+DEBUG   2014-12-04 20:48:28.421 [system.c] (): Attempting to get Handler for role [org.apache.fulcrum.factory.FactoryService]
+DEBUG   2014-12-04 20:48:28.421 [system.c] (): Handler type = org.apache.avalon.excalibur.component.DefaultComponentHandler
+DEBUG   2014-12-04 20:48:28.421 [system.i] (): Registering Instrumentable: component-manager
+DEBUG   2014-12-04 20:48:28.421 [system.c] (): ComponentFactory creating new instance of org.apache.fulcrum.schedule.turbine.nonpersistent.NonPersistentSchedulerService.
+DEBUG   2014-12-04 20:48:28.421 [system.c] (): no logger attribute available, using standard logger
+DEBUG   2014-12-04 20:48:28.453 [system.c] (): ComponentHandler initialized for: org.apache.fulcrum.schedule.turbine.nonpersistent.NonPersistentSchedulerService
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrumentable: component-manager.scheduler
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Child Instrumentable: component-manager.scheduler
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.scheduler.references
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.scheduler.gets
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.scheduler.puts
+DEBUG   2014-12-04 20:48:28.453 [system.c] (): ComponentHandler initialized for: org.apache.fulcrum.configuration.DefaultConfigurationService
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrumentable: component-manager.config
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Child Instrumentable: component-manager.config
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.config.references
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.config.gets
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.config.puts
+DEBUG   2014-12-04 20:48:28.453 [system.c] (): ComponentHandler initialized for: org.apache.fulcrum.factory.DefaultFactoryService
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrumentable: component-manager.factory
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Child Instrumentable: component-manager.factory
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.factory.references
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.factory.gets
+DEBUG   2014-12-04 20:48:28.453 [system.i] (): Registering Instrument: component-manager.factory.puts
+DEBUG   2014-12-04 20:48:28.484 [system.l] (): Logger for category system.ecmservlet not defined in configuration. New Logger created and returned
+DEBUG   2014-12-04 20:48:28.484 [system.e] (): Creating a proxy named 'LoggerManager' for a org.apache.avalon.excalibur.logger.LogKitLoggerManager
+DEBUG   2014-12-04 20:48:28.484 [system.e] (): Creating a proxy named 'ServiceManager' for a org.apache.avalon.framework.service.WrapperServiceManager
+DEBUG   2014-12-04 20:48:28.484 [system.e] (): Creating a proxy named 'ComponentManager' for a org.apache.avalon.excalibur.component.ExcaliburComponentManager
+DEBUG   2014-12-04 20:48:28.484 [system.e] (): Creating a proxy named 'InstrumentManager' for a org.apache.excalibur.instrument.manager.DefaultInstrumentManager
+- Error configuring application listener of class cn.com.youtong.apollo.timer.MakeTaskTimesTimer
+java.lang.ClassNotFoundException: cn.com.youtong.apollo.timer.MakeTaskTimesTimer
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1386)
+	at org.apache.catalina.loader.WebappClassLoader.loadClass(WebappClassLoader.java:1232)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:3712)
+	at org.apache.catalina.core.StandardContext.start(StandardContext.java:4216)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:760)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:740)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:544)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:927)
+	at org.apache.catalina.startup.HostConfig.deployDirectories(HostConfig.java:890)
+	at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:492)
+	at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1150)
+	at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:311)
+	at org.apache.catalina.util.LifecycleSupport.fireLifecycleEvent(LifecycleSupport.java:120)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1022)
+	at org.apache.catalina.core.StandardHost.start(StandardHost.java:736)
+	at org.apache.catalina.core.ContainerBase.start(ContainerBase.java:1014)
+	at org.apache.catalina.core.StandardEngine.start(StandardEngine.java:443)
+	at org.apache.catalina.core.StandardService.start(StandardService.java:448)
+	at org.apache.catalina.core.StandardServer.start(StandardServer.java:700)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:552)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:295)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:433)
+- Skipped installing application listeners due to previous error(s)
+DEBUG   2014-12-04 20:49:02.515 [system.c] (): ComponentFactory creating new instance of org.apache.fulcrum.factory.DefaultFactoryService.
+DEBUG   2014-12-04 20:49:02.515 [system.c] (): no logger attribute available, using standard logger
+DEBUG   2014-12-04 20:49:03.000 [system.c] (): ComponentFactory creating new instance of org.apache.fulcrum.configuration.DefaultConfigurationService.
+DEBUG   2014-12-04 20:49:03.000 [system.c] (): no logger attribute available, using standard logger
+Initializing c3p0 pool... com.mchange.v2.c3p0.PoolBackedDataSource@14d581b [ connectionPoolDataSource -> com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@15c929a [ acquireIncrement -> 1, autoCommitOnClose -> false, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, idleConnectionTestPeriod -> 0, initialPoolSize -> 5, maxIdleTime -> 5000, maxPoolSize -> 20, maxStatements -> 0, minPoolSize -> 5, nestedDataSource -> com.mchange.v2.c3p0.DriverManagerDataSource@d36ff3 [ description -> null, driverClass -> null, factoryClassLocation -> null, jdbcUrl -> jdbc:mysql://127.0.0.1:3306/new_hbsa?useUnicode=true&characterEncoding=gb2312, properties -> {user=root, password=cwjdgzw963} ] , propertyCycle -> 300, testConnectionOnCheckout -> false ] , factoryClassLocation -> null, numHelperThreads -> 3 ] 
+新建定时任务完成

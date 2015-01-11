@@ -1,0 +1,2528 @@
+2014-10-27 00:03:23 INFO  DBDataImporter                 - 开始向数据库保存数据
+2014-10-27 00:03:24 INFO  DBDataStorer                   - 开始初始化
+2014-10-27 00:03:24 INFO  DBDataStorer                   - 初始化完成
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006599130] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006682037] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006720937] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006882047] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007000587] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=00070688X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007083597] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007119887] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007120160] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007165190] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057612950] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:24 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057641030] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057641540] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057665550] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057674430] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057676970] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057755070] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057770190] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057832910] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1059100860] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1059122250] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1059132600] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073209520] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073210740] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073217520] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073505880] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073506090] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073506760] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073506920] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073508790] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073512810] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=10738506X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074104800] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074105440] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074105950] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074106160] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074120050] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074138410] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074138680] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074140350] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074404600] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074469857] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1075076610] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1075323490] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1075612030] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1076830400] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=4018820750] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=4031516120] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=4033489760] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:25 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=5700659650] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=59827817X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=60104237X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6011977930] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6012697500] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6622060400] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6677341090] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6690711690] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6690711691] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6690711699] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6703107100] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6703213560] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6746822390] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6843091390] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6870470580] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6882390270] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975511270] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975537550] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975544830] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975549850] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=69755546X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975577480] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975715310] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7006330010] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7009485640] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7158954690] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7183128040] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7183468790] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7183820950] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7216217390] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7288312967] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=73140157X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7329303857] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7415354320] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7502722917] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7524081487] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=75244873X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7575165190] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7808118230] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:26 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7825923530] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7840531930] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7857156970] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7857472180] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870092270] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870104200] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870109490] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870113430] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870114740] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870121860] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=78701523X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870155630] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870166460] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870167260] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7886793100] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7886794330] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=78868024X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=78982409X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898306250] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898306330] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898309240] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898338850] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898347490] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7965986410] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=E047320240] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=HBXTLY0087] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=HBXTXHCZX7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTSGZW00X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTSJGQY097] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTSSSQY027] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTXCZJ00X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTXSHZ00X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:03:27 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2014-10-27 00:03:27 INFO  DBDataStorer                   - 开始释放资源
+2014-10-27 00:03:27 INFO  DBDataStorer                   - 资源释放完毕
+2014-10-27 00:03:27 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: mxj
+	企业名称: 河北省国资委
+	装入开始时间: 2014-10-27 00:03:24
+	装入结束时间: 2014-10-27 00:03:27
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-28 08:34:25
+	修改时间: 2011-03-28 08:34:25
+装入的任务时间: 
+	起始时间: 2014-09-01 00:00:00
+	结束时间: 2014-09-30 00:00:00
+数据成功装入的单位:
+0006599130,0006682037,0006720937,0006882047,0007000587,
+00070688X7,0007083597,0007119887,0007120160,0007165190,
+1057612950,1057641030,1057641540,1057665550,1057674430,
+1057676970,1057755070,1057770190,1057832910,1059100860,
+1059122250,1059132600,1073209520,1073210740,1073217520,
+1073505880,1073506090,1073506760,1073506920,1073508790,
+1073512810,10738506X0,1074104800,1074105440,1074105950,
+1074106160,1074120050,1074138410,1074138680,1074140350,
+1074404600,1074469857,1075076610,1075323490,1075612030,
+1076830400,4018820750,4031516120,4033489760,5700659650,
+59827817X0,60104237X0,6011977930,6012697500,6622060400,
+6677341090,6690711690,6690711691,6690711699,6703107100,
+6703213560,6746822390,6843091390,6870470580,6882390270,
+6975511270,6975537550,6975544830,6975549850,69755546X0,
+6975577480,6975715310,7006330010,7009485640,7158954690,
+7183128040,7183468790,7183820950,7216217390,7288312967,
+73140157X7,7329303857,7415354320,7502722917,7524081487,
+75244873X7,7575165190,7808118230,7825923530,7840531930,
+7857156970,7857472180,7870092270,7870104200,7870109490,
+7870113430,7870114740,7870121860,78701523X0,7870155630,
+7870166460,7870167260,7886793100,7886794330,78868024X0,
+78982409X0,7898306250,7898306330,7898309240,7898338850,
+7898347490,7965986410,E047320240,HBXTLY0087,HBXTXHCZX7,
+XTSGZW00X7,XTSJGQY097,XTSSSQY027,XTXCZJ00X7,XTXSHZ00X7
+共 120 个
+
+*********************************************************
+2014-10-27 00:03:27 INFO  DBDataImporter                 - 电子邮件通知用户: mxj 邮件地址: 装入结果
+2014-10-27 00:03:27 INFO  DBDataImporter                 - 开始脚本计算
+2014-10-27 00:03:36 INFO  DBDataStorer                   - 开始初始化
+2014-10-27 00:03:36 INFO  DBDataStorer                   - 初始化完成
+2014-10-27 00:03:44 INFO  DBDataImporter                 - 脚本审核结果
+单位XTSJGQY097通过审核。
+单位7870114740通过审核。
+单位7898309240通过审核。
+单位1074469857通过审核。
+单位7857156970通过审核。
+单位78701523X0通过审核。
+单位78868024X0通过审核。
+单位XTXSHZ00X7通过审核。
+单位1074104800通过审核。
+单位00070688X7通过审核。
+单位4031516120通过审核。
+单位6843091390通过审核。
+单位0006599130通过审核。
+单位1057832910通过审核。
+单位7009485640通过审核。
+单位1057674430通过审核。
+单位7886793100通过审核。
+单位59827817X0通过审核。
+单位0007165190通过审核。
+单位6975715310通过审核。
+单位4018820750通过审核。
+单位7898306330通过审核。
+单位6012697500通过审核。
+单位1074404600通过审核。
+单位75244873X7通过审核。
+单位1057665550通过审核。
+单位1073512810通过审核。
+单位1074120050通过审核。
+单位7870121860通过审核。
+单位7886794330通过审核。
+单位1073506920通过审核。
+单位1074138680通过审核。
+单位1057676970通过审核。
+单位7575165190通过审核。
+单位6975511270通过审核。
+单位7898306250通过审核。
+单位1074138410通过审核。
+单位7006330010通过审核。
+单位6870470580通过审核。
+单位7870167260通过审核。
+单位10738506X0通过审核。
+单位6882390270通过审核。
+单位0007000587通过审核。
+单位5700659650通过审核。
+单位1073210740通过审核。
+单位0006720937通过审核。
+单位0007083597通过审核。
+单位0007119887通过审核。
+单位6622060400通过审核。
+单位1073505880通过审核。
+单位1057641540通过审核。
+单位1075076610通过审核。
+单位7898347490通过审核。
+单位7216217390通过审核。
+单位7965986410通过审核。
+单位1073506090通过审核。
+单位1059122250通过审核。
+单位7183468790通过审核。
+单位69755546X0通过审核。
+单位0006682037通过审核。
+单位7898338850通过审核。
+单位1057755070通过审核。
+单位6703213560通过审核。
+单位1074106160通过审核。
+单位7183820950通过审核。
+单位7870166460通过审核。
+单位1059132600通过审核。
+单位78982409X0通过审核。
+单位1057770190通过审核。
+单位7870109490通过审核。
+单位7524081487通过审核。
+单位1075323490通过审核。
+单位6690711691通过审核。
+单位6703107100通过审核。
+单位7329303857通过审核。
+单位6690711690通过审核。
+单位XTSSSQY027通过审核。
+单位6011977930通过审核。
+单位1076830400通过审核。
+单位HBXTLY0087通过审核。
+单位6677341090通过审核。
+单位HBXTXHCZX7通过审核。
+单位6975537550通过审核。
+单位XTXCZJ00X7通过审核。
+单位6746822390通过审核。
+单位1057641030通过审核。
+单位6975544830通过审核。
+单位7870092270通过审核。
+单位1057612950通过审核。
+单位6975577480通过审核。
+单位73140157X7通过审核。
+单位6690711699通过审核。
+单位7857472180通过审核。
+单位4033489760通过审核。
+单位7870113430通过审核。
+单位1073508790通过审核。
+单位7415354320通过审核。
+单位60104237X0通过审核。
+单位7158954690通过审核。
+单位0007120160通过审核。
+单位1074140350通过审核。
+单位E047320240通过审核。
+单位1074105950通过审核。
+单位XTSGZW00X7通过审核。
+单位7870104200通过审核。
+单位1059100860通过审核。
+单位7183128040通过审核。
+单位1074105440通过审核。
+单位7870155630通过审核。
+单位7840531930通过审核。
+单位0006882047通过审核。
+单位1073506760通过审核。
+单位7808118230通过审核。
+单位7502722917通过审核。
+单位1073209520通过审核。
+单位7288312967通过审核。
+单位1073217520通过审核。
+单位1075612030通过审核。
+单位7825923530通过审核。
+单位6975549850通过审核。
+
+
+2014-10-27 00:03:44 INFO  DBDataStorer                   - 开始释放资源
+2014-10-27 00:03:44 INFO  DBDataStorer                   - 资源释放完毕
+2014-10-27 00:03:44 INFO  DBDataImporter                 - 计算脚本完成！
+
+2014-10-27 00:03:44 INFO  DBDataImporter                 - 开始更新填报情况
+2014-10-27 00:03:44 INFO  DBDataImporter                 - 更新填报记录完成！
+
+2014-10-27 00:12:29 INFO  DBDataImporter                 - 开始向数据库保存数据
+2014-10-27 00:12:29 INFO  DBDataStorer                   - 开始初始化
+2014-10-27 00:12:30 INFO  DBDataStorer                   - 初始化完成
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006599130] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006682037] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006720937] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0006882047] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007000587] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=00070688X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007083597] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007119887] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007120160] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=0007165190] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057612950] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057641030] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057641540] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057665550] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057674430] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057676970] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057755070] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057770190] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1057832910] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1059100860] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1059122250] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1059132600] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073209520] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073210740] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073217520] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073505880] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073506090] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073506760] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073506920] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073508790] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1073512810] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=10738506X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074104800] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074105440] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:30 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074105950] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074106160] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074120050] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074138410] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074138680] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074140350] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074404600] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1074469857] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1075076610] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1075323490] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1075612030] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=1076830400] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=4018820750] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=4031516120] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=4033489760] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=5700659650] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=59827817X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=60104237X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6011977930] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6012697500] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6622060400] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6677341090] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6690711690] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6690711691] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6690711699] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6703107100] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6703213560] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6746822390] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6843091390] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6870470580] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6882390270] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975511270] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975537550] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975544830] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975549850] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=69755546X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975577480] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=6975715310] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7006330010] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7009485640] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:31 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7158954690] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7183128040] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7183468790] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7183820950] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7216217390] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7288312967] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=73140157X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7329303857] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7415354320] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7502722917] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7524081487] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=75244873X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7575165190] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7808118230] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7825923530] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7840531930] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7857156970] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7857472180] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870092270] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870104200] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870109490] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870113430] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870114740] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870121860] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=78701523X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870155630] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870166460] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7870167260] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7886793100] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7886794330] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=78868024X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=78982409X0] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898306250] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898306330] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898309240] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898338850] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7898347490] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=7965986410] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=E047320240] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=HBXTLY0087] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=HBXTXHCZX7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTSGZW00X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTSJGQY097] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:32 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTSSSQY027] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:33 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTXCZJ00X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:33 WARN  DBDataStorer                   - 无法导入的数据片断
+	B E G I N
+单位[unitID=XTXSHZ00X7] 表[TableID=FM] 在任务[taskID=NEWQYKB] 以下字段没有定义
+<cell field="P_TRANS" value=""/>
+<cell field="P_SEL" value=""/>
+<cell field="P_TYPE" value=""/>
+<cell field="P_CHECK" value=""/>
+<cell field="P_TABLESET" value=""/>
+	E N D
+2014-10-27 00:12:33 INFO  DBDataImporter                 - 数据保存到数据库完成！
+
+2014-10-27 00:12:33 INFO  DBDataStorer                   - 开始释放资源
+2014-10-27 00:12:33 INFO  DBDataStorer                   - 资源释放完毕
+2014-10-27 00:12:33 INFO  DBDataImporter                 - 
+*********************************************************
+	装 入 数 据 小 节
+
+	装入者: mxj
+	企业名称: 河北省国资委
+	装入开始时间: 2014-10-27 00:12:29
+	装入结束时间: 2014-10-27 00:12:33
+装入的任务: 
+	任务名称: 企业快报2010
+	创建时间: 2011-03-28 08:34:25
+	修改时间: 2011-03-28 08:34:25
+装入的任务时间: 
+	起始时间: 2014-09-01 00:00:00
+	结束时间: 2014-09-30 00:00:00
+数据成功装入的单位:
+0006599130,0006682037,0006720937,0006882047,0007000587,
+00070688X7,0007083597,0007119887,0007120160,0007165190,
+1057612950,1057641030,1057641540,1057665550,1057674430,
+1057676970,1057755070,1057770190,1057832910,1059100860,
+1059122250,1059132600,1073209520,1073210740,1073217520,
+1073505880,1073506090,1073506760,1073506920,1073508790,
+1073512810,10738506X0,1074104800,1074105440,1074105950,
+1074106160,1074120050,1074138410,1074138680,1074140350,
+1074404600,1074469857,1075076610,1075323490,1075612030,
+1076830400,4018820750,4031516120,4033489760,5700659650,
+59827817X0,60104237X0,6011977930,6012697500,6622060400,
+6677341090,6690711690,6690711691,6690711699,6703107100,
+6703213560,6746822390,6843091390,6870470580,6882390270,
+6975511270,6975537550,6975544830,6975549850,69755546X0,
+6975577480,6975715310,7006330010,7009485640,7158954690,
+7183128040,7183468790,7183820950,7216217390,7288312967,
+73140157X7,7329303857,7415354320,7502722917,7524081487,
+75244873X7,7575165190,7808118230,7825923530,7840531930,
+7857156970,7857472180,7870092270,7870104200,7870109490,
+7870113430,7870114740,7870121860,78701523X0,7870155630,
+7870166460,7870167260,7886793100,7886794330,78868024X0,
+78982409X0,7898306250,7898306330,7898309240,7898338850,
+7898347490,7965986410,E047320240,HBXTLY0087,HBXTXHCZX7,
+XTSGZW00X7,XTSJGQY097,XTSSSQY027,XTXCZJ00X7,XTXSHZ00X7
+共 120 个
+
+*********************************************************
+2014-10-27 00:12:33 INFO  DBDataImporter                 - 电子邮件通知用户: mxj 邮件地址: 装入结果
+2014-10-27 00:12:33 INFO  DBDataImporter                 - 开始脚本计算
+2014-10-27 00:12:39 INFO  DBDataStorer                   - 开始初始化
+2014-10-27 00:12:39 INFO  DBDataStorer                   - 初始化完成
+2014-10-27 00:12:45 INFO  DBDataImporter                 - 脚本审核结果
+单位XTSJGQY097通过审核。
+单位7870114740通过审核。
+单位7898309240通过审核。
+单位1074469857通过审核。
+单位7857156970通过审核。
+单位78701523X0通过审核。
+单位78868024X0通过审核。
+单位XTXSHZ00X7通过审核。
+单位1074104800通过审核。
+单位00070688X7通过审核。
+单位4031516120通过审核。
+单位6843091390通过审核。
+单位0006599130通过审核。
+单位1057832910通过审核。
+单位7009485640通过审核。
+单位1057674430通过审核。
+单位7886793100通过审核。
+单位59827817X0通过审核。
+单位0007165190通过审核。
+单位6975715310通过审核。
+单位4018820750通过审核。
+单位7898306330通过审核。
+单位6012697500通过审核。
+单位1074404600通过审核。
+单位75244873X7通过审核。
+单位1057665550通过审核。
+单位1073512810通过审核。
+单位1074120050通过审核。
+单位7870121860通过审核。
+单位7886794330通过审核。
+单位1073506920通过审核。
+单位1074138680通过审核。
+单位1057676970通过审核。
+单位7575165190通过审核。
+单位6975511270通过审核。
+单位7898306250通过审核。
+单位1074138410通过审核。
+单位7006330010通过审核。
+单位6870470580通过审核。
+单位7870167260通过审核。
+单位10738506X0通过审核。
+单位6882390270通过审核。
+单位0007000587通过审核。
+单位5700659650通过审核。
+单位1073210740通过审核。
+单位0006720937通过审核。
+单位0007083597通过审核。
+单位0007119887通过审核。
+单位6622060400通过审核。
+单位1073505880通过审核。
+单位1057641540通过审核。
+单位1075076610通过审核。
+单位7898347490通过审核。
+单位7216217390通过审核。
+单位7965986410通过审核。
+单位1073506090通过审核。
+单位1059122250通过审核。
+单位7183468790通过审核。
+单位69755546X0通过审核。
+单位0006682037通过审核。
+单位7898338850通过审核。
+单位1057755070通过审核。
+单位6703213560通过审核。
+单位1074106160通过审核。
+单位7183820950通过审核。
+单位7870166460通过审核。
+单位1059132600通过审核。
+单位78982409X0通过审核。
+单位1057770190通过审核。
+单位7870109490通过审核。
+单位7524081487通过审核。
+单位1075323490通过审核。
+单位6690711691通过审核。
+单位6703107100通过审核。
+单位7329303857通过审核。
+单位6690711690通过审核。
+单位XTSSSQY027通过审核。
+单位6011977930通过审核。
+单位1076830400通过审核。
+单位HBXTLY0087通过审核。
+单位6677341090通过审核。
+单位HBXTXHCZX7通过审核。
+单位6975537550通过审核。
+单位XTXCZJ00X7通过审核。
+单位6746822390通过审核。
+单位1057641030通过审核。
+单位6975544830通过审核。
+单位7870092270通过审核。
+单位1057612950通过审核。
+单位6975577480通过审核。
+单位73140157X7通过审核。
+单位6690711699通过审核。
+单位7857472180通过审核。
+单位4033489760通过审核。
+单位7870113430通过审核。
+单位1073508790通过审核。
+单位7415354320通过审核。
+单位60104237X0通过审核。
+单位7158954690通过审核。
+单位0007120160通过审核。
+单位1074140350通过审核。
+单位E047320240通过审核。
+单位1074105950通过审核。
+单位XTSGZW00X7通过审核。
+单位7870104200通过审核。
+单位1059100860通过审核。
+单位7183128040通过审核。
+单位1074105440通过审核。
+单位7870155630通过审核。
+单位7840531930通过审核。
+单位0006882047通过审核。
+单位1073506760通过审核。
+单位7808118230通过审核。
+单位7502722917通过审核。
+单位1073209520通过审核。
+单位7288312967通过审核。
+单位1073217520通过审核。
+单位1075612030通过审核。
+单位7825923530通过审核。
+单位6975549850通过审核。
+
+
+2014-10-27 00:12:45 INFO  DBDataStorer                   - 开始释放资源
+2014-10-27 00:12:45 INFO  DBDataStorer                   - 资源释放完毕
+2014-10-27 00:12:45 INFO  DBDataImporter                 - 计算脚本完成！
+
+2014-10-27 00:12:45 INFO  DBDataImporter                 - 开始更新填报情况
+2014-10-27 00:12:45 INFO  DBDataImporter                 - 更新填报记录完成！
+

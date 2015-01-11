@@ -5,9 +5,18 @@ import java.util.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
+
 import cn.com.youtong.apollo.common.*;
+import cn.com.youtong.apollo.data.ModelManager;
+import cn.com.youtong.apollo.data.ModelManagerFactory;
+import cn.com.youtong.apollo.data.UnitACL;
+import cn.com.youtong.apollo.data.UnitTreeNode;
+import cn.com.youtong.apollo.data.db.DBUnitTreeNode;
 import cn.com.youtong.apollo.init.*;
 import cn.com.youtong.apollo.services.*;
+import cn.com.youtong.apollo.servlet.unittree.AddressInfoTree;
 import cn.com.youtong.apollo.task.*;
 import cn.com.youtong.apollo.usermanager.*;
 import cn.com.youtong.tools.*;
@@ -16,6 +25,14 @@ import cn.com.youtong.apollo.upload.UploaderManager;
 public class TaskServlet extends RootServlet
 {
 
+	/**
+	 * 请求类型常量 -- 根据传递的参数获取封面表所用到的数据字典返回给前台
+	 */
+	public static final String GET_DICT_STORE = "getDictStore";
+	/**
+	 * 请求类型常量 -- 创建封面表树形结构
+	 */
+	public static final String MAKE_UNIT_TREE = "makeUnitTree";
 	/**
 	 * 请求类型常量 -- 删除任务
 	 */
@@ -154,7 +171,16 @@ public class TaskServlet extends RootServlet
 		{
 			throw new Warning("无效的参数operation = " + operation);
 		}
-
+		if(operation.equals(MAKE_UNIT_TREE)){
+			this.makeUnitTree(request,response);
+			return;
+		}
+		
+		if(operation.equals(GET_DICT_STORE)){
+			this.getDictStore(request,response);
+			return;
+		}
+		
 		if(operation.equals(SHOW_UPLOADDATA_PAGE))
 		{
 			this.showUploadDataPage(request, response);
@@ -249,7 +275,46 @@ public class TaskServlet extends RootServlet
 			throw new Warning("无效的参数operation = " + operation);
 		}
 	}
-
+	/**
+	 *{header:'编号',dataIndex:'id',menuDisabled:true},
+	 *{header:'性别',dataIndex:'name',menuDisabled:true},
+	 *{header:'名称',dataIndex:'descn',menuDisabled:true},
+	 *{header:'描述',dataIndex:'date',menuDisabled:true}
+	 **/
+	private void getDictStore(HttpServletRequest request, HttpServletResponse response) 
+	throws ServletException, IOException, Warning{
+		request.setCharacterEncoding("GBK");
+		response.setCharacterEncoding("utf-8");
+		String jsonstr = "{totalCount:20,data:[{id:'1',name:'AA',descn:'AAA',date:'2014-11-11'},{id:'1',name:'BB',descn:'BBB',date:'2014-11-12'}]}";
+		response.getWriter().print(jsonstr);
+		response.getWriter().flush();	
+	}
+	private void makeUnitTree(HttpServletRequest request, HttpServletResponse response) 
+	throws ServletException, IOException, Warning{
+		request.setCharacterEncoding("GBK");
+		response.setCharacterEncoding("utf-8");
+		String jsonstr = "[{text:'单位1',id:1,pid:1}]";
+		String taskID = request.getParameter("taskid");
+		//当unitid是空的时候
+	    ModelManager modelManager = ( (ModelManagerFactory) Factory.getInstance(ModelManagerFactory.class.getName())).createModelManager(taskID);
+	    AddressInfoTree tree = new AddressInfoTree(taskID);
+	    UnitACL unitACL = modelManager.getUnitACL(RootServlet.getLoginUser(request));
+	    Iterator iterator = modelManager.getUnitTreeManager().getUnitForest(unitACL);
+	    jsonstr = JSONArray.toJSONString(iterator);
+	    System.out.println(jsonstr);
+	    while (iterator.hasNext()) {
+			DBUnitTreeNode elem = (DBUnitTreeNode) iterator.next();
+			System.out.println(elem.getUnitCode()+"-code-----"+elem.getUnitName()+"--name----");
+		}
+	    String unitTree = tree.getUnitTree(modelManager.getUnitTreeManager().getUnitTree("7777157509"), null);
+	    UnitTreeNode utn = modelManager.getUnitTreeManager().getUnitTree("7777157509");
+	    System.out.println("=====>"+JSONObject.toJSONString(utn));
+	    System.out.println("=====>"+unitTree);
+	    
+//	    unitTree = tree.getUnitForest(modelManager.getUnitTreeManager().getUnitForest(unitACL), null);	
+		response.getWriter().print(jsonstr);
+		response.getWriter().flush();	
+	}
 	/**
 	 * 设置上报参数
 	 * @param request

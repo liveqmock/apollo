@@ -10,6 +10,7 @@ public final class Factory
 	{
 		try
 		{
+			System.out.println(ApolloService.class.getName());
 			factoryService = (FactoryService) ApolloService.lookup(FactoryService.class.getName());
 		}
 		catch(Exception e)

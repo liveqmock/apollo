@@ -11,6 +11,10 @@ public final class ApolloService
 {
 	/** The single instance of this class. */
 	private static ServiceManager instance ;
+	
+	public static ServiceManager getInstance() {
+		return instance;
+	}
 
 	/**
 	 * This constructor is protected to force clients to use
@@ -42,9 +46,8 @@ public final class ApolloService
 	 * @return an <code>Object</code> value
 	 * @throws ServiceException if an error occurs
 	 */
-	public static Object lookup( String key )
-		throws ServiceException
-	{
+	public static Object lookup( String key ) throws ServiceException{
+		
 		return instance.lookup(key);
 	}
 

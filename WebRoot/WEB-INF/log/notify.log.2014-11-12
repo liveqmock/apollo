@@ -1,0 +1,234 @@
+2014-11-12 09:41:07 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 10:10:03 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 10:30:03 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 10:50:03 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 11:10:03 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 12:53:35 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 13:13:35 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 13:33:35 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 14:43:03 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 18:18:01 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 18:37:54 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 18:57:54 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 19:17:54 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 19:37:54 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 19:58:05 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 20:17:54 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 20:37:54 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 21:11:31 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 21:31:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 21:51:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 22:11:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 22:31:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 22:51:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 23:11:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 23:31:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)
+2014-11-12 23:51:26 ERROR NotifyManager                  - 
+cn.com.youtong.apollo.task.TaskException: ????????????[taskID=QYKB]
+	at cn.com.youtong.apollo.task.db.DBTaskManager.getTaskByID(DBTaskManager.java:282)
+	at cn.com.youtong.apollo.notify.NotifyManager.checkAndNotifyTask(NotifyManager.java:141)
+	at cn.com.youtong.apollo.notify.NotifyManager.notifyTasks(NotifyManager.java:101)
+	at cn.com.youtong.apollo.notify.NotifyScheduledJob.run(NotifyScheduledJob.java:22)
+	at org.apache.fulcrum.schedule.turbine.ScheduledJob.execute(ScheduledJob.java:90)
+	at org.apache.fulcrum.schedule.turbine.WorkerThread.run(WorkerThread.java:128)
+	at java.lang.Thread.run(Thread.java:662)

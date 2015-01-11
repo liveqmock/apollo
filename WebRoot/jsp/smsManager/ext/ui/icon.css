@@ -1,0 +1,84 @@
+.inbox{
+	background-image: url(../ui/icons/inbox.png) !important;
+}
+.outbox{
+	background-image: url(../ui/icons/outbox.png) !important;
+}
+.cancel{
+	background-image: url(../ui/icons/cancel.png) !important;
+}
+.email_go{
+	background-image: url(../ui/icons/email_go.png) !important;
+}
+.email_error{
+	background-image: url(../ui/icons/email_error.png) !important;
+}
+.email_delete{
+	background-image: url(../ui/icons/email_delete.png) !important;
+}
+.vcard{
+	background-image: url(../ui/icons/vcard.png) !important;
+}
+.vcard_edit{
+	background-image: url(../ui/icons/vcard_edit.png) !important;
+}
+.vcard_delete{
+	background-image: url(../ui/icons/vcard_delete.png) !important;
+}
+.vcard_add{
+	background-image: url(../ui/icons/vcard_add.png) !important;
+}
+.page-icn-add{
+    background-image: url(../ui/icons/page_add.png) !important;
+}
+.page-icn-del{
+    background-image: url(../ui/icons/page_delete.png) !important;
+}
+.page-icn-edit{
+    background-image: url(../ui/icons/page_edit.png) !important;
+}
+.comment_edit{
+    background-image: url(../ui/icons/comment_edit.png) !important;
+}
+.add{
+    background-image: url(../ui/icons/add.png) !important;
+}
+.cross{
+    background-image: url(../ui/icons/cross.png) !important;
+}
+.stop{
+    background-image: url(../ui/icons/stop.png) !important;
+}
+.trash{
+    background-image: url(../ui/icons/trash_16.gif) !important;
+}
+.upload_{
+    background-image: url(../ui/icons/upload_.png) !important;
+}
+.upload_local{
+    background-image: url(../ui/icons/upload_local.png) !important;
+}
+.refresh{
+    background-image: url(../ui/icons/refresh.png) !important;
+}
+.image_edit{
+	background-image: url(../ui/icons/image_edit.png)!important;
+}
+.picture{
+	background-image: url(../ui/icons/picture.png)!important;
+}
+.ux-cell-icon-delete{background:url(../ui/icons/delete.gif) no-repeat;height:16px;cursor:pointer;}
+.ux-cell-icon-completed{background:url(../ui/icons/tick.gif) no-repeat;height:16px;}
+.ux-cell-icon-clear{background:url(../ui/icons/bin_empty.png) no-repeat;height:16px;}
+.menu-title{
+    background: #ebeadb url(/ncfams/img/icon/grid3-hrow.gif) repeat-x;
+    border-bottom:1px solid #99bbe8;
+    color:#15428b;
+    font:bold 10px tahoma,arial,verdana,sans-serif;
+    display:block;
+    padding:3px;
+}
+
+.ext-ie .x-menu-item-icon {left: -24px;}
+.ext-strict .x-menu-item-icon {left: 3px;}
+.ext-ie6 .x-menu-item-icon {left: -24px;}

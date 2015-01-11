@@ -10,7 +10,7 @@
 <%
     if(task.getTaskType() == task.REPORT_OF_MONTH){
 %>
-        <select name="taskTimeIDSelect" onchange="javascript:submitForm()">
+        <select id="taskTimeIDSelect" name="taskTimeIDSelect" onchange="javascript:submitForm()">
     <%
 
       for(Iterator itrTaskTime = task.getTaskTimes(); itrTaskTime.hasNext();)
@@ -59,7 +59,7 @@
 <%
     }else if(task.getTaskType() == task.REPORT_OF_QUARTER){
 %>
-		<select name="taskTimeIDSelect" onchange="javascript:submitForm()">
+		<select id="taskTimeIDSelect" name="taskTimeIDSelect" onchange="javascript:submitForm()">
     <%
 
       for(Iterator itrTaskTime = task.getTaskTimes(); itrTaskTime.hasNext();)
@@ -80,7 +80,7 @@
 <%
     }else if(task.getTaskType() == task.REPORT_OF_YEAR){
 %>
-<select name="taskTimeIDSelect" onchange="javascript:submitForm()">
+<select id="taskTimeIDSelect" name="taskTimeIDSelect" onchange="javascript:submitForm()">
     <%
 
       for(Iterator itrTaskTime = task.getTaskTimes(); itrTaskTime.hasNext();)

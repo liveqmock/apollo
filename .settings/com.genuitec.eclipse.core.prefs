@@ -1,4 +1,4 @@
-#Sun Oct 12 11:52:02 CST 2014
+#Sun Nov 16 15:36:12 CST 2014
 eclipse.preferences.version=1
-validator.Checked=WebRoot/jsp/modelManager/showModelManager.jsp
+validator.Checked=WebRoot/jsp/modelManager/showModelManager.jsp,WebRoot/jsp/modelManager/allAddressInfo.jsp
 validator.Unchecked=

@@ -1,0 +1,8 @@
+2014-10-14 01:09:35 INFO  FTPReceiver                    - 开始连接FTP服务器...
+2014-10-14 01:09:35 INFO  FTPReceiver                    - 连接服务器：mk
+2014-10-14 01:09:44 ERROR FTPReceiver                    - 连接失败
+2014-10-14 01:09:44 INFO  FTPReceiver                    - 连接服务器：jbwang
+2014-10-14 01:10:00 ERROR FTPReceiver                    - 连接失败
+2014-10-14 01:10:00 INFO  FTPReceiver                    - 数据处理完毕，结果请看日志
+
+
