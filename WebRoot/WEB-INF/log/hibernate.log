@@ -16487,3 +16487,225 @@ Caused by: com.mysql.jdbc.exceptions.MySQLIntegrityConstraintViolationException:
 2015-01-09 23:16:00 INFO  Configuration                  - instantiating and configuring caches
 2015-01-09 23:16:00 INFO  SessionFactoryImpl             - building session factory
 2015-01-09 23:16:01 INFO  SessionFactoryObjectFactory    - no JNDI name configured
+2015-01-13 21:23:40 INFO  Environment                    - Hibernate 2.1.2
+2015-01-13 21:23:40 INFO  Environment                    - hibernate.properties not found
+2015-01-13 21:23:40 INFO  Environment                    - using CGLIB reflection optimizer
+2015-01-13 21:23:40 INFO  Configuration                  - configuring from file: hibernate.cfg.xml
+2015-01-13 21:23:40 INFO  Configuration                  - Mapping resource: mapping/YtaplUser.hbm.xml
+2015-01-13 21:23:40 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.UserForm -> YTAPL_Users
+2015-01-13 21:23:41 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.UserForm.groups -> YTAPL_GroupMember
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplRol.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.RoleForm -> YTAPL_Roles
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplGroup.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.GroupForm -> YTAPL_Groups
+2015-01-13 21:23:41 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.GroupForm.users -> YTAPL_GroupMember
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplSequence.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.common.sql.Sequence -> YTAPL_Sequence
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplCell.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.CellForm -> YTAPL_Cells
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplDictionary.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.dictionary.db.form.DictionaryForm -> YTAPL_Dict
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplRow.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.RowForm -> YTAPL_Rows
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplTabl.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TableForm -> YTAPL_Tables
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplTask.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TaskForm -> YTAPL_Tasks
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplTaskTim.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TaskTimeForm -> YTAPL_TaskTimes
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplUnitMeta.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.UnitMetaForm -> YTAPL_UnitMeta
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplUnitPermission.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.data.db.form.UnitPermissionForm -> YTAPL_UnitPermissions
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplScript.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.ScriptForm -> YTAPL_SCRIPTS
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplScriptsuit.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.ScriptSuitForm -> YTAPL_SCRIPTSUITS
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplAddressinfo.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.address.db.form.AddressInfoForm -> YTAPL_ADDRESSINFO
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplScalarquerytemplate.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.analyse.form.ScalarQueryTemplateForm -> YTAPL_SCALARQUERYTEMPLATE
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplSelectsumschema.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.data.db.form.SelectSumSchemaForm -> YTAPL_SELECTSUMSCHEMAS
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplSecurityevent.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.log.db.form.SecurityEventForm -> YTAPL_SECURITYEVENTS
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplDataevent.hbm.xml
+2015-01-13 21:23:41 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.log.db.form.DataEventForm -> YTAPL_DATAEVENTS
+2015-01-13 21:23:41 INFO  Configuration                  - Mapping resource: mapping/YtaplTableView.hbm.xml
+2015-01-13 21:23:42 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TableViewForm -> YTAPL_TableViews
+2015-01-13 21:23:42 INFO  Configuration                  - Mapping resource: mapping/YtaplNews.hbm.xml
+2015-01-13 21:23:42 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.news.YtaplNews -> ytapl_news
+2015-01-13 21:23:42 INFO  Configuration                  - Configured SessionFactory: null
+2015-01-13 21:23:42 INFO  Configuration                  - processing one-to-many association mappings
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.RoleForm.users -> YTAPL_Users
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.RowForm.cells -> YTAPL_Cells
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TableForm.rows -> YTAPL_Rows
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TableForm.tableViews -> YTAPL_TableViews
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.taskTimes -> YTAPL_TaskTimes
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.tables -> YTAPL_Tables
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.scriptSuits -> YTAPL_SCRIPTSUITS
+2015-01-13 21:23:42 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.ScriptSuitForm.scripts -> YTAPL_SCRIPTS
+2015-01-13 21:23:42 INFO  Configuration                  - processing one-to-one association property references
+2015-01-13 21:23:42 INFO  Configuration                  - processing foreign key constraints
+2015-01-13 21:23:42 WARN  SettingsFactory                - No dialect set - using GenericDialect: Dialect class not found: org.hibernate.dialect.MySQLDialect
+2015-01-13 21:23:42 INFO  Dialect                        - Using dialect: net.sf.hibernate.dialect.GenericDialect
+2015-01-13 21:23:42 INFO  SettingsFactory                - Use outer join fetching: false
+2015-01-13 21:23:42 INFO  C3P0ConnectionProvider         - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/hbsa1231?useUnicode=true&characterEncoding=gb2312
+2015-01-13 21:23:42 INFO  C3P0ConnectionProvider         - Connection properties: {user=root, password=sa}
+2015-01-13 21:23:42 INFO  TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of process level read-write cache is not recommended)
+2015-01-13 21:23:42 INFO  SettingsFactory                - Use scrollable result sets: true
+2015-01-13 21:23:42 INFO  SettingsFactory                - Use JDBC3 getGeneratedKeys(): true
+2015-01-13 21:23:42 INFO  SettingsFactory                - Optimize cache for minimal puts: false
+2015-01-13 21:23:42 INFO  SettingsFactory                - Query language substitutions: {}
+2015-01-13 21:23:42 INFO  SettingsFactory                - cache provider: net.sf.ehcache.hibernate.Provider
+2015-01-13 21:23:42 INFO  Configuration                  - instantiating and configuring caches
+2015-01-13 21:23:42 INFO  SessionFactoryImpl             - building session factory
+2015-01-13 21:23:43 INFO  SessionFactoryObjectFactory    - no JNDI name configured
+2015-01-14 22:15:05 INFO  Environment                    - Hibernate 2.1.2
+2015-01-14 22:15:05 INFO  Environment                    - hibernate.properties not found
+2015-01-14 22:15:05 INFO  Environment                    - using CGLIB reflection optimizer
+2015-01-14 22:15:05 INFO  Configuration                  - configuring from file: hibernate.cfg.xml
+2015-01-14 22:15:05 INFO  Configuration                  - Mapping resource: mapping/YtaplUser.hbm.xml
+2015-01-14 22:15:05 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.UserForm -> YTAPL_Users
+2015-01-14 22:15:05 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.UserForm.groups -> YTAPL_GroupMember
+2015-01-14 22:15:05 INFO  Configuration                  - Mapping resource: mapping/YtaplRol.hbm.xml
+2015-01-14 22:15:05 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.RoleForm -> YTAPL_Roles
+2015-01-14 22:15:05 INFO  Configuration                  - Mapping resource: mapping/YtaplGroup.hbm.xml
+2015-01-14 22:15:05 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.GroupForm -> YTAPL_Groups
+2015-01-14 22:15:05 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.GroupForm.users -> YTAPL_GroupMember
+2015-01-14 22:15:05 INFO  Configuration                  - Mapping resource: mapping/YtaplSequence.hbm.xml
+2015-01-14 22:15:05 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.common.sql.Sequence -> YTAPL_Sequence
+2015-01-14 22:15:05 INFO  Configuration                  - Mapping resource: mapping/YtaplCell.hbm.xml
+2015-01-14 22:15:05 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.CellForm -> YTAPL_Cells
+2015-01-14 22:15:05 INFO  Configuration                  - Mapping resource: mapping/YtaplDictionary.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.dictionary.db.form.DictionaryForm -> YTAPL_Dict
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplRow.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.RowForm -> YTAPL_Rows
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplTabl.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TableForm -> YTAPL_Tables
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplTask.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TaskForm -> YTAPL_Tasks
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplTaskTim.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TaskTimeForm -> YTAPL_TaskTimes
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplUnitMeta.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.UnitMetaForm -> YTAPL_UnitMeta
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplUnitPermission.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.data.db.form.UnitPermissionForm -> YTAPL_UnitPermissions
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplScript.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.ScriptForm -> YTAPL_SCRIPTS
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplScriptsuit.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.ScriptSuitForm -> YTAPL_SCRIPTSUITS
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplAddressinfo.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.address.db.form.AddressInfoForm -> YTAPL_ADDRESSINFO
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplScalarquerytemplate.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.analyse.form.ScalarQueryTemplateForm -> YTAPL_SCALARQUERYTEMPLATE
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplSelectsumschema.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.data.db.form.SelectSumSchemaForm -> YTAPL_SELECTSUMSCHEMAS
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplSecurityevent.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.log.db.form.SecurityEventForm -> YTAPL_SECURITYEVENTS
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplDataevent.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.log.db.form.DataEventForm -> YTAPL_DATAEVENTS
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplTableView.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TableViewForm -> YTAPL_TableViews
+2015-01-14 22:15:06 INFO  Configuration                  - Mapping resource: mapping/YtaplNews.hbm.xml
+2015-01-14 22:15:06 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.news.YtaplNews -> ytapl_news
+2015-01-14 22:15:06 INFO  Configuration                  - Configured SessionFactory: null
+2015-01-14 22:15:06 INFO  Configuration                  - processing one-to-many association mappings
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.RoleForm.users -> YTAPL_Users
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.RowForm.cells -> YTAPL_Cells
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TableForm.rows -> YTAPL_Rows
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TableForm.tableViews -> YTAPL_TableViews
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.taskTimes -> YTAPL_TaskTimes
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.tables -> YTAPL_Tables
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.scriptSuits -> YTAPL_SCRIPTSUITS
+2015-01-14 22:15:06 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.ScriptSuitForm.scripts -> YTAPL_SCRIPTS
+2015-01-14 22:15:06 INFO  Configuration                  - processing one-to-one association property references
+2015-01-14 22:15:06 INFO  Configuration                  - processing foreign key constraints
+2015-01-14 22:15:06 WARN  SettingsFactory                - No dialect set - using GenericDialect: Dialect class not found: org.hibernate.dialect.MySQLDialect
+2015-01-14 22:15:06 INFO  Dialect                        - Using dialect: net.sf.hibernate.dialect.GenericDialect
+2015-01-14 22:15:06 INFO  SettingsFactory                - Use outer join fetching: false
+2015-01-14 22:15:06 INFO  C3P0ConnectionProvider         - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/hbsa1231?useUnicode=true&characterEncoding=gb2312
+2015-01-14 22:15:06 INFO  C3P0ConnectionProvider         - Connection properties: {user=root, password=sa}
+2015-01-14 22:15:06 INFO  TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of process level read-write cache is not recommended)
+2015-01-14 22:15:07 INFO  SettingsFactory                - Use scrollable result sets: true
+2015-01-14 22:15:07 INFO  SettingsFactory                - Use JDBC3 getGeneratedKeys(): true
+2015-01-14 22:15:07 INFO  SettingsFactory                - Optimize cache for minimal puts: false
+2015-01-14 22:15:07 INFO  SettingsFactory                - Query language substitutions: {}
+2015-01-14 22:15:07 INFO  SettingsFactory                - cache provider: net.sf.ehcache.hibernate.Provider
+2015-01-14 22:15:07 INFO  Configuration                  - instantiating and configuring caches
+2015-01-14 22:15:07 INFO  SessionFactoryImpl             - building session factory
+2015-01-14 22:15:08 INFO  SessionFactoryObjectFactory    - no JNDI name configured
+2015-01-15 23:39:07 INFO  Environment                    - Hibernate 2.1.2
+2015-01-15 23:39:07 INFO  Environment                    - hibernate.properties not found
+2015-01-15 23:39:07 INFO  Environment                    - using CGLIB reflection optimizer
+2015-01-15 23:39:08 INFO  Configuration                  - configuring from file: hibernate.cfg.xml
+2015-01-15 23:39:08 INFO  Configuration                  - Mapping resource: mapping/YtaplUser.hbm.xml
+2015-01-15 23:39:08 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.UserForm -> YTAPL_Users
+2015-01-15 23:39:08 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.UserForm.groups -> YTAPL_GroupMember
+2015-01-15 23:39:08 INFO  Configuration                  - Mapping resource: mapping/YtaplRol.hbm.xml
+2015-01-15 23:39:08 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.RoleForm -> YTAPL_Roles
+2015-01-15 23:39:08 INFO  Configuration                  - Mapping resource: mapping/YtaplGroup.hbm.xml
+2015-01-15 23:39:08 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.usermanager.db.form.GroupForm -> YTAPL_Groups
+2015-01-15 23:39:08 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.GroupForm.users -> YTAPL_GroupMember
+2015-01-15 23:39:08 INFO  Configuration                  - Mapping resource: mapping/YtaplSequence.hbm.xml
+2015-01-15 23:39:08 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.common.sql.Sequence -> YTAPL_Sequence
+2015-01-15 23:39:08 INFO  Configuration                  - Mapping resource: mapping/YtaplCell.hbm.xml
+2015-01-15 23:39:08 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.CellForm -> YTAPL_Cells
+2015-01-15 23:39:09 INFO  Configuration                  - Mapping resource: mapping/YtaplDictionary.hbm.xml
+2015-01-15 23:39:09 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.dictionary.db.form.DictionaryForm -> YTAPL_Dict
+2015-01-15 23:39:09 INFO  Configuration                  - Mapping resource: mapping/YtaplRow.hbm.xml
+2015-01-15 23:39:09 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.RowForm -> YTAPL_Rows
+2015-01-15 23:39:09 INFO  Configuration                  - Mapping resource: mapping/YtaplTabl.hbm.xml
+2015-01-15 23:39:09 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TableForm -> YTAPL_Tables
+2015-01-15 23:39:09 INFO  Configuration                  - Mapping resource: mapping/YtaplTask.hbm.xml
+2015-01-15 23:39:09 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TaskForm -> YTAPL_Tasks
+2015-01-15 23:39:09 INFO  Configuration                  - Mapping resource: mapping/YtaplTaskTim.hbm.xml
+2015-01-15 23:39:09 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TaskTimeForm -> YTAPL_TaskTimes
+2015-01-15 23:39:09 INFO  Configuration                  - Mapping resource: mapping/YtaplUnitMeta.hbm.xml
+2015-01-15 23:39:09 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.UnitMetaForm -> YTAPL_UnitMeta
+2015-01-15 23:39:09 INFO  Configuration                  - Mapping resource: mapping/YtaplUnitPermission.hbm.xml
+2015-01-15 23:39:10 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.data.db.form.UnitPermissionForm -> YTAPL_UnitPermissions
+2015-01-15 23:39:10 INFO  Configuration                  - Mapping resource: mapping/YtaplScript.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.ScriptForm -> YTAPL_SCRIPTS
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplScriptsuit.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.ScriptSuitForm -> YTAPL_SCRIPTSUITS
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplAddressinfo.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.address.db.form.AddressInfoForm -> YTAPL_ADDRESSINFO
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplScalarquerytemplate.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.analyse.form.ScalarQueryTemplateForm -> YTAPL_SCALARQUERYTEMPLATE
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplSelectsumschema.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.data.db.form.SelectSumSchemaForm -> YTAPL_SELECTSUMSCHEMAS
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplSecurityevent.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.log.db.form.SecurityEventForm -> YTAPL_SECURITYEVENTS
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplDataevent.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.log.db.form.DataEventForm -> YTAPL_DATAEVENTS
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplTableView.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.task.db.form.TableViewForm -> YTAPL_TableViews
+2015-01-15 23:39:11 INFO  Configuration                  - Mapping resource: mapping/YtaplNews.hbm.xml
+2015-01-15 23:39:11 INFO  Binder                         - Mapping class: cn.com.youtong.apollo.news.YtaplNews -> ytapl_news
+2015-01-15 23:39:11 INFO  Configuration                  - Configured SessionFactory: null
+2015-01-15 23:39:11 INFO  Configuration                  - processing one-to-many association mappings
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.usermanager.db.form.RoleForm.users -> YTAPL_Users
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.RowForm.cells -> YTAPL_Cells
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TableForm.rows -> YTAPL_Rows
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TableForm.tableViews -> YTAPL_TableViews
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.taskTimes -> YTAPL_TaskTimes
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.tables -> YTAPL_Tables
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.TaskForm.scriptSuits -> YTAPL_SCRIPTSUITS
+2015-01-15 23:39:11 INFO  Binder                         - Mapping collection: cn.com.youtong.apollo.task.db.form.ScriptSuitForm.scripts -> YTAPL_SCRIPTS
+2015-01-15 23:39:11 INFO  Configuration                  - processing one-to-one association property references
+2015-01-15 23:39:11 INFO  Configuration                  - processing foreign key constraints
+2015-01-15 23:39:11 WARN  SettingsFactory                - No dialect set - using GenericDialect: Dialect class not found: org.hibernate.dialect.MySQLDialect
+2015-01-15 23:39:11 INFO  Dialect                        - Using dialect: net.sf.hibernate.dialect.GenericDialect
+2015-01-15 23:39:11 INFO  SettingsFactory                - Use outer join fetching: false
+2015-01-15 23:39:11 INFO  C3P0ConnectionProvider         - C3P0 using driver: com.mysql.jdbc.Driver at URL: jdbc:mysql://127.0.0.1:3306/hbsa1231?useUnicode=true&characterEncoding=gb2312
+2015-01-15 23:39:11 INFO  C3P0ConnectionProvider         - Connection properties: {user=root, password=sa}
+2015-01-15 23:39:12 INFO  TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of process level read-write cache is not recommended)
+2015-01-15 23:39:14 INFO  SettingsFactory                - Use scrollable result sets: true
+2015-01-15 23:39:14 INFO  SettingsFactory                - Use JDBC3 getGeneratedKeys(): true
+2015-01-15 23:39:14 INFO  SettingsFactory                - Optimize cache for minimal puts: false
+2015-01-15 23:39:14 INFO  SettingsFactory                - Query language substitutions: {}
+2015-01-15 23:39:14 INFO  SettingsFactory                - cache provider: net.sf.ehcache.hibernate.Provider
+2015-01-15 23:39:14 INFO  Configuration                  - instantiating and configuring caches
+2015-01-15 23:39:14 INFO  SessionFactoryImpl             - building session factory
+2015-01-15 23:39:15 INFO  SessionFactoryObjectFactory    - no JNDI name configured
